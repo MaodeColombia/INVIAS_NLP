@@ -14,7 +14,12 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 
 
+## Cursos de Platzi
 
-## Platzi_codes
+- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/) <sub>[langc]</sub>
 
-[Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
+- [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>
+
+  - Platzi_codes
+
+    [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
