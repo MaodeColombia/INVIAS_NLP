@@ -7,7 +7,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
  
   - [Prompt AI Gemini V01.md](./approach_1/Prompt_AI_Gemini_V01.md): Prompt para Gemini
     
-    - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01.md/): Respuesta 
+    - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01A.md/): Respuesta
   
 
 

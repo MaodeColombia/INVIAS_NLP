@@ -1,3 +1,53 @@
+# Tabla de Contenido
+
+- [Sistema de Análisis de PDFs y Respuesta a Preguntas](#sistema-de-análisis-de-pdfs-y-respuesta-a-preguntas)
+  
+  - [Introducción](#introducción)
+
+  - [Estrategia de Desarrollo](#estrategia-de-desarrollo)
+
+      1 [Extracción de Información de los PDFs](#extracción-de-información-de-los-pdfs)
+
+      - [Bibliotecas a considerar](#bibliotecas-a-considerar)
+
+      - [Estructura de datos](#estructura-de-datos)
+
+      2 [Procesamiento del Lenguaje Natural (PLN)](#procesamiento-del-lenguaje-natural-pln)
+
+      - [Bibliotecas a considerar](#bibliotecas-a-considerar-1)
+
+      - [Tareas de PLN](#tareas-de-pln)
+
+      3 [Búsqueda y Recuperación de Información](#búsqueda-y-recuperación-de-información)
+
+      - [Construcción de un índice](#construcción-de-un-índice)
+
+      - [Algoritmos de búsqueda](#algoritmos-de-búsqueda)
+
+      - [Ranking de resultados](#ranking-de-resultados)
+
+      4 [Interfaz de Chatbot](#interfaz-de-chatbot)
+
+      - [Desarrollo de una interfaz](#desarrollo-de-una-interfaz)
+
+      - [Integración con el sistema de análisis](#integración-con-el-sistema-de-análisis)
+
+      5 [Pruebas y Refinamiento](#pruebas-y-refinamiento)
+
+      - [Pruebas exhaustivas](#pruebas-exhaustivas)
+
+      - [Refinamiento](#refinamiento)
+
+  - [Consideraciones Adicionales](#consideraciones-adicionales)
+
+  - [Próximos Pasos](#próximos-pasos)
+
+  - [Conclusión](#conclusión)
+
+- [Fuentes citadas](#fuentes-citadas)
+
+
+
 # **Sistema de Análisis de PDFs y Respuesta a Preguntas**
 
 ## **Introducción**

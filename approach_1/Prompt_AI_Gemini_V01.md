@@ -19,3 +19,10 @@ Gemini, en esta sección quiero presentarle lo que estoy pensando actualmente co
 - Aclaro que este sistema lo vamos a desarrollar entre usted Gemini y yo Mauricio, por lo tanto, su investigación no debe estar enfocada a plataformas de chatboot como Botpress, Microsoft Bot Framework‍, Botkit‍, no quiero hacer uso de plataformas propietarias
 
 - El desarrollo quiero que sea en Python
+
+[Prompt AI Gemini V01A.md](./Prompt_AI_Gemini_V01A.md)
+
+---
+listo iniciemos como la estrategia de desarrollo 
+
+[Prompt AI Gemini V02A.md](./Prompt_AI_Gemini_V02A.md/)
