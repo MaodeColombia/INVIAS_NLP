@@ -40,6 +40,23 @@ por favor desarrollar una investigación detallada, en donde incluya las citas a
 > [Prompt_AI_Gemini_V04A.md](./Prompt_AI_Gemini_V04A.md)
 
 ---
+continuemos con la investigación original, su tarea es hacer otra investigación para el apartado "4. Interfaz de Chatbot".
+
+
+por favor desarrollar una investigación detallada, en donde incluya las citas a fuente de información, como páginas web y libros (de editoriales como MIT Press, Addison Wesley, mc Graw Hill, o'reilly, cualquier otra que sea pertinente), de prioridad a los libros que tengan repositorios en github con ejemplos.
+
+ponga números dentro del los párrafos con las referencia citadas 
+
+es claro que estamos hablando de "sistema para poder analizar pdfs"?
+
+> [Prompt_AI_Gemini_V05A.md](./Prompt_AI_Gemini_V05A.md)
+
+---
+
+
+> []()
+
+---
 
 
 > []()
