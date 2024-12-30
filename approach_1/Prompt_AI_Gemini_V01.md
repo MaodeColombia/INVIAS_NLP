@@ -31,3 +31,15 @@ listo iniciemos como la estrategia de desarrollo
 continuemos con la estartegia de desarrollo, ahora haga otra investigacion para el apartado 2 "Procesamiento del Lenguaje Natural (PLN)" 
 
 > [Prompt_AI_Gemini_V03A.md](./Prompt_AI_Gemini_V03A.md)
+
+---
+continuemos con la estrategia de desarrollo, ahora haga otra investigación para el apartado "3. Búsqueda y Recuperación de Información".
+
+por favor desarrollar una investigación detallada, en donde incluya las citas a fuente de información, como páginas web y libros (de editoriales como MIT Press, Addison Wesley, mc Graw Hill, o'reilly, cualquier otra que sea pertinente), de prioridad a los libros que tengan repositorios en github con ejemplos. 
+
+> [Prompt_AI_Gemini_V04A.md](./Prompt_AI_Gemini_V04A.md)
+
+---
+
+
+> []()

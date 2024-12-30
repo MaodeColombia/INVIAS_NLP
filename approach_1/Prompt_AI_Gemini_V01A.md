@@ -59,7 +59,7 @@ Uno de los principales desafíos en el análisis de PDFs es la diversidad de for
 
 A continuación, se describe la estrategia de desarrollo propuesta:
 
-### **1\. Extracción de Información de los PDFs**
+### **1. Extracción de Información de los PDFs**
 
 El primer paso es extraer la información relevante de los PDFs. Para ello, se utilizarán bibliotecas de Python especializadas en el manejo de este tipo de documentos.
 
@@ -78,7 +78,7 @@ El primer paso es extraer la información relevante de los PDFs. Para ello, se u
     * **Listas:** Útiles para almacenar secuencias de texto, como párrafos o frases extraídas de los PDFs.  
     * **SQLite:** Una base de datos ligera que permite un almacenamiento más estructurado de la información, con la posibilidad de realizar consultas y búsquedas eficientes. Esta opción sería adecuada si se necesita manejar un gran volumen de datos o realizar análisis más complejos.
 
-### **2\. Procesamiento del Lenguaje Natural (PLN)**
+### **2. Procesamiento del Lenguaje Natural (PLN)**
 
 Una vez extraída la información de los PDFs, es necesario procesarla para que el sistema pueda comprenderla y responder preguntas con precisión. Para ello, se utilizarán técnicas de Procesamiento del Lenguaje Natural (PLN).
 
@@ -94,7 +94,7 @@ Una vez extraída la información de los PDFs, es necesario procesarla para que 
   * **Etiquetado gramatical:** Identificar la función gramatical de las palabras, como sustantivo, verbo, adjetivo, etc. Esta información es útil para comprender la estructura de las oraciones.  
   * **Extracción de entidades:** Identificar nombres de personas, lugares, organizaciones, fechas, etc. Esto permite extraer información específica del texto.
 
-### **3\. Búsqueda y Recuperación de Información**
+### **3. Búsqueda y Recuperación de Información**
 
 Con el texto procesado y listo para el análisis, el siguiente paso es implementar un sistema de búsqueda que permita encontrar las respuestas a las preguntas del usuario.
 
@@ -111,7 +111,7 @@ Con el texto procesado y listo para el análisis, el siguiente paso es implement
     * **Ubicación en el documento:** Las respuestas que se encuentren en secciones relevantes del documento (títulos, resúmenes, etc.) tendrán un ranking más alto.  
     * **Frecuencia de términos:** Las respuestas que contengan términos que aparecen con frecuencia en el documento en relación con la pregunta tendrán un ranking más alto.
 
-### **4\. Interfaz de Chatbot**
+### **4. Interfaz de Chatbot**
 
 Para facilitar la interacción con el usuario, se desarrollará una interfaz de chatbot.
 
@@ -120,7 +120,7 @@ Para facilitar la interacción con el usuario, se desarrollará una interfaz de 
 * **Integración con el sistema de análisis:**  
   * La interfaz se conectará con el sistema de análisis de PDFs para enviar las preguntas del usuario y mostrar las respuestas generadas. La comunicación entre la interfaz y el sistema de análisis se realizará de forma fluida y eficiente.
 
-### **5\. Pruebas y Refinamiento**
+### **5. Pruebas y Refinamiento**
 
 Una vez implementado el sistema, se realizarán pruebas exhaustivas para asegurar su correcto funcionamiento y optimizar su rendimiento.
 
@@ -146,17 +146,30 @@ Este plan proporciona una hoja de ruta para desarrollar un sistema robusto y pre
 
 #### **Fuentes citadas**
 
-1\. A Comparison of python libraries for PDF Data Extraction for text, images and tables, acceso: diciembre 22, 2024, [https://pradeepundefned.medium.com/a-comparison-of-python-libraries-for-pdf-data-extraction-for-text-images-and-tables-c75e5dbcfef8](https://pradeepundefned.medium.com/a-comparison-of-python-libraries-for-pdf-data-extraction-for-text-images-and-tables-c75e5dbcfef8)  
-2\. What's the Best Python Library for Extracting Text from PDFs? : r/LangChain \- Reddit, acceso: diciembre 22, 2024, [https://www.reddit.com/r/LangChain/comments/1e7cntq/whats\_the\_best\_python\_library\_for\_extracting\_text/](https://www.reddit.com/r/LangChain/comments/1e7cntq/whats_the_best_python_library_for_extracting_text/)  
-3\. Pypdf2 Tutorial \- Complete Guide \- GameDev Academy, acceso: diciembre 22, 2024, [https://gamedevacademy.org/pypdf2-tutorial-complete-guide/](https://gamedevacademy.org/pypdf2-tutorial-complete-guide/)  
-4\. PYPDF2 \- Python Guide to PDF Manipulation by Konfuzio, acceso: diciembre 22, 2024, [https://konfuzio.com/en/pypdf2/](https://konfuzio.com/en/pypdf2/)  
-5\. PyPDF2: A Comprehensive Guide to Mastering PDF Manipulation with Python \- Medium, acceso: diciembre 22, 2024, [https://medium.com/@tushar\_aggarwal/pypdf2-a-comprehensive-guide-to-mastering-pdf-manipulation-with-python-51f188d551d1](https://medium.com/@tushar_aggarwal/pypdf2-a-comprehensive-guide-to-mastering-pdf-manipulation-with-python-51f188d551d1)  
-6\. PyPDF2 Library for Working with PDF Files in Python \- Analytics Vidhya, acceso: diciembre 22, 2024, [https://www.analyticsvidhya.com/blog/2021/09/pypdf2-library-for-working-with-pdf-files-in-python/](https://www.analyticsvidhya.com/blog/2021/09/pypdf2-library-for-working-with-pdf-files-in-python/)  
-7\. Introduction to Python PyPDF2 Library \- GeeksforGeeks, acceso: diciembre 22, 2024, [https://www.geeksforgeeks.org/introduction-to-python-pypdf2-library/](https://www.geeksforgeeks.org/introduction-to-python-pypdf2-library/)  
-8\. How to Extract Data from PDF Files with Python \- freeCodeCamp, acceso: diciembre 22, 2024, [https://www.freecodecamp.org/news/extract-data-from-pdf-files-with-python/](https://www.freecodecamp.org/news/extract-data-from-pdf-files-with-python/)  
-9\. Python PDF Handling Tutorial \- Prajwol Lamichhane \- Medium, acceso: diciembre 22, 2024, [https://prajwollamichhane11.medium.com/python-pdf-handling-tutorial-c129a40f0eab](https://prajwollamichhane11.medium.com/python-pdf-handling-tutorial-c129a40f0eab)  
-10\. How to use PDFminer.six with python 3? \- Stack Overflow, acceso: diciembre 22, 2024, [https://stackoverflow.com/questions/56494070/how-to-use-pdfminer-six-with-python-3](https://stackoverflow.com/questions/56494070/how-to-use-pdfminer-six-with-python-3)  
-11\. Welcome to pdfminer.six's documentation\! — pdfminer.six 20240706.post11+git.1a8bd2f7 documentation, acceso: diciembre 22, 2024, [https://pdfminersix.readthedocs.io/](https://pdfminersix.readthedocs.io/)  
-12\. Extracting Data from PDFs Using PDFMiner | Python SEO \- importSEM, acceso: diciembre 22, 2024, [https://importsem.com/extracting-data-from-pdfs-using-pdfminer/](https://importsem.com/extracting-data-from-pdfs-using-pdfminer/)  
-13\. Extracting text from a PDF file using PDFMiner in python? \[closed\] \- Stack Overflow, acceso: diciembre 22, 2024, [https://stackoverflow.com/questions/26494211/extracting-text-from-a-pdf-file-using-pdfminer-in-python](https://stackoverflow.com/questions/26494211/extracting-text-from-a-pdf-file-using-pdfminer-in-python)  
-14\. Python Packages for PDF Data Extraction | by Rucha Sawarkar | Analytics Vidhya | Medium, acceso: diciembre 22, 2024, [https://medium.com/analytics-vidhya/python-packages-for-pdf-data-extraction-d14ec30f0ad0](https://medium.com/analytics-vidhya/python-packages-for-pdf-data-extraction-d14ec30f0ad0)
+1. A Comparison of python libraries for PDF Data Extraction for text, images and tables, acceso: diciembre 22, 2024, [https://pradeepundefned.medium.com/a-comparison-of-python-libraries-for-pdf-data-extraction-for-text-images-and-tables-c75e5dbcfef8](https://pradeepundefned.medium.com/a-comparison-of-python-libraries-for-pdf-data-extraction-for-text-images-and-tables-c75e5dbcfef8)  
+
+2. What's the Best Python Library for Extracting Text from PDFs? : r/LangChain \- Reddit, acceso: diciembre 22, 2024, [https://www.reddit.com/r/LangChain/comments/1e7cntq/whats\_the\_best\_python\_library\_for\_extracting\_text/](https://www.reddit.com/r/LangChain/comments/1e7cntq/whats_the_best_python_library_for_extracting_text/)  
+
+3. Pypdf2 Tutorial \- Complete Guide \- GameDev Academy, acceso: diciembre 22, 2024, [https://gamedevacademy.org/pypdf2-tutorial-complete-guide/](https://gamedevacademy.org/pypdf2-tutorial-complete-guide/)  
+
+4. PYPDF2 \- Python Guide to PDF Manipulation by Konfuzio, acceso: diciembre 22, 2024, [https://konfuzio.com/en/pypdf2/](https://konfuzio.com/en/pypdf2/)  
+
+5. PyPDF2: A Comprehensive Guide to Mastering PDF Manipulation with Python \- Medium, acceso: diciembre 22, 2024, [https://medium.com/@tushar\_aggarwal/pypdf2-a-comprehensive-guide-to-mastering-pdf-manipulation-with-python-51f188d551d1](https://medium.com/@tushar_aggarwal/pypdf2-a-comprehensive-guide-to-mastering-pdf-manipulation-with-python-51f188d551d1)  
+
+6. PyPDF2 Library for Working with PDF Files in Python \- Analytics Vidhya, acceso: diciembre 22, 2024, [https://www.analyticsvidhya.com/blog/2021/09/pypdf2-library-for-working-with-pdf-files-in-python/](https://www.analyticsvidhya.com/blog/2021/09/pypdf2-library-for-working-with-pdf-files-in-python/)  
+
+7. Introduction to Python PyPDF2 Library \- GeeksforGeeks, acceso: diciembre 22, 2024, [https://www.geeksforgeeks.org/introduction-to-python-pypdf2-library/](https://www.geeksforgeeks.org/introduction-to-python-pypdf2-library/)  
+
+8. How to Extract Data from PDF Files with Python \- freeCodeCamp, acceso: diciembre 22, 2024, [https://www.freecodecamp.org/news/extract-data-from-pdf-files-with-python/](https://www.freecodecamp.org/news/extract-data-from-pdf-files-with-python/)  
+
+9. Python PDF Handling Tutorial \- Prajwol Lamichhane \- Medium, acceso: diciembre 22, 2024, [https://prajwollamichhane11.medium.com/python-pdf-handling-tutorial-c129a40f0eab](https://prajwollamichhane11.medium.com/python-pdf-handling-tutorial-c129a40f0eab)  
+
+10. How to use PDFminer.six with python 3? \- Stack Overflow, acceso: diciembre 22, 2024, [https://stackoverflow.com/questions/56494070/how-to-use-pdfminer-six-with-python-3](https://stackoverflow.com/questions/56494070/how-to-use-pdfminer-six-with-python-3)  
+
+11. Welcome to pdfminer.six's documentation\! — pdfminer.six 20240706.post11+git.1a8bd2f7 documentation, acceso: diciembre 22, 2024, [https://pdfminersix.readthedocs.io/](https://pdfminersix.readthedocs.io/)  
+
+12. Extracting Data from PDFs Using PDFMiner | Python SEO \- importSEM, acceso: diciembre 22, 2024, [https://importsem.com/extracting-data-from-pdfs-using-pdfminer/](https://importsem.com/extracting-data-from-pdfs-using-pdfminer/)  
+
+13. Extracting text from a PDF file using PDFMiner in python? \[closed\] \- Stack Overflow, acceso: diciembre 22, 2024, [https://stackoverflow.com/questions/26494211/extracting-text-from-a-pdf-file-using-pdfminer-in-python](https://stackoverflow.com/questions/26494211/extracting-text-from-a-pdf-file-using-pdfminer-in-python)  
+
+14. Python Packages for PDF Data Extraction | by Rucha Sawarkar | Analytics Vidhya | Medium, acceso: diciembre 22, 2024, [https://medium.com/analytics-vidhya/python-packages-for-pdf-data-extraction-d14ec30f0ad0](https://medium.com/analytics-vidhya/python-packages-for-pdf-data-extraction-d14ec30f0ad0)
