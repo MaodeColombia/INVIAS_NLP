@@ -1,6 +1,6 @@
 # **Sistema de Análisis de PDFs y Respuesta a Preguntas: Extracción de Información**
 
-## Extracción de Información de los PDFs
+## 1. Extracción de Información de los PDFs
 
 Para construir un sistema que permita al asistente del director de INVIAS chatear con los PDFs, el primer paso crucial es extraer la información de estos archivos. Dado que los PDFs pueden tener diferentes formatos y estructuras, utilizaremos una combinación de bibliotecas de Python para garantizar que podamos manejar la mayoría de los casos.
 
@@ -14,7 +14,7 @@ Para construir un sistema que permita al asistente del director de INVIAS chatea
 
 * **Tesseract (con OCR):** Para los PDFs que contengan imágenes escaneadas, utilizaremos Tesseract con OCR. Esta herramienta nos permitirá extraer el texto de las imágenes, lo que es fundamental para procesar PDFs que no contienen texto digital 6. La combinación de Tesseract con las bibliotecas de extracción de PDF nos permitirá manejar una amplia gama de formatos de documentos.
 
-### **1.2. Estructuras de Datos para Almacenar la Información**
+### 1.2. Estructuras de Datos para Almacenar la Información
 
 Una vez que hayamos extraído la información de los PDFs, necesitaremos almacenarla de forma organizada y eficiente. Para ello, consideraremos las siguientes estructuras de datos:
 
@@ -26,13 +26,13 @@ Una vez que hayamos extraído la información de los PDFs, necesitaremos almacen
 
 La elección de la estructura de datos dependerá de la cantidad de información que necesitemos almacenar y de la complejidad del análisis que se realizará en las siguientes etapas del desarrollo.
 
-## **Próximos Pasos**
+## Próximos Pasos
 
 Ahora que tenemos una estrategia para la extracción de información, el siguiente paso es investigar a fondo las bibliotecas de Python mencionadas. Profundizaremos en sus funcionalidades, ventajas y desventajas para seleccionar las más adecuadas para nuestro proyecto. Una vez que hayamos seleccionado las bibliotecas, comenzaremos a desarrollar un prototipo para validar la estrategia y realizar pruebas.
 
 Recuerdar que este es un proceso iterativo, a medida que avancemos, iremos refinando el sistema y realizando ajustes para asegurar que cumpla con tus necesidades y las del asistente del director de INVIAS.
 
-## **Fuentes citadas**
+## Fuentes citadas
 
 1. PYPDF2 - Python Guide to PDF Manipulation by Konfuzio, acceso: diciembre 22, 2024, [https://konfuzio.com/en/pypdf2/](https://konfuzio.com/en/pypdf2/)
 

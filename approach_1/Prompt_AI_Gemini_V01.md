@@ -20,9 +20,14 @@ Gemini, en esta sección quiero presentarle lo que estoy pensando actualmente co
 
 - El desarrollo quiero que sea en Python
 
-[Prompt AI Gemini V01A.md](./Prompt_AI_Gemini_V01A.md)
+> [Prompt AI Gemini V01A.md](./Prompt_AI_Gemini_V01A.md)
 
 ---
 listo iniciemos como la estrategia de desarrollo 
 
-[Prompt AI Gemini V02A.md](./Prompt_AI_Gemini_V02A.md/)
+> [Prompt AI Gemini V02A.md](./Prompt_AI_Gemini_V02A.md/)
+
+---
+continuemos con la estartegia de desarrollo, ahora haga otra investigacion para el apartado 2 "Procesamiento del Lenguaje Natural (PLN)" 
+
+> [Prompt_AI_Gemini_V03A.md](./Prompt_AI_Gemini_V03A.md)
