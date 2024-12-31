@@ -8,6 +8,14 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
   - [Prompt AI Gemini V01.md](./approach_1/Prompt_AI_Gemini_V01.md): Prompt para Gemini
     
     - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01A.md/): Respuesta
+
+    - [Prompt AI Gemini V02A.md](./Prompt_AI_Gemini_V02A.md/): Respuesta
+
+    - [Prompt_AI_Gemini_V03A.md](./Prompt_AI_Gemini_V03A.md): Respuesta
+
+    - [Prompt_AI_Gemini_V04A.md](./Prompt_AI_Gemini_V04A.md): Respuesta
+
+    - [Prompt_AI_Gemini_V05A.md](./Prompt_AI_Gemini_V05A.md): Respuesta
   
 
 
@@ -23,3 +31,13 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
   - Platzi_codes
 
     [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
+
+
+
+
+
+## Consultas básicas a la Inteligenicias Artificiales
+
+- Nociones básica de un archivo `requirements.txt`
+
+- Uso del argumento `-r` en un archivo `requirements.txt`
