@@ -20,9 +20,9 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 
 
+## Referencias
 
-
-## Cursos de Platzi
+### Cursos de Platzi
 
 - [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/) <sub>[langc]</sub>
 
@@ -36,7 +36,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 
 
-## Consultas a las Inteligenicias Artificiales
+### Consultas a las Inteligenicias Artificiales
 
 - [Nociones básica de un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-Requirements.md)
 
@@ -47,3 +47,11 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 - [Process to Create an Environment Variable in Windows](./AI_Queries/prompt_AI_GPT-Environment_variable_creation.md)
 
 - [Acerca de PyMuPDF4LLM](./AI_Queries/prompt_AI_GPT-about_PyMuPDF4LLM.md)
+
+
+
+
+### Youtube
+
+- [Domina el API de OpenAI - De Principiante a Experto](https://youtube.com/playlist?list=PLgQnGGtCss_gYY4lsuO-hees3dBOqlyv4&si=7Xya0eqKDM1wqVMa)
+  - [Github](https://github.com/alarcon7a/openai-api-tutorial)
