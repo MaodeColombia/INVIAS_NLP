@@ -36,8 +36,14 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 
 
-## Consultas básicas a la Inteligenicias Artificiales
+## Consultas a las Inteligenicias Artificiales
 
-- Nociones básica de un archivo `requirements.txt`
+- [Nociones básica de un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-Requirements.md)
 
-- Uso del argumento `-r` en un archivo `requirements.txt`
+- [Uso del argumento `-r` en un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-r_uses.md)
+
+- [¿Qué es `sys_platform`?](./AI_Queries/prompt_AI_GPT-sys_plataform_uses.md)
+
+- [Process to Create an Environment Variable in Windows](./AI_Queries/prompt_AI_GPT-Environment_variable_creation.md)
+
+- [Acerca de PyMuPDF4LLM](./AI_Queries/prompt_AI_GPT-about_PyMuPDF4LLM.md)
