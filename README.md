@@ -1,4 +1,102 @@
-# INVIAS_NLP
+# Sistema de Análisis de PDFs y Respuesta a Preguntas: INVIAS_NLP
+
+## Objetivo:
+
+Desarrollar un sistema avanzado que permita al asistente del director de INVIAS interactuar con documentos PDF mediante una interfaz de chatbot. El sistema deberá ser capaz de comprender preguntas en lenguaje natural, extraer información relevante de los PDFs y proporcionar respuestas precisas y concisas.
+
+## Actores:
+
+- Mauricio Martínez (Ingeniero de Desarrollo de Sistemas de Información)  
+- Director General de INVIAS  
+- Asistente del Director General de INVIAS (Usuario principal del sistema)
+
+## Estrategia de Desarrollo:
+
+### 1. Extracción de Información de los PDFs
+- Bibliotecas:  
+  - PyPDF2  
+  - PDFMiner  
+  - PDFQuery  
+  - Tesseract (con OCR para extraer texto de imágenes dentro de los PDFs)  
+  - PyMuPDF  
+  - Tabula-py (para extraer tablas)  
+  - Camelot (para extraer tablas)
+
+- Estructuras de Datos:
+
+  - Diccionarios (para almacenar información estructurada)  
+  - Listas (para almacenar secuencias de datos)  
+  - SQLite (base de datos ligera para almacenar y consultar información extraída)  
+  
+- Consideraciones:
+  - Manejo de diferentes formatos de PDF  
+  - Extracción de texto, tablas, imágenes y metadatos  
+  - Detección de estructura del documento (títulos, secciones, párrafos)  
+  - Gestión de PDFs con contenido escaneado (OCR)
+
+### 2. Procesamiento del Lenguaje Natural (PLN)
+
+- Bibliotecas:  
+  - NLTK  
+  - spaCy  
+  - Transformers (modelos pre-entrenados como BERT, RoBERTa)  
+  - Gensim (para modelos de temas y similitud semántica)
+
+- Tareas:  
+  - Pre-procesamiento (conversión a minúsculas, eliminación de puntuación)  
+  - Tokenización (división del texto en palabras o frases)  
+  - Eliminación de stop words (palabras comunes sin significado relevante)  
+  - Lematización/Stemming (reducción de palabras a su raíz)  
+  - Etiquetado gramatical (identificación de sustantivos, verbos, etc.)  
+  - Análisis sintáctico (identificación de relaciones entre palabras)  
+  - Extracción de entidades nombradas (personas, lugares, organizaciones)  
+  - Reconocimiento de entidades (clasificación de entidades en categorías)  
+  - Resolución de correferencias (identificación de entidades que se refieren a lo mismo)  
+  - Análisis de sentimiento (identificación de emociones en el texto)
+
+### 3. Búsqueda y Recuperación de Información
+
+- Estrategias:  
+  - Construcción de un índice invertido (mapeo de palabras a documentos)  
+  - Algoritmos de búsqueda (BM25, Elasticsearch)  
+  - Modelos de recuperación de información (TF-IDF, Okapi BM25, modelos de lenguaje)  
+  - Modelos de incrustación de palabras (Word2Vec, GloVe, BERT)  
+  - Ranking de resultados (basado en relevancia, ubicación, frecuencia, etc.)  
+  - Similitud semántica (utilizando word embeddings o modelos de lenguaje)  
+  - Expansión de consultas (agregando sinónimos o términos relacionados)
+
+### 4. Interfaz de Chatbot
+
+- Desarrollo de una interfaz:  
+  - Bibliotecas: Tkinter, PyQt, Flask, Streamlit  
+  - Integración con el sistema de análisis
+
+- Elementos de la interfaz:  
+  - Área de entrada de texto  
+  - Área de visualización de respuestas  
+  - Botones de acción (cargar PDF, hacer pregunta, etc.)  
+  - Elementos visuales (iconos, gráficos)  
+  - Barra de progreso (para mostrar el estado del procesamiento)  
+  - Historial de chat
+
+- Funcionalidades:  
+  - Carga de uno o varios documentos PDF  
+  - Formulación de preguntas en lenguaje natural  
+  - Visualización de respuestas con fragmentos relevantes del documento  
+  - Posibilidad de hacer preguntas de seguimiento  
+  - Retroalimentación del usuario sobre la calidad de las respuestas
+
+- Consideraciones:  
+  - Diseño centrado en el usuario  
+  - Personalización (adaptación a las necesidades del usuario)  
+  - Accesibilidad  
+  - Usabilidad
+
+
+---
+
+## Desarrollo de la estrategia
+
 
 Propuesta de procesamiento de lenguaje de documentos internos de INVIAS para identificar documentos relacionados con con temas puntuales de consulta
 
@@ -74,7 +172,7 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 
 
-### **Referencias Bibliográficas**
+### Referencias Bibliográficas
 
 1. **OpenAI Platform Documentation**  
    OpenAI. (2025). *Chat Completions*. Recuperado de [https://platform.openai.com/docs/guides/chat](https://platform.openai.com/docs/guides/chat)
