@@ -57,6 +57,10 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Parámetros adicionales de *Chat_Completions_API* que permiten personalizar la interacción con los modelos de chat](./AI_Queries/prompt_AI_GPT-Chat_completions_API_parameter.md)
 
+- [Tipos de varibles en python](./AI_Queries/prompt_AI_GPT-variables_types.md)
+
+- [Uso del try y exception para el manejo de errores](./AI_Queries/prompt_AI_GPT-try-exception_uses.md)
+
 
 
 
