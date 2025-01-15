@@ -159,6 +159,7 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Uso del try y exception para el manejo de errores](./AI_Queries/prompt_AI_GPT-try-exception_uses.md)
 
+- [Definición de Aumento de la Capacidad de Recuperación en el contexto de RGA](./AI_Queries/prompt_AI_GPT-Enhancement_of_Retrieval_Capabilities(RAG).md)
 
 
 
@@ -206,5 +207,9 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 7. **Text Generation Guide**  
    OpenAI. (2025). *Text Generation with OpenAI Models*. Recuperado de [https://platform.openai.com/docs/guides/text-generation](https://platform.openai.com/docs/guides/text-generation)  
    - Guía detallada sobre cómo generar texto utilizando los modelos de OpenAI, incluyendo parámetros configurables y mejores prácticas. 
+
+8. **Trabajo de grado de Implementación de técnicas de RAG sobre LLM.**
+
+   Collado Alonso, M. Á. (2024). Implementación de técnicas de RAG (Retrieval Augmented Generation) sobre LLM (Large Language Models) para la extracción y generación de documentos en las entidades públicas [Trabajo de fin de máster, Universidad de Valladolid]. UVaDOC. https://uvadoc.uva.es/handle/10324/71509
 
 
