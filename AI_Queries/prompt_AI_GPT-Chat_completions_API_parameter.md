@@ -16,24 +16,28 @@ Claro, las "otras opciones" del método `client.chat.completions.create` en la A
 ### **Parámetros para Personalización**
 3. **`temperature`**:
    - Controla la aleatoriedad de las respuestas.
-   - Valores entre `0` y `2`:
+   - Valores entre `0` y `2` (Valor por defecto: `1`):
      - `0`: Respuestas más deterministas (menos aleatorias).
      - `2`: Respuestas más creativas (más aleatorias).
-   - Valor por defecto: `1`.
 
 4. **`top_p`**:
-   - Alternativa a `temperature`. Controla la "muestreo nuclear".
-   - Valor típico entre `0` y `1`.
-     - Por ejemplo, `top_p=0.9` considera las palabras con el 90% de probabilidad acumulada.
-   - Se utiliza para limitar las palabras menos probables en una respuesta.
+   - Controla la "muestreo nuclear". Alternativa a `temperature`.
+   - Valor entre `0` y `1`.
+     - 0.1: Muy conservador, usa solo las palabras más probables
+     - 0.5: Balance entre diversidad y precisión
+     - 0.9: Mayor variabilidad en el vocabulario pero coherente.[`top_p=0.9` considera las palabras con el 90% de probabilidad acumulada](https://youtu.be/BJ-_Aeo6h7c?si=Qgf36se09iirNrcF&t=383).
+   - Útil para limitar las palabras menos probables en una respuesta.
 
 5. **`max_tokens`**:
-   - Especifica el número máximo de tokens (unidades de texto) que puede generar el modelo en una respuesta.
-   - Incluye tanto la entrada como la salida.
+   - Especifica el número máximo de tokens (unidades de texto) que puede generar el modelo en una respuesta; esto incluye tanto la entrada como la salida.
+   - Valores de este parámetro pueden ser:
+     - Muy bajo (<`50`): Respuestas pueden quedar incompletas
+     - Medio (`100`-`500`): Ideal para respuestas generales
+     - Alto (>`1000`): Para generación de contenido extenso
    - Útil para limitar el tamaño de las respuestas y evitar exceder el límite de tokens del modelo.
 
 6. **`presence_penalty`**:
-   - Ajusta la probabilidad de que el modelo mencione temas nuevos.
+   - Controla la probabilidad de que el modelo mencione temas nuevos.
    - Rango entre `-2.0` y `2.0`:
      - Valores altos: Fomentan la generación de ideas nuevas.
      - Valores bajos: Favorecen las respuestas más repetitivas o cercanas al contexto proporcionado.
@@ -49,7 +53,7 @@ Claro, las "otras opciones" del método `client.chat.completions.create` en la A
 ### **Control del Contexto**
 8. **`stop`**:
    - Define una secuencia (o varias) que indica al modelo cuándo debe detenerse.
-   - Por ejemplo: `"stop": ["\n", "<END>"]` detiene la respuesta al encontrar estas secuencias.
+   - Por ejemplo: `"stop": ["\n", "<END>"]` [detiene la respuesta al encontrar estas secuencias](https://youtu.be/BJ-_Aeo6h7c?si=b-qOw1MDDnQ53hqh&t=889).
 
 9. **`logit_bias`**:
    - Permite ajustar la probabilidad de tokens específicos.
@@ -97,6 +101,21 @@ response = client.chat.completions.create(
     user="user_1234"
 )
 ```
+```python
+# Parámetros para un contenido creativo
+temperature=1.5,
+max_tokens=150,
+presence_penalty=0.6,
+frequency_penalty=0.6
+```
+```python
+# Parámetros para un contenido conservador
+temperature=0.2,
+max_tokens=200,
+presence_penalty=0.1,
+frequency_penalty=0.1
+```
+
 
 ### **Contexto Práctico**
 - **`temperature` y `top_p`**: Ajusta el tono y creatividad de las respuestas según la audiencia (e.g., técnico vs. informal).
