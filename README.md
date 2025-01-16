@@ -129,9 +129,11 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>
 
-  - Platzi_codes
+  - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
 
-    [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
+- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/)<sub>[oaib]</sub> 
+  
+  - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
 
 
 
