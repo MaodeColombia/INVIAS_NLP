@@ -165,6 +165,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Usos del `for`](./AI_Queries/prompt_AI_GPT-for_usage.md)
 
+- [Contraste **fine-tuning** (ajuste fino) y **RAG** (**Retrieval-Augmented Generation**)](https://platform.openai.com/docs/guides/fine-tuning)
+
 
 
 ### Youtube
@@ -215,5 +217,10 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 8. **Trabajo de grado de Implementación de técnicas de RAG sobre LLM.**
 
    Collado Alonso, M. Á. (2024). Implementación de técnicas de RAG (Retrieval Augmented Generation) sobre LLM (Large Language Models) para la extracción y generación de documentos en las entidades públicas [Trabajo de fin de máster, Universidad de Valladolid]. UVaDOC. https://uvadoc.uva.es/handle/10324/71509
+
+9. **Fine-Tuning Guide**  
+   OpenAI. (2025). *Fine-Tuning Guide*. Recuperado de [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)  
+
+   Guía oficial sobre cómo realizar el ajuste fino de modelos de lenguaje, incluyendo los pasos necesarios, configuraciones avanzadas y ejemplos prácticos para personalizar modelos en tareas específicas.
 
 
