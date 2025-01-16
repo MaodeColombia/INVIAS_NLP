@@ -161,6 +161,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Definición de Aumento de la Capacidad de Recuperación en el contexto de RGA](./AI_Queries/prompt_AI_GPT-Enhancement_of_Retrieval_Capabilities(RAG).md)
 
+- [Usos del `for`](./AI_Queries/prompt_AI_GPT-for_usage.md)
+
 
 
 ### Youtube
