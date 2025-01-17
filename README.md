@@ -133,9 +133,13 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/)<sub>[oaib]</sub> 
   
-  - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
+  - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
+    
+    - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)
 
-
+- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/)
+  
+  - [Clase 2. Obtención de datos de la web con LangChain: Context aware data extraction - repositorio: `curso-langchain-qa-documents`](https://github.com/platzi/curso-langchain-qa-documents.git)
 
 
 
