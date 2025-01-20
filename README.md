@@ -137,9 +137,9 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
     
     - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)
 
-- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/)
+- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/)<sub>[lanmr]</sub>
   
-  - [Clase 2. Obtención de datos de la web con LangChain: Context aware data extraction - repositorio: `curso-langchain-qa-documents`](https://github.com/platzi/curso-langchain-qa-documents.git)
+  - Clase 2. Obtención de datos de la web con LangChain: Context aware data extraction - repositorio: [`curso-langchain-qa-documents`](https://github.com/platzi/curso-langchain-qa-documents.git) - código: [`oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/lanmr_v02_text_extraction.ipynb)
 
 
 
