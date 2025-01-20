@@ -52,6 +52,22 @@ es claro que estamos hablando de "sistema para poder analizar pdfs"?
 > [Prompt_AI_Gemini_V05A.md](./Prompt_AI_Gemini_V05A.md)
 
 ---
+actué como un data engineer experto en procesamiento de lenguaje natural (NLP)
+
+he estado avanzando en una investigación, quiero que lea la documentación y me de un resumen ejecutivo de lo que trata esta documentación para usted lo use como contexto y también para que yo pueda saber que le estoy dando el contexto para la siguiente petición.
+
+La idea es que me genere una secuencia de prompts bien estructurados con base en la documentación que le estoy pasando (Prompt_AI_Gemini_V01.md, Prompt_AI_Gemini_V01A.md, Prompt_AI_Gemini_V02A.md, Prompt_AI_Gemini_V03A.md, Prompt_AI_Gemini_V04A.md y Prompt_AI_Gemini_V05A.md) que me permitan hacer una investigación relacionada con extracción estructurada de datos de archivos PDF utilizando técnicas de procesamiento de lenguaje natural (NLP) y bibliotecas de Python especializadas. Asegúrate incluir en los prompt, procesar el contenido textual, tablas, y metadatos del PDF en un formato estructurado. 
+
+Reitero quiero que todos los prompt este solamente enfocados en extraer la informacion de los pdf y que siempre este pidiendo ejemplos de como ejecutar la tarea propuesta, tampoco olvide incluir en la serie de prompts el prompt inicial donde contextualice muy detalladamente a la IA
+
+> []()
+
+---
+
+
+> []()
+
+---
 
 
 > []()
