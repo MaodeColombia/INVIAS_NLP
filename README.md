@@ -182,6 +182,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Contraste **fine-tuning** (ajuste fino) y **RAG** (**Retrieval-Augmented Generation**)](https://platform.openai.com/docs/guides/fine-tuning)
 
+- [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
+
 
 
 ### Youtube
