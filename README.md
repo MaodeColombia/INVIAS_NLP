@@ -108,15 +108,22 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
     
     - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01A.md/): Respuesta
 
-    - [Prompt AI Gemini V02A.md](./Prompt_AI_Gemini_V02A.md/): Respuesta
+    - [Prompt AI Gemini V02A.md](./approach_1/Prompt_AI_Gemini_V02A.md/): Respuesta
 
-    - [Prompt_AI_Gemini_V03A.md](./Prompt_AI_Gemini_V03A.md): Respuesta
+    - [Prompt_AI_Gemini_V03A.md](./approach_1/Prompt_AI_Gemini_V03A.md): Respuesta
 
-    - [Prompt_AI_Gemini_V04A.md](./Prompt_AI_Gemini_V04A.md): Respuesta
+    - [Prompt_AI_Gemini_V04A.md](./approach_1/Prompt_AI_Gemini_V04A.md): Respuesta
 
-    - [Prompt_AI_Gemini_V05A.md](./Prompt_AI_Gemini_V05A.md): Respuesta
+    - [Prompt_AI_Gemini_V05A.md](./approach_1/Prompt_AI_Gemini_V05A.md): Respuesta
+
+    - [Prompt_AI_Gemini_V06A.md](./approach_1/Prompt_AI_Gemini_V06A.md): Respuesta
+
+      - [Prompt incial](./approach_1/Prompt_AI_Gemini_V06A_01.md)
+
+        - [Aclaración sobre METADATOS](./approach_1/Prompt_AI_Gemini_V06A_01.01.md)
+        
   
-##  Identificación de temas futuros
+## Identificación de temas futuros
 
 Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenamiento de la información de manera eficiente y estructurada. Este proceso se basará en los lineamientos y recomendaciones técnicas presentadas por *Rosenthol (2013) en Developing with PDF: Dive Into the Portable Document Format*, y *Whitington (2011) en PDF Explained*. Estos autores enfatizan la importancia de adoptar estándares robustos y universales, como el formato PDF, para garantizar la interoperabilidad, la preservación a largo plazo y la accesibilidad de los documentos, aspectos esenciales en la implementación de soluciones tecnológicas como la propuesta presentada.
 
@@ -227,4 +234,23 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
    Guía oficial sobre cómo realizar el ajuste fino de modelos de lenguaje, incluyendo los pasos necesarios, configuraciones avanzadas y ejemplos prácticos para personalizar modelos en tareas específicas.
 
+## Useful commands
 
+### Gitbash
+
+- ```bash
+  pip freeze > ./approach_1/requirements.txt
+  ``` 
+
+- ```bash
+  pipdeptree > ./approach_1/tree.txt
+  ```
+  
+- ```bash
+  git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
+  ```
+  - Solo text del commit
+
+    ```bash
+    git log --pretty=format:"Message: %s" > ./approach_1/commits.txt
+    ```
