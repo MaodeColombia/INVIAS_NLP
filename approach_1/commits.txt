@@ -1,57 +1,116 @@
-Message: New Packages: con la instalacion de spacy no venia 'es_core_news_sm', se instala y se actualizan archivos de registro
-Message: New Packages: spacy y actualizacion de tree.txt, requirements.txt, commits.txt
-Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv]
-Message: Research Deepening: extración de metadatos; actualización README.md
-Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf
-Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs
-Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md
-Message: - Minor Edits: actualización de las referencias del archivo README.md
-Message: Upgrade: se actualizaron todos los paquetes del entorno virtual
-Message: AI_Queries: Direfencias entre fine-tuning y RAG (Retrieval-Augmented Generation)
-Message: - Minor Edits: referenciación de archivos en README.md
-Message: Code_Examples:juego 'adivinar el animal' con el uso de la  API de OpenAI
-Message: AI_Queries: Usos de ala estructura `for`
-Message: - Correcciones menores: cambio del nombre del role 'system', ahora openAI lo llama developer
-Message: deepening_research: Profundización acerca del uso de parámetros de API de OpenAI
-Message: AI_Queries: definición de Aumento de la Capacidad de Recuperación en el contexto de RAG y referencia a trabajo de grado
-Message: reación de función para facilitar agregar mensajes y obtener respuestas
-Message: - Correcciones menores: Clear All Outputs
-Message: Pregunta de seguimiento de la conversación iniciada previamente
-Message: Creación de lista para almacenar mensajes para manejar un histórico de la conversación
-Message: - Cambio del modelo GPT, de gpt-4o a gpt-4o-mini; borrado de outputs
-Message: Prueba de la función chat_with_system
-Message: Continuacion de la investigacion: Consolidacion de la Estrategia de Desarrollo del sistema
-Message: - Correcciones menores: actualización del archivo README.md
-Message: Identificación de temas futuros: Estandarizacion del uso del formato PDF
-Message: AI_Queries: Uso del try y exception para el manejo de errores
-Message: AI_Queries: Tipos de varibles en python
-Message: Instalacion de nuevos paquetes: PyMuPDF, pymupdf4llm y actualizacion de openai a 1.59.2
-Message: Uso del "role": "system" de Chat_Completions_API
-Message: Inclusión de referencias
-Message: Inclusión de los comando para acceder a las partes de completion.choices[0].x
-Message: Presentación del `content` de `completion.choices[0].message` en formato markdown dentro del notebook.
-Message: Explicacion de la respuesta de la API de openai
-Message: Intanciación del API de OpenAI
-Message: - Correcciones menores: reorganizacion de GPT_testing.ipynb
-Message: Recuperar la clave API de la variable de entorno y Verificar que la clave API esté disponible
-Message: - Correcciones menores: cambio de carpeta de requirements.txt
-Message: AI_Queries: Proceso de creacion de varibles de entorno
-Message: NO mantener actualizado el paquete `openai`
-Message: Mantener actualizado el paquete `openai`
-Message: Evitar que se corra `!pip install openai` cada vez que se corre el código
-Message: Configuracion inicial de openai
-Message: Probando API de chatGPT
-Message: Creación del archivos requirements.txt
-Message: AI_Queries: acerca de PyMuPDF4LLM y sys_platform
-Message: Consultas básicas a la IA: acerca de requirements.txt y el uso de -r
-Message: Continuacion de la investigacion: desarrollo del apartado 4. Interfaz de Chatbot
-Message: Continuacion de la investigacion: desarrollo del apartado Búsqueda y Recuperación de Información
-Message: Continuacion de la investigacion: desarrollo del apartado PNL
-Message: - Correcciones menores: Mejoras en la estructura y formato del markdown
-Message: sin referencia
-Message: Mas codigos de ejemplo y la modifiecion de los nombres de los archivos
-Message: Inclusión codigos de referencia de cursos de Platzi
-Message: Desarrollo de "Extracción de Información de los PDFs" e inclusion de "Tabla de Contenido"
-Message: Inicio de investigacion con Gemini
-Message: Trabajando con ejemplos de Platzi
-Message: Initial commit
+Commit: 64b9a83 - Date: 20250120-213444
+Message: New Packages, Upgrade : instalación de ipywidgets, upgrade de jupyterlab_widgets, transformers - Author: MaodeColombia
+Commit: e0f5478 - Date: 20250120-204740
+Message: New Packages: con la instalacion de spacy no venia 'es_core_news_sm', se instala y se actualizan archivos de registro - Author: MaodeColombia
+Commit: bb95ac8 - Date: 20250120-203547
+Message: New Packages: spacy y actualizacion de tree.txt, requirements.txt, commits.txt - Author: MaodeColombia
+Commit: 9044da0 - Date: 20250120-194509
+Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv] - Author: MaodeColombia
+Commit: 8d7fa2c - Date: 20250120-193741
+Message: Research Deepening: extración de metadatos; actualización README.md - Author: MaodeColombia
+Commit: 8a00352 - Date: 20250120-115236
+Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf - Author: MaodeColombia
+Commit: c349b2c - Date: 20250120-102228
+Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs - Author: MaodeColombia
+Commit: 0d676ac - Date: 20250120-091548
+Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md - Author: MaodeColombia
+Commit: add86e0 - Date: 20250117-102256
+Message: - Minor Edits: actualización de las referencias del archivo README.md - Author: MaodeColombia
+Commit: a07654d - Date: 20250117-093757
+Message: Upgrade: se actualizaron todos los paquetes del entorno virtual - Author: MaodeColombia
+Commit: fd316fd - Date: 20250116-162850
+Message: AI_Queries: Direfencias entre fine-tuning y RAG (Retrieval-Augmented Generation) - Author: MaodeColombia
+Commit: ea56e01 - Date: 20250116-154140
+Message: - Minor Edits: referenciación de archivos en README.md - Author: MaodeColombia
+Commit: f86247f - Date: 20250116-153851
+Message: Code_Examples:juego 'adivinar el animal' con el uso de la  API de OpenAI - Author: MaodeColombia
+Commit: a89393e - Date: 20250116-144857
+Message: AI_Queries: Usos de ala estructura `for` - Author: MaodeColombia
+Commit: 295c9e7 - Date: 20250116-091903
+Message: - Correcciones menores: cambio del nombre del role 'system', ahora openAI lo llama developer - Author: MaodeColombia
+Commit: db6c57b - Date: 20250115-151416
+Message: deepening_research: Profundización acerca del uso de parámetros de API de OpenAI - Author: MaodeColombia
+Commit: 6f11ffb - Date: 20250115-114206
+Message: AI_Queries: definición de Aumento de la Capacidad de Recuperación en el contexto de RAG y referencia a trabajo de grado - Author: MaodeColombia
+Commit: ecaf562 - Date: 20250114-211443
+Message: reación de función para facilitar agregar mensajes y obtener respuestas - Author: MaodeColombia
+Commit: cd8880b - Date: 20250114-155445
+Message: - Correcciones menores: Clear All Outputs - Author: MaodeColombia
+Commit: 717467b - Date: 20250114-152821
+Message: Pregunta de seguimiento de la conversación iniciada previamente - Author: MaodeColombia
+Commit: 81c7aee - Date: 20250114-142227
+Message: Creación de lista para almacenar mensajes para manejar un histórico de la conversación - Author: MaodeColombia
+Commit: 668679a - Date: 20250114-111705
+Message: - Cambio del modelo GPT, de gpt-4o a gpt-4o-mini; borrado de outputs - Author: MaodeColombia
+Commit: fa13afd - Date: 20250114-100443
+Message: Prueba de la función chat_with_system - Author: MaodeColombia
+Commit: cde280b - Date: 20250113-144406
+Message: Continuacion de la investigacion: Consolidacion de la Estrategia de Desarrollo del sistema - Author: MaodeColombia
+Commit: a515680 - Date: 20250113-115529
+Message: - Correcciones menores: actualización del archivo README.md - Author: MaodeColombia
+Commit: 4104ee6 - Date: 20250113-115013
+Message: Identificación de temas futuros: Estandarizacion del uso del formato PDF - Author: MaodeColombia
+Commit: 8301724 - Date: 20250113-103518
+Message: AI_Queries: Uso del try y exception para el manejo de errores - Author: MaodeColombia
+Commit: 0c1001d - Date: 20250113-103030
+Message: AI_Queries: Tipos de varibles en python - Author: MaodeColombia
+Commit: b072158 - Date: 20250105-002708
+Message: Instalacion de nuevos paquetes: PyMuPDF, pymupdf4llm y actualizacion de openai a 1.59.2 - Author: MaodeColombia
+Commit: 74f9446 - Date: 20250103-185815
+Message: Uso del "role": "system" de Chat_Completions_API - Author: MaodeColombia
+Commit: f9163be - Date: 20250103-171804
+Message: Inclusión de referencias - Author: MaodeColombia
+Commit: 6cf0719 - Date: 20250103-170929
+Message: Inclusión de los comando para acceder a las partes de completion.choices[0].x - Author: MaodeColombia
+Commit: 7f7d705 - Date: 20250103-164532
+Message: Presentación del `content` de `completion.choices[0].message` en formato markdown dentro del notebook. - Author: MaodeColombia
+Commit: 24a559b - Date: 20250103-163544
+Message: Explicacion de la respuesta de la API de openai - Author: MaodeColombia
+Commit: 73873b5 - Date: 20250103-151109
+Message: Intanciación del API de OpenAI - Author: MaodeColombia
+Commit: 476bede - Date: 20250103-143238
+Message: - Correcciones menores: reorganizacion de GPT_testing.ipynb - Author: MaodeColombia
+Commit: 2bffd4a - Date: 20250103-141428
+Message: Recuperar la clave API de la variable de entorno y Verificar que la clave API esté disponible - Author: MaodeColombia
+Commit: 3586d33 - Date: 20250103-140501
+Message: - Correcciones menores: cambio de carpeta de requirements.txt - Author: MaodeColombia
+Commit: 35e845e - Date: 20250103-135623
+Message: AI_Queries: Proceso de creacion de varibles de entorno - Author: MaodeColombia
+Commit: f76282a - Date: 20250103-114157
+Message: NO mantener actualizado el paquete `openai` - Author: MaodeColombia
+Commit: 14a4c84 - Date: 20250103-114115
+Message: Mantener actualizado el paquete `openai` - Author: MaodeColombia
+Commit: fe6c066 - Date: 20250103-113612
+Message: Evitar que se corra `!pip install openai` cada vez que se corre el código - Author: MaodeColombia
+Commit: fdddf9a - Date: 20250103-112607
+Message: Configuracion inicial de openai - Author: MaodeColombia
+Commit: b3066d4 - Date: 20250103-093039
+Message: Probando API de chatGPT - Author: MaodeColombia
+Commit: f320889 - Date: 20250103-092520
+Message: Creación del archivos requirements.txt - Author: MaodeColombia
+Commit: 712536b - Date: 20250102-161343
+Message: AI_Queries: acerca de PyMuPDF4LLM y sys_platform - Author: MaodeColombia
+Commit: e277671 - Date: 20241231-185217
+Message: Consultas básicas a la IA: acerca de requirements.txt y el uso de -r - Author: MaodeColombia
+Commit: 83c2413 - Date: 20241230-170919
+Message: Continuacion de la investigacion: desarrollo del apartado 4. Interfaz de Chatbot - Author: MaodeColombia
+Commit: ab4bca3 - Date: 20241230-164106
+Message: Continuacion de la investigacion: desarrollo del apartado Búsqueda y Recuperación de Información - Author: MaodeColombia
+Commit: e35c80e - Date: 20241230-153303
+Message: Continuacion de la investigacion: desarrollo del apartado PNL - Author: MaodeColombia
+Commit: a6e66fd - Date: 20241230-105234
+Message: - Correcciones menores: Mejoras en la estructura y formato del markdown - Author: MaodeColombia
+Commit: 0e5f436 - Date: 20241223-015449
+Message: sin referencia - Author: MaodeColombia
+Commit: 86a9aba - Date: 20241223-003822
+Message: Mas codigos de ejemplo y la modifiecion de los nombres de los archivos - Author: MaodeColombia
+Commit: 33c2a61 - Date: 20241222-215408
+Message: Inclusión codigos de referencia de cursos de Platzi - Author: MaodeColombia
+Commit: bd2430d - Date: 20241222-212511
+Message: Desarrollo de "Extracción de Información de los PDFs" e inclusion de "Tabla de Contenido" - Author: MaodeColombia
+Commit: 53cfef2 - Date: 20241222-182925
+Message: Inicio de investigacion con Gemini - Author: MaodeColombia
+Commit: 6cd8fe5 - Date: 20241220-010640
+Message: Trabajando con ejemplos de Platzi - Author: MaodeColombia
+Commit: c476c76 - Date: 20241219-220346
+Message: Initial commit - Author: Mauricio Martinez

@@ -138,15 +138,19 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
   - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
 
-- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/)<sub>[oaib]</sub> 
+- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/) <sub>[oaib]</sub> 
   
   - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
     
     - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)
 
-- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/)<sub>[lanmr]</sub>
+- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/) <sub>[lanmr]</sub>
   
   - Clase 2. Obtención de datos de la web con LangChain: Context aware data extraction - repositorio: [`curso-langchain-qa-documents`](https://github.com/platzi/curso-langchain-qa-documents.git) - código: [`oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/lanmr_v02_text_extraction.ipynb)
+
+- [Curso de Embeddings y Bases de Datos Vectoriales para NLP](https://platzi.com/cursos/embeddings-nlp/) <sub>[emydb]</sub>
+
+  - Clase 13. Creación de un Motor de Búsqueda Semántico con Python - código: [`emydb_v13-Search_Embeddings.ipynb`](./Platzi_codes/emydb_v13-Search_Embeddings.ipynb)
 
 
 
@@ -233,6 +237,11 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
    OpenAI. (2025). *Fine-Tuning Guide*. Recuperado de [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)  
 
    Guía oficial sobre cómo realizar el ajuste fino de modelos de lenguaje, incluyendo los pasos necesarios, configuraciones avanzadas y ejemplos prácticos para personalizar modelos en tareas específicas.
+
+
+### Modelos Hugging Face
+
+- Hugging Face. (n.d.). google/pegasus-xsum. Hugging Face. Retrieved January 3, 2025, from https://huggingface.co/google/pegasus-xsum
 
 ## Useful commands
 
