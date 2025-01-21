@@ -1,0 +1,53 @@
+Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf
+Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs
+Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md
+Message: - Minor Edits: actualización de las referencias del archivo README.md
+Message: Upgrade: se actualizaron todos los paquetes del entorno virtual
+Message: AI_Queries: Direfencias entre fine-tuning y RAG (Retrieval-Augmented Generation)
+Message: - Minor Edits: referenciación de archivos en README.md
+Message: Code_Examples:juego 'adivinar el animal' con el uso de la  API de OpenAI
+Message: AI_Queries: Usos de ala estructura `for`
+Message: - Correcciones menores: cambio del nombre del role 'system', ahora openAI lo llama developer
+Message: deepening_research: Profundización acerca del uso de parámetros de API de OpenAI
+Message: AI_Queries: definición de Aumento de la Capacidad de Recuperación en el contexto de RAG y referencia a trabajo de grado
+Message: reación de función para facilitar agregar mensajes y obtener respuestas
+Message: - Correcciones menores: Clear All Outputs
+Message: Pregunta de seguimiento de la conversación iniciada previamente
+Message: Creación de lista para almacenar mensajes para manejar un histórico de la conversación
+Message: - Cambio del modelo GPT, de gpt-4o a gpt-4o-mini; borrado de outputs
+Message: Prueba de la función chat_with_system
+Message: Continuacion de la investigacion: Consolidacion de la Estrategia de Desarrollo del sistema
+Message: - Correcciones menores: actualización del archivo README.md
+Message: Identificación de temas futuros: Estandarizacion del uso del formato PDF
+Message: AI_Queries: Uso del try y exception para el manejo de errores
+Message: AI_Queries: Tipos de varibles en python
+Message: Instalacion de nuevos paquetes: PyMuPDF, pymupdf4llm y actualizacion de openai a 1.59.2
+Message: Uso del "role": "system" de Chat_Completions_API
+Message: Inclusión de referencias
+Message: Inclusión de los comando para acceder a las partes de completion.choices[0].x
+Message: Presentación del `content` de `completion.choices[0].message` en formato markdown dentro del notebook.
+Message: Explicacion de la respuesta de la API de openai
+Message: Intanciación del API de OpenAI
+Message: - Correcciones menores: reorganizacion de GPT_testing.ipynb
+Message: Recuperar la clave API de la variable de entorno y Verificar que la clave API esté disponible
+Message: - Correcciones menores: cambio de carpeta de requirements.txt
+Message: AI_Queries: Proceso de creacion de varibles de entorno
+Message: NO mantener actualizado el paquete `openai`
+Message: Mantener actualizado el paquete `openai`
+Message: Evitar que se corra `!pip install openai` cada vez que se corre el código
+Message: Configuracion inicial de openai
+Message: Probando API de chatGPT
+Message: Creación del archivos requirements.txt
+Message: AI_Queries: acerca de PyMuPDF4LLM y sys_platform
+Message: Consultas básicas a la IA: acerca de requirements.txt y el uso de -r
+Message: Continuacion de la investigacion: desarrollo del apartado 4. Interfaz de Chatbot
+Message: Continuacion de la investigacion: desarrollo del apartado Búsqueda y Recuperación de Información
+Message: Continuacion de la investigacion: desarrollo del apartado PNL
+Message: - Correcciones menores: Mejoras en la estructura y formato del markdown
+Message: sin referencia
+Message: Mas codigos de ejemplo y la modifiecion de los nombres de los archivos
+Message: Inclusión codigos de referencia de cursos de Platzi
+Message: Desarrollo de "Extracción de Información de los PDFs" e inclusion de "Tabla de Contenido"
+Message: Inicio de investigacion con Gemini
+Message: Trabajando con ejemplos de Platzi
+Message: Initial commit
