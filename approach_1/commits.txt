@@ -1,3 +1,5 @@
+Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv]
+Message: Research Deepening: extración de metadatos; actualización README.md
 Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf
 Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs
 Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md
