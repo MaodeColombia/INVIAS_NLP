@@ -1,3 +1,7 @@
+Commit: 06e935e - Date: 20250121-144230
+Message: AI_Queries: Dirección de las operaciones realizadas sobre un DataFrame o Series, axis=0 y axis=1 - Author: MaodeColombia
+Commit: ef84ada - Date: 20250121-142851
+Message: Code_Example: codigo de ejemplo del desarrollo del video - Author: MaodeColombia
 Commit: 64b9a83 - Date: 20250120-213444
 Message: New Packages, Upgrade : instalación de ipywidgets, upgrade de jupyterlab_widgets, transformers - Author: MaodeColombia
 Commit: e0f5478 - Date: 20250120-204740
