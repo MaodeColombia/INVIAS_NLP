@@ -317,6 +317,7 @@ chromadb==0.6.3
     │   └── colorama [required: Any, installed: 0.4.6]
     └── h11 [required: >=0.8, installed: 0.14.0]
 einops==0.8.0
+es_core_news_sm==3.8.0
 folium==0.19.4
 ├── branca [required: >=0.6.0, installed: 0.8.1]
 │   └── Jinja2 [required: >=3, installed: 3.1.5]

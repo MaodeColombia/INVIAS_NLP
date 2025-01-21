@@ -1,3 +1,4 @@
+Message: New Packages: spacy y actualizacion de tree.txt, requirements.txt, commits.txt
 Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv]
 Message: Research Deepening: extración de metadatos; actualización README.md
 Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf
