@@ -256,6 +256,20 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 - ```bash
   pipdeptree > ./approach_1/tree.txt
   ```
+  - pipdeptree reporta los conflictos de la siguiente manera
+
+      ```markdown
+      Warning!!! Possibly conflicting dependencies found:
+      \* pinecone-client==5.0.1
+        \- pinecone-plugin-inference [required: >=1.0.3,<2.0.0, installed: 3.1.0]
+      ------------------------------------------------------------------------
+      ```
+
+    Se soluciona con el siguiente script
+
+      ```bash
+      pip install --force-reinstall 'pinecone-client==5.0.1' 'pinecone-plugin-inference>=1.0.3,<2.0.0'
+      ```
   
 - ```bash
   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
