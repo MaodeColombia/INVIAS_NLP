@@ -1,3 +1,11 @@
+Commit: 8ab4cc9 - Date: 20250124-115228
+Message: Research Deepening: Paper sugerido en video 8 de emydb - Author: MaodeColombia
+Commit: b76bea5 - Date: 20250124-114353
+Message: Code_Example: codigo de ejemplo del desarrollo del video 5 de emydb - Author: MaodeColombia
+Commit: 18d11a3 - Date: 20250124-114322
+Message: Code_Example: codigo de ejemplo del desarrollo del video 4 de emydb - Author: MaodeColombia
+Commit: 5ac9a0e - Date: 20250121-213838
+Message: New Packages: gensim - Author: MaodeColombia
 Commit: fd36a10 - Date: 20250121-213123
 Message: New Packages: 'Collecting datasets' - Author: MaodeColombia
 Commit: 2ad83d6 - Date: 20250121-145056
