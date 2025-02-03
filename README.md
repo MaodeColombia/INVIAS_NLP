@@ -190,6 +190,7 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Los tipos de salida (return type) que devuelve una función](./AI_Queries/prompt_AI-GPT-SOLID_foundations-return_types.md)
 
+- [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/prompt_ALGPT-with_open.md)
 
 ### Youtube
 
