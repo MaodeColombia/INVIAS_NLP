@@ -186,6 +186,7 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/prompt_AI-GPT-SOLID_foundations-def.md)
 
+- [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/prompt_AI_GPT-code_bloks-jupyternotebook.md)
 
 
 ### Youtube

@@ -1,3 +1,29 @@
+Commit: b7fd56e - Date: 20250203-154556
+Message: - Minor Edits: agregando "Principios SOLID, la estructura de una 'función en Python" en README.md - Author: MaodeColombia
+Commit: 677670f - Date: 20250203-151944
+Message: Merge branch 'main' of https://github.com/MaodeColombia/INVIAS_NLP - Author: maodecolombia
+Commit: cb6fd36 - Date: 20250129-093838
+Message: AI_Queries: Bloques de código compatibles con Jupyter Notebook en VSCode - Author: maodecolombia
+Commit: 540c606 - Date: 20250128-100135
+Message: AI_Queries: Los tipos de salida (return type) - Author: MaodeColombia
+Commit: a10c38b - Date: 20250128-094324
+Message: AI_Queries: Principios SOLID, la estructura de una 'función en Python' - Author: MaodeColombia
+Commit: fc45915 - Date: 20250127-162448
+Message: AI_Queries: El uso de `with`, la función `open()` y el manejo del archivo - Author: MaodeColombia
+Commit: a633595 - Date: 20250127-160352
+Message: - Minor Edits: Corrección del nombre del módulo 'Sentence_transformers' - Author: MaodeColombia
+Commit: 6b2005d - Date: 20250124-162428
+Message: Merge branch 'main' of github.com:MaodeColombia/INVIAS_NLP - Author: MaodeColombia
+Commit: 2ae72b2 - Date: 20250124-162108
+Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb - Author: MaodeColombia
+Commit: 350d126 - Date: 20250124-161602
+Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb - Author: MaodeColombia
+Commit: 983a59d - Date: 20250124-160613
+Message: Code_Example: Código de ejemplo del desarrollo del video 11 de emydb con su respectivo dataset y outputs - Author: MaodeColombia
+Commit: d9ca66e - Date: 20250124-150115
+Message: - Minor Edits: aclaración '10 resultados más cercanos a la busqueque-semántica de la frese 'Teach me please' con 'embeddings'' - Author: MaodeColombia
+Commit: 5fd4e0d - Date: 20250124-144146
+Message: Code_Example: codigo de ejemplo del desarrollo del video 9 y el dataset de emydb - Author: MaodeColombia
 Commit: 8ab4cc9 - Date: 20250124-115228
 Message: Research Deepening: Paper sugerido en video 8 de emydb - Author: MaodeColombia
 Commit: b76bea5 - Date: 20250124-114353
