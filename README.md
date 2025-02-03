@@ -188,6 +188,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/prompt_AI_GPT-code_bloks-jupyternotebook.md)
 
+- [Los tipos de salida (return type) que devuelve una función](./AI_Queries/prompt_AI-GPT-SOLID_foundations-return_types.md)
+
 
 ### Youtube
 
