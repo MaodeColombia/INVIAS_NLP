@@ -184,6 +184,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
 
+- [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/prompt_AI-GPT-SOLID_foundations-def.md)
+
 
 
 ### Youtube
