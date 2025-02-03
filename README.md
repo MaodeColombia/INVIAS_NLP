@@ -192,6 +192,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/prompt_ALGPT-with_open.md)
 
+- [Create chat completion de OpenAI.](./AI_Queries/prompr_AI_GTP-CodeExplanation01-chat_completions_API.md)
+
 ### Youtube
 
 - [Domina el API de OpenAI - De Principiante a Experto](https://youtube.com/playlist?list=PLgQnGGtCss_gYY4lsuO-hees3dBOqlyv4&si=7Xya0eqKDM1wqVMa)

@@ -1,13 +1,29 @@
+```python
+def chat_with_system(developer_prompt: str, user_prompt: str) -> str:
+    """Realiza una llamada con developer prompt"""
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "developer", "content": developer_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"Error: {str(e)}"
+```
+
 El script que compartes define una función llamada `chat_with_system` en Python. A continuación, te explico línea por línea el funcionamiento de esta función:
 
 ### **Definición de la función**
 ```python
-def chat_with_system(system_prompt: str, user_prompt: str) -> str:
+def chat_with_system(developer_prompt: str, user_prompt: str) -> str:
 ```
 - **`def`**: Palabra clave para definir una función.
 - **`chat_with_system`**: Nombre de la función.
-- **`system_prompt: str, user_prompt: str`**: Parámetros de entrada que la función espera recibir. Son dos cadenas de texto:
-  - `system_prompt`: Mensaje o instrucción inicial que actúa como configuración para la IA.
+- **`developer_prompt: str, user_prompt: str`**: Parámetros de entrada que la función espera recibir. Son dos cadenas de texto:
+  - `developer_prompt`: Mensaje o instrucción inicial que actúa como configuración para la IA.
   - `user_prompt`: Mensaje que representa la entrada del usuario.
 - **`-> str`**: Indica que la función devuelve un valor de tipo cadena de texto.
 
@@ -15,7 +31,7 @@ def chat_with_system(system_prompt: str, user_prompt: str) -> str:
 
 ### **Docstring**
 ```python
-    """Realiza una llamada con system prompt"""
+    """Realiza una llamada con developer prompt"""
 ```
 - Es un comentario dentro de la función que explica brevemente su propósito: realizar una llamada a un modelo de IA usando un mensaje del sistema.
 
@@ -28,7 +44,7 @@ def chat_with_system(system_prompt: str, user_prompt: str) -> str:
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": system_prompt},
+                {"role": "developer", "content": developer_prompt},
                 {"role": "user", "content": user_prompt}
             ]
         )
@@ -42,9 +58,9 @@ def chat_with_system(system_prompt: str, user_prompt: str) -> str:
 
 3. **`messages=[...]`**:
    - Lista que contiene los mensajes que se envían al modelo. Cada mensaje tiene:
-     - `"role"`: Especifica el rol del hablante (`"system"` o `"user"`).
+     - `"role"`: Especifica el rol del hablante (`"developer"` o `"user"`).
      - `"content"`: Contenido del mensaje.
-   - **`{"role": "system", "content": system_prompt}`**: El mensaje del sistema inicial que establece el contexto o las instrucciones.
+   - **`{"role": "developer", "content": developer_prompt}`**: El mensaje del sistema inicial que establece el contexto o las instrucciones.
    - **`{"role": "user", "content": user_prompt}`**: Mensaje del usuario que representa la entrada de texto que busca respuesta.
 
 4. **`response`**:
