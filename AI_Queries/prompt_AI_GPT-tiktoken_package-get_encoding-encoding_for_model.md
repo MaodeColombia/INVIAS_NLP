@@ -97,3 +97,6 @@ Si tienes dudas sobre qué codificación usar, **siempre usa `encoding_for_model
 2. `encoding_for_model()`: Para obtener la codificación adecuada para un modelo.
 
 Si necesitas manipular tokens, decodificar texto o trabajar con vocabularios, `tiktoken` te ofrece una API rápida y eficiente. 🚀
+
+
+[How to count tokens with Tiktoken](https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken)

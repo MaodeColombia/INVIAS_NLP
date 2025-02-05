@@ -260,6 +260,11 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
    Guía oficial sobre cómo realizar el ajuste fino de modelos de lenguaje, incluyendo los pasos necesarios, configuraciones avanzadas y ejemplos prácticos para personalizar modelos en tareas específicas.
 
+10. **Counting Tokens with Tiktoken**  
+    OpenAI. (2025). How to Count Tokens with Tiktoken. Recuperado de https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken
+
+    Ejemplo práctico sobre cómo contar tokens utilizando la biblioteca tiktoken, con explicaciones detalladas sobre la tokenización y su impacto en el uso de la API de OpenAI.
+
 
 ### Modelos Hugging Face
 
