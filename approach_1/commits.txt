@@ -1,3 +1,17 @@
+Commit: b4bc2a8 - Date: 20250204-224144
+Message: AI_Queries: máximo de tokens que puedes enviar a la API de OpenAI - Author: MaodeColombia
+Commit: e342d0f - Date: 20250204-195730
+Message: Package Usage - tiktoken: tiktoken.n_vocab - Author: MaodeColombia
+Commit: 7d76455 - Date: 20250203-205200
+Message: AI_Queries: historial de cambios de un archivo específico en Git y mostrarlo en la terminal - Author: MaodeColombia
+Commit: d58d819 - Date: 20250203-163018
+Message: - Minor Edits:  Agregando "Create chat completion de OpenAI" a README.md y cambio del archivo "prompr_AI_GTP" por cambios de uso - Author: MaodeColombia
+Commit: e9539fd - Date: 20250203-160652
+Message: - Minor Edits: Agregando "El uso de `with`, la función `open()` y el manejo del archivo" a README.md - Author: MaodeColombia
+Commit: 09b3400 - Date: 20250203-160338
+Message: - Minor Edits:  Agregando "Los tipos de salida (return type)" a README.md - Author: MaodeColombia
+Commit: 8f2a80d - Date: 20250203-155951
+Message: - Minor Edits: Agregando "Bloques de código compatibles con Jupyter Notebook en VSCode" a README.md + commits.txt - Author: MaodeColombia
 Commit: b7fd56e - Date: 20250203-154556
 Message: - Minor Edits: agregando "Principios SOLID, la estructura de una 'función en Python" en README.md - Author: MaodeColombia
 Commit: 677670f - Date: 20250203-151944
