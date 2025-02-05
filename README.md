@@ -196,9 +196,13 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Obtener el historial de cambios de un archivo específico en Git y mostrarlo en la terminal](./AI_Queries/prompt_AI-GPT-selected_log_file.md)
 
-- [tiktoken.encoding.n_vocab](./AI_Queries/prompt_AI_GPT-tiktoken_package-n_vocab.md)
 
 - [máximo de tokens que se puede enviar a la API de OpenAI](./AI_Queries/prompt_AI_GPT-max_output_tokens_to_API.md)
+
+- [Package Usage - tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/prompt_AI_GPT-tiktoken_package-n_vocab.md)
+
+- [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
+
 
 
 ### Youtube
