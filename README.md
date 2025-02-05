@@ -196,6 +196,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Obtener el historial de cambios de un archivo específico en Git y mostrarlo en la terminal](./AI_Queries/prompt_AI-GPT-selected_log_file.md)
 
+- [tiktoken.encoding.n_vocab](./AI_Queries/prompt_AI_GPT-tiktoken_package-n_vocab.md)
+
 ### Youtube
 
 - [Domina el API de OpenAI - De Principiante a Experto](https://youtube.com/playlist?list=PLgQnGGtCss_gYY4lsuO-hees3dBOqlyv4&si=7Xya0eqKDM1wqVMa)
