@@ -203,6 +203,8 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
 
 - [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
 
+- [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/prompt_AI_GPT-Transformer-how_works.md)
+
 
 
 ### Youtube
