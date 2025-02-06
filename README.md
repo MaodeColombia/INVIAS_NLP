@@ -304,3 +304,21 @@ Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenami
     ```bash
     git log --pretty=format:"Message: %s" > ./approach_1/commits.txt
     ```
+
+- Reinstala PyTorch ignorando archivos en caché para evitar errores.
+  
+  ```bash
+  pip install torch --no-cache-dir
+  ```
+  o purga la cache
+
+  ```bash
+  pip cache purge
+  ```
+  
+  - Si se necesita instalar una versión específica, *(Reemplazar `2.0.1` por la versión que se necesite).* :
+    ```bash
+    pip install torch==2.0.1 --no-cache-dir
+    ```
+  
+- 

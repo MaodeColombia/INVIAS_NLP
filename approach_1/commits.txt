@@ -1,3 +1,9 @@
+Commit: 480c12a - Date: 20250204-231806
+Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model() - Author: MaodeColombia
+Commit: 091ed3f - Date: 20250204-230529
+Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model() - Author: MaodeColombia
+Commit: a066bde - Date: 20250204-224346
+Message: - Minor Edits: Actualización de commits.txt - Author: MaodeColombia
 Commit: b4bc2a8 - Date: 20250204-224144
 Message: AI_Queries: máximo de tokens que puedes enviar a la API de OpenAI - Author: MaodeColombia
 Commit: e342d0f - Date: 20250204-195730

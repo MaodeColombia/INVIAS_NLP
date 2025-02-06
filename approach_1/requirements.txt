@@ -146,7 +146,7 @@ notebook_shim==0.2.4
 numpy==1.26.4
 oauthlib==3.2.2
 onnxruntime==1.20.1
-openai==1.59.7
+openai==1.60.0
 opencv-python-headless==4.11.0.86
 openpyxl==3.1.5
 opentelemetry-api==1.29.0
@@ -169,10 +169,6 @@ pathlib==1.0.1
 patsy==1.0.1
 pdfminer.six==20240706
 pillow==11.1.0
-pinecone==5.4.2
-pinecone-client==5.0.1
-pinecone-plugin-inference==3.1.0
-pinecone-plugin-interface==0.0.7
 pipdeptree==2.24.0
 platformdirs==4.3.6
 posthog==3.8.3
@@ -228,7 +224,7 @@ scipy==1.13.1
 seaborn==0.13.2
 semantic-version==2.10.0
 Send2Trash==1.8.3
-sentence-transformers==3.3.1
+sentence-transformers==3.4.1
 setuptools==75.8.0
 shellingham==1.5.4
 six==1.17.0
@@ -254,7 +250,9 @@ tiktoken==0.8.0
 tinycss2==1.4.0
 tokenizers==0.21.0
 tomlkit==0.13.2
-torch==2.5.1
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
