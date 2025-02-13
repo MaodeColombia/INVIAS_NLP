@@ -60,19 +60,54 @@ La idea es que me genere una secuencia de prompts bien estructurados con base en
 
 Reitero quiero que todos los prompt este solamente enfocados en extraer la informacion de los pdf y que siempre este pidiendo ejemplos de como ejecutar la tarea propuesta, tampoco olvide incluir en la serie de prompts el prompt inicial donde contextualice muy detalladamente a la IA
 
+> [Prompt_AI_Gemini_V06A.md](./Prompt_AI_Gemini_V06A.md)
+
+---
+
+Extracción de Información de PDF (texto)
+> [Prompt_AI_Gemini_V06A_01.md](./Prompt_AI_Gemini_V06A_01.md)
+
+---
+
+Extracción de Información de PDF (metadata) 
+> [Prompt_AI_Gemini_V06A_01.01.md](./Prompt_AI_Gemini_V06A_01.01.md)
+
+---
+
+
+Cuando se usar completion y cuando se usar embeddings
+
+(1) Buscar información sobre los usos de "completion" y "embeddings" en el procesamiento del lenguaje natural.
+
+(2) Buscar ejemplos específicos de cómo se utilizan "completion" y "embeddings" en diferentes aplicaciones.
+
+(3) Buscar información sobre las ventajas y desventajas de usar "completion" y "embeddings".
+
+(4) Buscar información sobre las diferencias entre "completion" y "embeddings".
+
 > []()
 
 ---
 
 
-> []()
-
----
 
 
 > []()
-
 ---
+
+
+
+
+> []()
+---
+
+
+
+
+> []()
+---
+
+
 
 
 > []()

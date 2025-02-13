@@ -1,3 +1,11 @@
+Commit: 29a40ff - Date: 20250206-110641
+Message: Code_Example: Se complementa emydb_v09-sentence_transformers.ipynb - Author: MaodeColombia
+Commit: 8a6a184 - Date: 20250206-090107
+Message: Research Deepening: cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes - Author: MaodeColombia
+Commit: be02763 - Date: 20250205-223400
+Message: Code_Examples: Cambio en la forma de visulización de los DataFrames - Author: MaodeColombia
+Commit: f6cfe68 - Date: 20250205-201926
+Message: New Packages, Upgrade: upgrade pip, uninstall pinecone==5.4.2, pinecone-client==5.0.1, install torchaudio==2.6.0, torchvision==0.21.0, actualizacion README.md - Author: MaodeColombia
 Commit: 480c12a - Date: 20250204-231806
 Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model() - Author: MaodeColombia
 Commit: 091ed3f - Date: 20250204-230529

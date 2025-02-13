@@ -112,7 +112,9 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
     - [Prompt_AI_Gemini_V03A.md](./approach_1/Prompt_AI_Gemini_V03A.md): Respuesta
 
-    - [Prompt_AI_Gemini_V04A.md](./approach_1/Prompt_AI_Gemini_V04A.md): Respuesta
+    - [Prompt_AI_Gemini_V04A.md](./approach_1/Prompt_AI_Gemini_V04A.md): Respuesta.
+
+      - [Prompt_AI_Gemini_V04A_01.md](./approach_1/Prompt_AI_Gemini_V04A_01.md): Compleción vs. Embeddings en el Procesamiento del Lenguaje Natural
 
     - [Prompt_AI_Gemini_V05A.md](./approach_1/Prompt_AI_Gemini_V05A.md): Respuesta
 
