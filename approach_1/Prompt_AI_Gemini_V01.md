@@ -74,7 +74,6 @@ Extracción de Información de PDF (metadata)
 
 ---
 
-
 Cuando se usar completion y cuando se usar embeddings
 
 (1) Buscar información sobre los usos de "completion" y "embeddings" en el procesamiento del lenguaje natural.
@@ -85,7 +84,7 @@ Cuando se usar completion y cuando se usar embeddings
 
 (4) Buscar información sobre las diferencias entre "completion" y "embeddings".
 
-> []()
+> [Prompt_AI_Gemini_V04A_01.md](./Prompt_AI_Gemini_V04A_01.md)
 
 ---
 
