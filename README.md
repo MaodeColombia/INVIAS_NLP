@@ -98,7 +98,7 @@ Desarrollar un sistema avanzado que permita al asistente del director de INVIAS 
 ## Desarrollo de la estrategia
 
 
-Propuesta de procesamiento de lenguaje de documentos internos de INVIAS para identificar documentos relacionados con con temas puntuales de consulta
+Propuesta de procesamiento de lenguaje de documentos internos de INVIAS para identificar documentos relacionados con temas puntuales de consulta
 
 El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo que la estructura de las carpetas se dejará como 
 
@@ -129,6 +129,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenamiento de la información de manera eficiente y estructurada. Este proceso se basará en los lineamientos y recomendaciones técnicas presentadas por *Rosenthol (2013) en Developing with PDF: Dive Into the Portable Document Format*, y *Whitington (2011) en PDF Explained*. Estos autores enfatizan la importancia de adoptar estándares robustos y universales, como el formato PDF, para garantizar la interoperabilidad, la preservación a largo plazo y la accesibilidad de los documentos, aspectos esenciales en la implementación de soluciones tecnológicas como la propuesta presentada.
 
+Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la implementación de un enfoque data-driven que optimice la gestión y el análisis de la información contenida en los documentos institucionales. Este proceso se apoyará en marcos y metodologías reconocidas, como las estrategias de gestión de datos presentadas por Provost y Fawcett (2013) en Data Science for Business y Davenport y Harris (2007) en Competing on Analytics: The New Science of Winning. Estos autores destacan la importancia de la integración de técnicas de minería de datos, aprendizaje automático y procesamiento del lenguaje natural para transformar datos no estructurados en conocimiento accionable. En este contexto, la adopción de herramientas de análisis semántico y recuperación de información avanzadas garantizará una mayor eficiencia en la identificación de patrones, tendencias y correlaciones dentro del ecosistema documental de INVIAS, facilitando la toma de decisiones estratégicas basadas en evidencia.
 
 ## Referencias
 
