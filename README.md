@@ -199,8 +199,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 - [Obtener el historial de cambios de un archivo específico en Git y mostrarlo en la terminal](./AI_Queries/prompt_AI-GPT-selected_log_file.md)
 
-
-- [máximo de tokens que se puede enviar a la API de OpenAI](./AI_Queries/prompt_AI_GPT-max_output_tokens_to_API.md)
+- [Máximo número de tokens que se puede enviar a la API de OpenAI](./AI_Queries/prompt_AI_GPT-max_output_tokens_to_API.md)
 
 - [Package Usage - tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/prompt_AI_GPT-tiktoken_package-n_vocab.md)
 
@@ -208,6 +207,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 - [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/prompt_AI_GPT-Transformer-how_works.md)
 
+- [Cómo crear un entorno virtual](./AI_Queries/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
 
 
 ### Youtube

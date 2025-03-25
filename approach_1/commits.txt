@@ -1,186 +1,99 @@
-Commit: 29a40ff - Date: 20250206-110641
-Message: Code_Example: Se complementa emydb_v09-sentence_transformers.ipynb - Author: MaodeColombia
-Commit: 8a6a184 - Date: 20250206-090107
-Message: Research Deepening: cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes - Author: MaodeColombia
-Commit: be02763 - Date: 20250205-223400
-Message: Code_Examples: Cambio en la forma de visulización de los DataFrames - Author: MaodeColombia
-Commit: f6cfe68 - Date: 20250205-201926
-Message: New Packages, Upgrade: upgrade pip, uninstall pinecone==5.4.2, pinecone-client==5.0.1, install torchaudio==2.6.0, torchvision==0.21.0, actualizacion README.md - Author: MaodeColombia
-Commit: 480c12a - Date: 20250204-231806
-Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model() - Author: MaodeColombia
-Commit: 091ed3f - Date: 20250204-230529
-Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model() - Author: MaodeColombia
-Commit: a066bde - Date: 20250204-224346
-Message: - Minor Edits: Actualización de commits.txt - Author: MaodeColombia
-Commit: b4bc2a8 - Date: 20250204-224144
-Message: AI_Queries: máximo de tokens que puedes enviar a la API de OpenAI - Author: MaodeColombia
-Commit: e342d0f - Date: 20250204-195730
-Message: Package Usage - tiktoken: tiktoken.n_vocab - Author: MaodeColombia
-Commit: 7d76455 - Date: 20250203-205200
-Message: AI_Queries: historial de cambios de un archivo específico en Git y mostrarlo en la terminal - Author: MaodeColombia
-Commit: d58d819 - Date: 20250203-163018
-Message: - Minor Edits:  Agregando "Create chat completion de OpenAI" a README.md y cambio del archivo "prompr_AI_GTP" por cambios de uso - Author: MaodeColombia
-Commit: e9539fd - Date: 20250203-160652
-Message: - Minor Edits: Agregando "El uso de `with`, la función `open()` y el manejo del archivo" a README.md - Author: MaodeColombia
-Commit: 09b3400 - Date: 20250203-160338
-Message: - Minor Edits:  Agregando "Los tipos de salida (return type)" a README.md - Author: MaodeColombia
-Commit: 8f2a80d - Date: 20250203-155951
-Message: - Minor Edits: Agregando "Bloques de código compatibles con Jupyter Notebook en VSCode" a README.md + commits.txt - Author: MaodeColombia
-Commit: b7fd56e - Date: 20250203-154556
-Message: - Minor Edits: agregando "Principios SOLID, la estructura de una 'función en Python" en README.md - Author: MaodeColombia
-Commit: 677670f - Date: 20250203-151944
-Message: Merge branch 'main' of https://github.com/MaodeColombia/INVIAS_NLP - Author: maodecolombia
-Commit: cb6fd36 - Date: 20250129-093838
-Message: AI_Queries: Bloques de código compatibles con Jupyter Notebook en VSCode - Author: maodecolombia
-Commit: 540c606 - Date: 20250128-100135
-Message: AI_Queries: Los tipos de salida (return type) - Author: MaodeColombia
-Commit: a10c38b - Date: 20250128-094324
-Message: AI_Queries: Principios SOLID, la estructura de una 'función en Python' - Author: MaodeColombia
-Commit: fc45915 - Date: 20250127-162448
-Message: AI_Queries: El uso de `with`, la función `open()` y el manejo del archivo - Author: MaodeColombia
-Commit: a633595 - Date: 20250127-160352
-Message: - Minor Edits: Corrección del nombre del módulo 'Sentence_transformers' - Author: MaodeColombia
-Commit: 6b2005d - Date: 20250124-162428
-Message: Merge branch 'main' of github.com:MaodeColombia/INVIAS_NLP - Author: MaodeColombia
-Commit: 2ae72b2 - Date: 20250124-162108
-Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb - Author: MaodeColombia
-Commit: 350d126 - Date: 20250124-161602
-Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb - Author: MaodeColombia
-Commit: 983a59d - Date: 20250124-160613
-Message: Code_Example: Código de ejemplo del desarrollo del video 11 de emydb con su respectivo dataset y outputs - Author: MaodeColombia
-Commit: d9ca66e - Date: 20250124-150115
-Message: - Minor Edits: aclaración '10 resultados más cercanos a la busqueque-semántica de la frese 'Teach me please' con 'embeddings'' - Author: MaodeColombia
-Commit: 5fd4e0d - Date: 20250124-144146
-Message: Code_Example: codigo de ejemplo del desarrollo del video 9 y el dataset de emydb - Author: MaodeColombia
-Commit: 8ab4cc9 - Date: 20250124-115228
-Message: Research Deepening: Paper sugerido en video 8 de emydb - Author: MaodeColombia
-Commit: b76bea5 - Date: 20250124-114353
-Message: Code_Example: codigo de ejemplo del desarrollo del video 5 de emydb - Author: MaodeColombia
-Commit: 18d11a3 - Date: 20250124-114322
-Message: Code_Example: codigo de ejemplo del desarrollo del video 4 de emydb - Author: MaodeColombia
-Commit: 5ac9a0e - Date: 20250121-213838
-Message: New Packages: gensim - Author: MaodeColombia
-Commit: fd36a10 - Date: 20250121-213123
-Message: New Packages: 'Collecting datasets' - Author: MaodeColombia
-Commit: 2ad83d6 - Date: 20250121-145056
-Message: New Packages: sentence-transformers, pinecone-client, gradio - Author: MaodeColombia
-Commit: 06e935e - Date: 20250121-144230
-Message: AI_Queries: Dirección de las operaciones realizadas sobre un DataFrame o Series, axis=0 y axis=1 - Author: MaodeColombia
-Commit: ef84ada - Date: 20250121-142851
-Message: Code_Example: codigo de ejemplo del desarrollo del video - Author: MaodeColombia
-Commit: 64b9a83 - Date: 20250120-213444
-Message: New Packages, Upgrade : instalación de ipywidgets, upgrade de jupyterlab_widgets, transformers - Author: MaodeColombia
-Commit: e0f5478 - Date: 20250120-204740
-Message: New Packages: con la instalacion de spacy no venia 'es_core_news_sm', se instala y se actualizan archivos de registro - Author: MaodeColombia
-Commit: bb95ac8 - Date: 20250120-203547
-Message: New Packages: spacy y actualizacion de tree.txt, requirements.txt, commits.txt - Author: MaodeColombia
-Commit: 9044da0 - Date: 20250120-194509
-Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv] - Author: MaodeColombia
-Commit: 8d7fa2c - Date: 20250120-193741
-Message: Research Deepening: extración de metadatos; actualización README.md - Author: MaodeColombia
-Commit: 8a00352 - Date: 20250120-115236
-Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf - Author: MaodeColombia
-Commit: c349b2c - Date: 20250120-102228
-Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs - Author: MaodeColombia
-Commit: 0d676ac - Date: 20250120-091548
-Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md - Author: MaodeColombia
-Commit: add86e0 - Date: 20250117-102256
-Message: - Minor Edits: actualización de las referencias del archivo README.md - Author: MaodeColombia
-Commit: a07654d - Date: 20250117-093757
-Message: Upgrade: se actualizaron todos los paquetes del entorno virtual - Author: MaodeColombia
-Commit: fd316fd - Date: 20250116-162850
-Message: AI_Queries: Direfencias entre fine-tuning y RAG (Retrieval-Augmented Generation) - Author: MaodeColombia
-Commit: ea56e01 - Date: 20250116-154140
-Message: - Minor Edits: referenciación de archivos en README.md - Author: MaodeColombia
-Commit: f86247f - Date: 20250116-153851
-Message: Code_Examples:juego 'adivinar el animal' con el uso de la  API de OpenAI - Author: MaodeColombia
-Commit: a89393e - Date: 20250116-144857
-Message: AI_Queries: Usos de ala estructura `for` - Author: MaodeColombia
-Commit: 295c9e7 - Date: 20250116-091903
-Message: - Correcciones menores: cambio del nombre del role 'system', ahora openAI lo llama developer - Author: MaodeColombia
-Commit: db6c57b - Date: 20250115-151416
-Message: deepening_research: Profundización acerca del uso de parámetros de API de OpenAI - Author: MaodeColombia
-Commit: 6f11ffb - Date: 20250115-114206
-Message: AI_Queries: definición de Aumento de la Capacidad de Recuperación en el contexto de RAG y referencia a trabajo de grado - Author: MaodeColombia
-Commit: ecaf562 - Date: 20250114-211443
-Message: reación de función para facilitar agregar mensajes y obtener respuestas - Author: MaodeColombia
-Commit: cd8880b - Date: 20250114-155445
-Message: - Correcciones menores: Clear All Outputs - Author: MaodeColombia
-Commit: 717467b - Date: 20250114-152821
-Message: Pregunta de seguimiento de la conversación iniciada previamente - Author: MaodeColombia
-Commit: 81c7aee - Date: 20250114-142227
-Message: Creación de lista para almacenar mensajes para manejar un histórico de la conversación - Author: MaodeColombia
-Commit: 668679a - Date: 20250114-111705
-Message: - Cambio del modelo GPT, de gpt-4o a gpt-4o-mini; borrado de outputs - Author: MaodeColombia
-Commit: fa13afd - Date: 20250114-100443
-Message: Prueba de la función chat_with_system - Author: MaodeColombia
-Commit: cde280b - Date: 20250113-144406
-Message: Continuacion de la investigacion: Consolidacion de la Estrategia de Desarrollo del sistema - Author: MaodeColombia
-Commit: a515680 - Date: 20250113-115529
-Message: - Correcciones menores: actualización del archivo README.md - Author: MaodeColombia
-Commit: 4104ee6 - Date: 20250113-115013
-Message: Identificación de temas futuros: Estandarizacion del uso del formato PDF - Author: MaodeColombia
-Commit: 8301724 - Date: 20250113-103518
-Message: AI_Queries: Uso del try y exception para el manejo de errores - Author: MaodeColombia
-Commit: 0c1001d - Date: 20250113-103030
-Message: AI_Queries: Tipos de varibles en python - Author: MaodeColombia
-Commit: b072158 - Date: 20250105-002708
-Message: Instalacion de nuevos paquetes: PyMuPDF, pymupdf4llm y actualizacion de openai a 1.59.2 - Author: MaodeColombia
-Commit: 74f9446 - Date: 20250103-185815
-Message: Uso del "role": "system" de Chat_Completions_API - Author: MaodeColombia
-Commit: f9163be - Date: 20250103-171804
-Message: Inclusión de referencias - Author: MaodeColombia
-Commit: 6cf0719 - Date: 20250103-170929
-Message: Inclusión de los comando para acceder a las partes de completion.choices[0].x - Author: MaodeColombia
-Commit: 7f7d705 - Date: 20250103-164532
-Message: Presentación del `content` de `completion.choices[0].message` en formato markdown dentro del notebook. - Author: MaodeColombia
-Commit: 24a559b - Date: 20250103-163544
-Message: Explicacion de la respuesta de la API de openai - Author: MaodeColombia
-Commit: 73873b5 - Date: 20250103-151109
-Message: Intanciación del API de OpenAI - Author: MaodeColombia
-Commit: 476bede - Date: 20250103-143238
-Message: - Correcciones menores: reorganizacion de GPT_testing.ipynb - Author: MaodeColombia
-Commit: 2bffd4a - Date: 20250103-141428
-Message: Recuperar la clave API de la variable de entorno y Verificar que la clave API esté disponible - Author: MaodeColombia
-Commit: 3586d33 - Date: 20250103-140501
-Message: - Correcciones menores: cambio de carpeta de requirements.txt - Author: MaodeColombia
-Commit: 35e845e - Date: 20250103-135623
-Message: AI_Queries: Proceso de creacion de varibles de entorno - Author: MaodeColombia
-Commit: f76282a - Date: 20250103-114157
-Message: NO mantener actualizado el paquete `openai` - Author: MaodeColombia
-Commit: 14a4c84 - Date: 20250103-114115
-Message: Mantener actualizado el paquete `openai` - Author: MaodeColombia
-Commit: fe6c066 - Date: 20250103-113612
-Message: Evitar que se corra `!pip install openai` cada vez que se corre el código - Author: MaodeColombia
-Commit: fdddf9a - Date: 20250103-112607
-Message: Configuracion inicial de openai - Author: MaodeColombia
-Commit: b3066d4 - Date: 20250103-093039
-Message: Probando API de chatGPT - Author: MaodeColombia
-Commit: f320889 - Date: 20250103-092520
-Message: Creación del archivos requirements.txt - Author: MaodeColombia
-Commit: 712536b - Date: 20250102-161343
-Message: AI_Queries: acerca de PyMuPDF4LLM y sys_platform - Author: MaodeColombia
-Commit: e277671 - Date: 20241231-185217
-Message: Consultas básicas a la IA: acerca de requirements.txt y el uso de -r - Author: MaodeColombia
-Commit: 83c2413 - Date: 20241230-170919
-Message: Continuacion de la investigacion: desarrollo del apartado 4. Interfaz de Chatbot - Author: MaodeColombia
-Commit: ab4bca3 - Date: 20241230-164106
-Message: Continuacion de la investigacion: desarrollo del apartado Búsqueda y Recuperación de Información - Author: MaodeColombia
-Commit: e35c80e - Date: 20241230-153303
-Message: Continuacion de la investigacion: desarrollo del apartado PNL - Author: MaodeColombia
-Commit: a6e66fd - Date: 20241230-105234
-Message: - Correcciones menores: Mejoras en la estructura y formato del markdown - Author: MaodeColombia
-Commit: 0e5f436 - Date: 20241223-015449
-Message: sin referencia - Author: MaodeColombia
-Commit: 86a9aba - Date: 20241223-003822
-Message: Mas codigos de ejemplo y la modifiecion de los nombres de los archivos - Author: MaodeColombia
-Commit: 33c2a61 - Date: 20241222-215408
-Message: Inclusión codigos de referencia de cursos de Platzi - Author: MaodeColombia
-Commit: bd2430d - Date: 20241222-212511
-Message: Desarrollo de "Extracción de Información de los PDFs" e inclusion de "Tabla de Contenido" - Author: MaodeColombia
-Commit: 53cfef2 - Date: 20241222-182925
-Message: Inicio de investigacion con Gemini - Author: MaodeColombia
-Commit: 6cd8fe5 - Date: 20241220-010640
-Message: Trabajando con ejemplos de Platzi - Author: MaodeColombia
-Commit: c476c76 - Date: 20241219-220346
-Message: Initial commit - Author: Mauricio Martinez
+Message: Research Deepening: Implementacion de DataDriven en INVIAS
+Message: Code_Example: Código de ejemplo del desarrollo del video 16 de emydb
+Message: - Minor Edits: modificacion del codigo originar del curso + archivo original
+Message: Research Deepening: Flujo detallado, paso por paso, para analizar archivos
+Message: Minor Edits: se agrega vinculo al archivo 'Prompt_AI_Gemini_V01.md'
+Message: Research Deepening: consulta 'Compleción vs. Embeddings en el Procesamiento del Lenguaje Natural'
+Message: Code_Example: Se complementa emydb_v09-sentence_transformers.ipynb
+Message: Research Deepening: cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes
+Message: Code_Examples: Cambio en la forma de visulización de los DataFrames
+Message: New Packages, Upgrade: upgrade pip, uninstall pinecone==5.4.2, pinecone-client==5.0.1, install torchaudio==2.6.0, torchvision==0.21.0, actualizacion README.md
+Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model()
+Message: Package Usage - tiktoken: tiktoken.get_encoding() tiktoken.encoding_for_model()
+Message: - Minor Edits: Actualización de commits.txt
+Message: AI_Queries: máximo de tokens que puedes enviar a la API de OpenAI
+Message: Package Usage - tiktoken: tiktoken.n_vocab
+Message: AI_Queries: historial de cambios de un archivo específico en Git y mostrarlo en la terminal
+Message: - Minor Edits:  Agregando "Create chat completion de OpenAI" a README.md y cambio del archivo "prompr_AI_GTP" por cambios de uso
+Message: - Minor Edits: Agregando "El uso de `with`, la función `open()` y el manejo del archivo" a README.md
+Message: - Minor Edits:  Agregando "Los tipos de salida (return type)" a README.md
+Message: - Minor Edits: Agregando "Bloques de código compatibles con Jupyter Notebook en VSCode" a README.md + commits.txt
+Message: - Minor Edits: agregando "Principios SOLID, la estructura de una 'función en Python" en README.md
+Message: Merge branch 'main' of https://github.com/MaodeColombia/INVIAS_NLP
+Message: AI_Queries: Bloques de código compatibles con Jupyter Notebook en VSCode
+Message: AI_Queries: Los tipos de salida (return type)
+Message: AI_Queries: Principios SOLID, la estructura de una 'función en Python'
+Message: AI_Queries: El uso de `with`, la función `open()` y el manejo del archivo
+Message: - Minor Edits: Corrección del nombre del módulo 'Sentence_transformers'
+Message: Merge branch 'main' of github.com:MaodeColombia/INVIAS_NLP
+Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb
+Message: Code_Example: Código de ejemplo del desarrollo del video 1 de emydb
+Message: Code_Example: Código de ejemplo del desarrollo del video 11 de emydb con su respectivo dataset y outputs
+Message: - Minor Edits: aclaración '10 resultados más cercanos a la busqueque-semántica de la frese 'Teach me please' con 'embeddings''
+Message: Code_Example: codigo de ejemplo del desarrollo del video 9 y el dataset de emydb
+Message: Research Deepening: Paper sugerido en video 8 de emydb
+Message: Code_Example: codigo de ejemplo del desarrollo del video 5 de emydb
+Message: Code_Example: codigo de ejemplo del desarrollo del video 4 de emydb
+Message: New Packages: gensim
+Message: New Packages: 'Collecting datasets'
+Message: New Packages: sentence-transformers, pinecone-client, gradio
+Message: AI_Queries: Dirección de las operaciones realizadas sobre un DataFrame o Series, axis=0 y axis=1
+Message: Code_Example: codigo de ejemplo del desarrollo del video
+Message: New Packages, Upgrade : instalación de ipywidgets, upgrade de jupyterlab_widgets, transformers
+Message: New Packages: con la instalacion de spacy no venia 'es_core_news_sm', se instala y se actualizan archivos de registro
+Message: New Packages: spacy y actualizacion de tree.txt, requirements.txt, commits.txt
+Message: - Minor Edits: inclusión archivos 'mensajes commits' y 'arbol dependencias', actualización de requirement.txt, se instaló pipdeptree, camelot-py[cv]
+Message: Research Deepening: extración de metadatos; actualización README.md
+Message: Research Deepening: primeras pruebas de extracción de texto de pdf con pdfminer y pypdf
+Message: AI_Queries: Generacion de secuencia de prompts para desarrollar la parte de extraccion de informacion de los pdfs
+Message: Code_Example: Desarrollo codigo video platzi, instalción nuevos paquetes en venv y actualización README.md
+Message: - Minor Edits: actualización de las referencias del archivo README.md
+Message: Upgrade: se actualizaron todos los paquetes del entorno virtual
+Message: AI_Queries: Direfencias entre fine-tuning y RAG (Retrieval-Augmented Generation)
+Message: - Minor Edits: referenciación de archivos en README.md
+Message: Code_Examples:juego 'adivinar el animal' con el uso de la  API de OpenAI
+Message: AI_Queries: Usos de ala estructura `for`
+Message: - Correcciones menores: cambio del nombre del role 'system', ahora openAI lo llama developer
+Message: deepening_research: Profundización acerca del uso de parámetros de API de OpenAI
+Message: AI_Queries: definición de Aumento de la Capacidad de Recuperación en el contexto de RAG y referencia a trabajo de grado
+Message: reación de función para facilitar agregar mensajes y obtener respuestas
+Message: - Correcciones menores: Clear All Outputs
+Message: Pregunta de seguimiento de la conversación iniciada previamente
+Message: Creación de lista para almacenar mensajes para manejar un histórico de la conversación
+Message: - Cambio del modelo GPT, de gpt-4o a gpt-4o-mini; borrado de outputs
+Message: Prueba de la función chat_with_system
+Message: Continuacion de la investigacion: Consolidacion de la Estrategia de Desarrollo del sistema
+Message: - Correcciones menores: actualización del archivo README.md
+Message: Identificación de temas futuros: Estandarizacion del uso del formato PDF
+Message: AI_Queries: Uso del try y exception para el manejo de errores
+Message: AI_Queries: Tipos de varibles en python
+Message: Instalacion de nuevos paquetes: PyMuPDF, pymupdf4llm y actualizacion de openai a 1.59.2
+Message: Uso del "role": "system" de Chat_Completions_API
+Message: Inclusión de referencias
+Message: Inclusión de los comando para acceder a las partes de completion.choices[0].x
+Message: Presentación del `content` de `completion.choices[0].message` en formato markdown dentro del notebook.
+Message: Explicacion de la respuesta de la API de openai
+Message: Intanciación del API de OpenAI
+Message: - Correcciones menores: reorganizacion de GPT_testing.ipynb
+Message: Recuperar la clave API de la variable de entorno y Verificar que la clave API esté disponible
+Message: - Correcciones menores: cambio de carpeta de requirements.txt
+Message: AI_Queries: Proceso de creacion de varibles de entorno
+Message: NO mantener actualizado el paquete `openai`
+Message: Mantener actualizado el paquete `openai`
+Message: Evitar que se corra `!pip install openai` cada vez que se corre el código
+Message: Configuracion inicial de openai
+Message: Probando API de chatGPT
+Message: Creación del archivos requirements.txt
+Message: AI_Queries: acerca de PyMuPDF4LLM y sys_platform
+Message: Consultas básicas a la IA: acerca de requirements.txt y el uso de -r
+Message: Continuacion de la investigacion: desarrollo del apartado 4. Interfaz de Chatbot
+Message: Continuacion de la investigacion: desarrollo del apartado Búsqueda y Recuperación de Información
+Message: Continuacion de la investigacion: desarrollo del apartado PNL
+Message: - Correcciones menores: Mejoras en la estructura y formato del markdown
+Message: sin referencia
+Message: Mas codigos de ejemplo y la modifiecion de los nombres de los archivos
+Message: Inclusión codigos de referencia de cursos de Platzi
+Message: Desarrollo de "Extracción de Información de los PDFs" e inclusion de "Tabla de Contenido"
+Message: Inicio de investigacion con Gemini
+Message: Trabajando con ejemplos de Platzi
+Message: Initial commit
