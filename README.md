@@ -142,7 +142,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 - [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/) <sub>[oaib]</sub> 
   
   - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
-    
+  
     - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)
 
 - [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/) <sub>[lanmr]</sub>
@@ -152,8 +152,6 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 - [Curso de Embeddings y Bases de Datos Vectoriales para NLP](https://platzi.com/cursos/embeddings-nlp/) <sub>[emydb]</sub>
 
   - Clase 13. Creación de un Motor de Búsqueda Semántico con Python - código: [`emydb_v13-Search_Embeddings.ipynb`](./Platzi_codes/emydb_v13-Search_Embeddings.ipynb)
-
-
 
 ### Consultas a las Inteligenicias Artificiales
 
@@ -207,17 +205,11 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 - [Cómo crear un entorno virtual](./AI_Queries/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
 
-
 ### Youtube
 
 - [Domina el API de OpenAI - De Principiante a Experto](https://youtube.com/playlist?list=PLgQnGGtCss_gYY4lsuO-hees3dBOqlyv4&si=7Xya0eqKDM1wqVMa)
 
   - [Github](https://github.com/alarcon7a/openai-api-tutorial)
-
-
-
-
-
 
 ### Referencias Bibliográficas
 
@@ -227,7 +219,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
    - Documentación oficial sobre cómo usar la API de completions de chat, incluyendo ejemplos prácticos y parámetros configurables.
 
 2. **OpenAI API Reference**  
-   OpenAI. (2025). *API Reference for Chat Models*. Recuperado de [https://platform.openai.com/docs/api-reference](https://platform.openai.com/docs/api-reference) 
+   OpenAI. (2025). *API Reference for Chat Models*. Recuperado de [https://platform.openai.com/docs/api-reference](https://platform.openai.com/docs/api-reference)  
 
    - Referencia técnica detallada sobre los métodos disponibles, parámetros, y respuestas del modelo.
 
@@ -243,7 +235,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 5. **Introducción a la Inteligencia Artificial con OpenAI**  
    Martínez, J., & López, R. (2024). *Interacción con modelos de lenguaje natural*. Editorial TechPress.  
-   
+  
    - Libro que incluye fundamentos teóricos y prácticos sobre cómo utilizar APIs de modelos de lenguaje como OpenAI.
 
 6. **OpenAI Developer Quickstart**  
@@ -252,7 +244,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 7. **Text Generation Guide**  
    OpenAI. (2025). *Text Generation with OpenAI Models*. Recuperado de [https://platform.openai.com/docs/guides/text-generation](https://platform.openai.com/docs/guides/text-generation)  
-   - Guía detallada sobre cómo generar texto utilizando los modelos de OpenAI, incluyendo parámetros configurables y mejores prácticas. 
+   - Guía detallada sobre cómo generar texto utilizando los modelos de OpenAI, incluyendo parámetros configurables y mejores prácticas.  
 
 8. **Trabajo de grado de Implementación de técnicas de RAG sobre LLM.**
 
@@ -268,7 +260,6 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
     Ejemplo práctico sobre cómo contar tokens utilizando la biblioteca tiktoken, con explicaciones detalladas sobre la tokenización y su impacto en el uso de la API de OpenAI.
 
-
 ### Modelos Hugging Face
 
 - Hugging Face. (n.d.). google/pegasus-xsum. Hugging Face. Retrieved January 3, 2025, from https://huggingface.co/google/pegasus-xsum
@@ -279,11 +270,12 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 - ```bash
   pip freeze > ./approach_1/requirements.txt
-  ``` 
+  ```  
 
 - ```bash
   pipdeptree > ./approach_1/tree.txt
   ```
+
   - pipdeptree reporta los conflictos de la siguiente manera
 
       ```markdown
@@ -302,6 +294,7 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 - ```bash
   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
   ```
+
   - Solo text del commit
 
     ```bash
@@ -313,15 +306,52 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
   ```bash
   pip install torch --no-cache-dir
   ```
+  
   o purga la cache
 
   ```bash
   pip cache purge
   ```
   
-  - Si se necesita instalar una versión específica, *(Reemplazar `2.0.1` por la versión que se necesite).* :
+  - Si se necesita instalar una versión específica, *(Reemplazar `2.0.1` por la versión que se necesite).*  
+  
     ```bash
     pip install torch==2.0.1 --no-cache-dir
     ```
+
+- Archivos modificados en un commit específico en Git
   
-- 
+  - Ver solo los nombres de los archivos modificados en un commit
+
+    ```bash
+    git show --name-only <commit_hash>
+    ```
+
+    Esto te muestra el mensaje del commit y los nombres de los archivos modificados.
+
+    ```bash
+    commit 1ee305a080c701ad193cbb3ee15919493096729c (HEAD -> main, origin/main, origin/HEAD)
+    Author: maodecolombia <maodecolombia@gmail.com>
+    Date:   Tue May 20 14:52:38 2025 -0500
+
+    - Minor Edits: Presentación del archivo README.md
+
+    README.md
+    approach_1/Prompt_AI_Gemini_V01A.md
+    (NLP_Congreso) 
+    ```
+
+  - Alternativa rápida para ver el listado limpio (sin mensaje ni diff)**
+
+    ```bash
+    git diff-tree --no-commit-id --name-only -r <commit_hash>
+    ```
+
+    Este comando lista solo los nombres de los archivos.
+
+    ```bash
+    $ git diff-tree --no-commit-id --name-only -r  1ee305a
+    README.md
+    approach_1/Prompt_AI_Gemini_V01A.md
+    (NLP_Congreso)
+    ```
