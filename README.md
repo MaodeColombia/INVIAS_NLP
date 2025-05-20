@@ -1,18 +1,19 @@
 # Sistema de Análisis de PDFs y Respuesta a Preguntas: INVIAS_NLP
 
-## Objetivo:
+## Objetivo
 
 Desarrollar un sistema avanzado que permita al asistente del director de INVIAS interactuar con documentos PDF mediante una interfaz de chatbot. El sistema deberá ser capaz de comprender preguntas en lenguaje natural, extraer información relevante de los PDFs y proporcionar respuestas precisas y concisas.
 
-## Actores:
+## Actores
 
 - Mauricio Martínez (Ingeniero de Desarrollo de Sistemas de Información)  
 - Director General de INVIAS  
 - Asistente del Director General de INVIAS (Usuario principal del sistema)
 
-## Estrategia de Desarrollo:
+## Estrategia de Desarrollo - Temario
 
 ### 1. Extracción de Información de los PDFs
+
 - Bibliotecas:  
   - PyPDF2  
   - PDFMiner  
@@ -92,20 +93,18 @@ Desarrollar un sistema avanzado que permita al asistente del director de INVIAS 
   - Accesibilidad  
   - Usabilidad
 
-
 ---
 
-## Desarrollo de la estrategia
-
+### Estrategia de Desarrollo - Prompts para la exploración de los temas propuestos
 
 Propuesta de procesamiento de lenguaje de documentos internos de INVIAS para identificar documentos relacionados con temas puntuales de consulta
 
-El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo que la estructura de las carpetas se dejará como 
+El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo que la estructura de las carpetas se dejará como  
 
 - [approach_1](./approach_1/): Esta es el primer enfoque formal para iniciar el desarrollo, el cual se está desarrollano con *Gemini Advance 1.5 Pro with Deep Research*
- 
+
   - [Prompt AI Gemini V01.md](./approach_1/Prompt_AI_Gemini_V01.md): Prompt para Gemini
-    
+
     - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01A.md/): Respuesta
 
     - [Prompt AI Gemini V02A.md](./approach_1/Prompt_AI_Gemini_V02A.md/): Respuesta
@@ -120,11 +119,10 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
     - [Prompt_AI_Gemini_V06A.md](./approach_1/Prompt_AI_Gemini_V06A.md): Respuesta
 
-      - [Prompt incial](./approach_1/Prompt_AI_Gemini_V06A_01.md)
+      - [Extracción de Información de PDF (texto)](./approach_1/Prompt_AI_Gemini_V06A_01.md): Respuesta
 
-        - [Aclaración sobre METADATOS](./approach_1/Prompt_AI_Gemini_V06A_01.01.md)
-        
-  
+        - [Extracción de Información de PDF (metadata)](./approach_1/Prompt_AI_Gemini_V06A_01.01.md): Respuesta
+
 ## Identificación de temas futuros
 
 Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenamiento de la información de manera eficiente y estructurada. Este proceso se basará en los lineamientos y recomendaciones técnicas presentadas por *Rosenthol (2013) en Developing with PDF: Dive Into the Portable Document Format*, y *Whitington (2011) en PDF Explained*. Estos autores enfatizan la importancia de adoptar estándares robustos y universales, como el formato PDF, para garantizar la interoperabilidad, la preservación a largo plazo y la accesibilidad de los documentos, aspectos esenciales en la implementación de soluciones tecnológicas como la propuesta presentada.

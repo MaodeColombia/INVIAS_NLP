@@ -2,53 +2,30 @@
 
 Tabla de Contenido
 
-- [Sistema de Análisis de PDFs y Respuesta a Preguntas](#sistema-de-análisis-de-pdfs-y-respuesta-a-preguntas)
-  
-  - [Introducción](#introducción)
-
-  - [Estrategia de Desarrollo](#estrategia-de-desarrollo)
-
-      1 [Extracción de Información de los PDFs](#extracción-de-información-de-los-pdfs)
-
-      - [Bibliotecas a considerar](#bibliotecas-a-considerar)
-
-      - [Estructura de datos](#estructura-de-datos)
-
-      2 [Procesamiento del Lenguaje Natural (PLN)](#procesamiento-del-lenguaje-natural-pln)
-
-      - [Bibliotecas a considerar](#bibliotecas-a-considerar-1)
-
-      - [Tareas de PLN](#tareas-de-pln)
-
-      3 [Búsqueda y Recuperación de Información](#búsqueda-y-recuperación-de-información)
-
-      - [Construcción de un índice](#construcción-de-un-índice)
-
-      - [Algoritmos de búsqueda](#algoritmos-de-búsqueda)
-
-      - [Ranking de resultados](#ranking-de-resultados)
-
-      4 [Interfaz de Chatbot](#interfaz-de-chatbot)
-
-      - [Desarrollo de una interfaz](#desarrollo-de-una-interfaz)
-
-      - [Integración con el sistema de análisis](#integración-con-el-sistema-de-análisis)
-
-      5 [Pruebas y Refinamiento](#pruebas-y-refinamiento)
-
-      - [Pruebas exhaustivas](#pruebas-exhaustivas)
-
-      - [Refinamiento](#refinamiento)
-
-  - [Consideraciones Adicionales](#consideraciones-adicionales)
-
-  - [Próximos Pasos](#próximos-pasos)
-
-  - [Conclusión](#conclusión)
-
-  - [Fuentes citadas](#fuentes-citadas)
-
-- [Profundización de la investigación](#Profundización-de-la-investigación)
+- [**Sistema de Análisis de PDFs y Respuesta a Preguntas**](#sistema-de-análisis-de-pdfs-y-respuesta-a-preguntas)
+  - [**Introducción**](#introducción)
+  - [**Estrategia de Desarrollo**](#estrategia-de-desarrollo)
+    - [**1. Extracción de Información de los PDFs**](#1-extracción-de-información-de-los-pdfs)
+      - [**Bibliotecas a considerar:**](#bibliotecas-a-considerar)
+      - [**Estructura de datos:**](#estructura-de-datos)
+    - [**2. Procesamiento del Lenguaje Natural (PLN)**](#2-procesamiento-del-lenguaje-natural-pln)
+      - [**Bibliotecas a considerar 1:**](#bibliotecas-a-considerar-1)
+      - [**Tareas de PLN:**](#tareas-de-pln)
+    - [**3. Búsqueda y Recuperación de Información**](#3-búsqueda-y-recuperación-de-información)
+      - [**Construcción de un índice:**](#construcción-de-un-índice)
+      - [**Algoritmos de búsqueda:**](#algoritmos-de-búsqueda)
+      - [**Ranking de resultados:**](#ranking-de-resultados)
+    - [**4. Interfaz de Chatbot**](#4-interfaz-de-chatbot)
+      - [**Desarrollo de una interfaz:**](#desarrollo-de-una-interfaz)
+      - [**Integración con el sistema de análisis:**](#integración-con-el-sistema-de-análisis)
+    - [**5. Pruebas y Refinamiento**](#5-pruebas-y-refinamiento)
+      - [**Pruebas exhaustivas:**](#pruebas-exhaustivas)
+      - [**Refinamiento:**](#refinamiento)
+  - [**Consideraciones Adicionales**](#consideraciones-adicionales)
+  - [**Próximos Pasos**](#próximos-pasos)
+  - [**Conclusión**](#conclusión)
+  - [**Fuentes citadas**](#fuentes-citadas)
+- [Profundización de la investigación](#profundización-de-la-investigación)
 
 
 ## **Introducción**
@@ -85,7 +62,7 @@ El primer paso es extraer la información relevante de los PDFs. Para ello, se u
 
 Una vez extraída la información de los PDFs, es necesario procesarla para que el sistema pueda comprenderla y responder preguntas con precisión. Para ello, se utilizarán técnicas de Procesamiento del Lenguaje Natural (PLN).
 
-#### **Bibliotecas a considerar:**  
+#### **Bibliotecas a considerar 1:**  
 
   * **NLTK:** Una biblioteca completa para diversas tareas de PLN, incluyendo tokenización, stemming y lematización. Ofrece una amplia gama de herramientas para el análisis lingüístico.  
   * **spaCy:** Conocida por su velocidad y eficiencia en el procesamiento de texto, ideal para tareas como el análisis sintáctico y la identificación de entidades. Es una excelente opción para procesar grandes volúmenes de texto.  
