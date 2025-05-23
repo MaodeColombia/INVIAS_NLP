@@ -123,6 +123,22 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
         - [Extracción de Información de PDF (metadata)](./approach_1/Prompt_AI_Gemini_V06A_01.01.md): Respuesta
 
+#### 📁 Árbol de directorios
+
+- 📁 AI_Queries/
+  - 📁 [code_explanation/](./support/code_explanation.md)
+    - ssddfasdf
+- 📁 MMO_codes/
+- 📁 Platzi_codes/
+- 📁 approach_1/
+  - 📁 outputs/
+  - 📁 deepping/
+  - 📁 upgrade_250107/
+- 📁 assets/
+  - 📁 images/
+
+#### 📦 Paquetes instalados
+
 ## Identificación de temas futuros
 
 Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenamiento de la información de manera eficiente y estructurada. Este proceso se basará en los lineamientos y recomendaciones técnicas presentadas por *Rosenthol (2013) en Developing with PDF: Dive Into the Portable Document Format*, y *Whitington (2011) en PDF Explained*. Estos autores enfatizan la importancia de adoptar estándares robustos y universales, como el formato PDF, para garantizar la interoperabilidad, la preservación a largo plazo y la accesibilidad de los documentos, aspectos esenciales en la implementación de soluciones tecnológicas como la propuesta presentada.
