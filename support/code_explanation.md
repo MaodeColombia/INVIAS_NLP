@@ -36,10 +36,12 @@ Este archivo contiene una respuesta generada por IA, relacionada con el uso de u
 
 ## Curso de Langchain [langc]
 
-- [Funcionamiento del `for` combinado con el `enumerate` en langc_v01.ipynb](../AI_Queries/code_explanation/ai_query-langc_v01-for_usage.md)
-  - Message Commit: `Code_Example-langc_v01: Desarrollo de codigo de ejemplo del video 1 de langc - Author: maodecolombia`
-- [¿Qué hace `response`?](../AI_Queries/code_explanation/ai_query-langc_v01-response_usage.md)
-- [¿Por qué `lista[:2]` **no incluye el índice 2**?](../AI_Queries/code_explanation/ai_query-langc_v01-list_start_end_usage.md)
-- [¿Qué es `.extend()`?](../AI_Queries/code_explanation/ai_query-langc_v01-.extend_usage.md)
-- [¿Qué es loader?](../AI_Queries/code_explanation/ai_query-langc_v01-PyPDFLoader(filename).loader.load()_usage.md)
-- [¿Para qué es el  wd en `with open("archivo.pdf", "wb") as f:`](../AI_Queries/code_explanation/ai_query-langc_v01-wb_usage.md)
+- ![Sección "Carga de documents"](../assets/images/langc_v01-seccion_carga_documents.png)
+
+  - [Funcionamiento del `for` combinado con el `enumerate` en langc_v01.ipynb](../AI_Queries/code_explanation/ai_query-langc_v01-for_usage.md)
+    - Message Commit: `Code_Example-langc_v01: Desarrollo de codigo de ejemplo del video 1 de langc - Author: maodecolombia`
+  - [¿Qué hace `response`?](../AI_Queries/code_explanation/ai_query-langc_v01-response_usage.md)
+  - [¿Por qué `lista[:2]` **no incluye el índice 2**?](../AI_Queries/code_explanation/ai_query-langc_v01-list_start_end_usage.md)
+  - [¿Qué es `.extend()`?](../AI_Queries/code_explanation/ai_query-langc_v01-.extend_usage.md)
+  - [¿Qué es loader?](../AI_Queries/code_explanation/ai_query-langc_v01-PyPDFLoader(filename).loader.load()_usage.md)
+  - [¿Para qué es el  wd en `with open("archivo.pdf", "wb") as f:`](../AI_Queries/code_explanation/ai_query-langc_v01-wb_usage.md)
