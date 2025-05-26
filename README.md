@@ -127,7 +127,6 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 - 📁 AI_Queries/
   - 📁 [code_explanation/](./support/code_explanation.md)
-    - ssddfasdf
 - 📁 MMO_codes/
 - 📁 Platzi_codes/
 - 📁 approach_1/
@@ -220,6 +219,10 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 - [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/prompt_AI_GPT-Transformer-how_works.md)
 
 - [Cómo crear un entorno virtual](./AI_Queries/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
+
+#### Code explanation
+
+- [Curso de Langchain](/AI_Queries/code_explanation/)
 
 ### Youtube
 

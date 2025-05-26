@@ -1,3 +1,7 @@
+Commit: 6edb307 - Date: 20250523-163907
+Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo del video 1 de langc - Author: maodecolombia
+Commit: f4cb0f2 - Date: 20250520-154303
+Message: - Minor Edits: Se agrega "Archivos modificados en un commit específico en Git" + retoques a la pesentación del archivo README.md - Author: maodecolombia
 Commit: 1ee305a - Date: 20250520-145238
 Message: - Minor Edits: Presentación del archivo README.md - Author: maodecolombia
 Commit: b3229e9 - Date: 20250325-093328
