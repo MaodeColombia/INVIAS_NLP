@@ -4,7 +4,7 @@ Esta carpeta contiene archivos Markdown (`.md`) que documentan explicaciones té
 
 Su propósito es servir como una fuente de referencia para comprender funciones, estructuras, flujos lógicos y configuraciones implementadas, así como para registrar conocimientos adquiridos durante el desarrollo.
 
-## Contenido típico
+**Contenido típico**
 
 - Análisis de bloques de código complejos o reutilizables.
 - Explicación de funciones propias o de terceros.
@@ -12,7 +12,34 @@ Su propósito es servir como una fuente de referencia para comprender funciones,
 - Respuestas a consultas técnicas realizadas durante la implementación.
 - Buenas prácticas, ejemplos, o aclaraciones sobre errores comunes.
 
-Esta carpeta ayuda a mantener la trazabilidad y comprensión del código, facilitando el mantenimiento y la colaboración futura en el proyecto.
+Esta carpeta ayuda a mantener la trazabilidad y comprensión del código, facilitando el mantenimiento y la colaboración futura en el proyecto.  
 
+**Estructura de nombres de archivos**
+
+Los archivos siguen una convención de nombres con tres componentes separados por guiones (`-`):
+
+```plaintext
+[origen] - [fuente] - [tema].md
+```
+
+- **`ai_query`**: indica que el contenido del archivo proviene de una consulta realizada a un modelo de inteligencia artificial (por ejemplo, ChatGPT).  
+- **`langc_v01`**: identifica la fuente o contexto en el que surgió la consulta, como un archivo `.ipynb`, video, notebook, documento técnico, etc.  
+- **`response_usage.md`**: especifica el tema tratado en el archivo, como el uso de una función, comportamiento de una clase, configuración, etc.
+
+Ejemplo:
+
+```text
+ai_query-langc_v01-response_usage.md
+```
+
+Este archivo contiene una respuesta generada por IA, relacionada con el uso de una función, surgida al trabajar con el archivo `langc_v01.ipynb`.
+
+
+## Curso de Langchain [langc]
+
+- [Funcionamiento del `for` combinado con el `enumerate` en langc_v01.ipynb](/AI_Queries/code_explanation/ai_query-langc_v01-for_usage.md)
+  - Message Commit: `Code_Example-langc_v01: Desarrollo de codigo de ejemplo del video 1 de langc - Author: maodecolombia`
+
+- [¿Qué hace `response`?](/AI_Queries/code_explanation/ai_query-langc_v01-response_usage.md)
 
 
