@@ -1,3 +1,15 @@
+Commit: 20403eb - Date: 20250527-110345
+Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo, sección "Split de documents" - Author: maodecolombia
+Commit: 6d24488 - Date: 20250526-222023
+Message: - Minor Edits: Reorganización de archivos relacionados con 'langc' - Author: MaodeColombia
+Commit: 553748d - Date: 20250526-163215
+Message: - Minor Edits: 'code_explanation.md' - Author: maodecolombia
+Commit: 0c6ffde - Date: 20250526-161535
+Message: Code_Example-langc_v01: Desarrrollo de la seccion 'Carga de documents' + AI_Queries - Author: maodecolombia
+Commit: 51b92a2 - Date: 20250526-093821
+Message: - Minor Edits: se modifica README.md, se actualiza commits.txt, tree.txt, requirements.txt - Author: maodecolombia
+Commit: 9698892 - Date: 20250526-093326
+Message: Code_Example-langc_v01: Uso del `response` - Author: maodecolombia
 Commit: 6edb307 - Date: 20250523-163907
 Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo del video 1 de langc - Author: maodecolombia
 Commit: f4cb0f2 - Date: 20250520-154303

@@ -52,3 +52,8 @@ Este archivo contiene una respuesta generada por IA, relacionada con el uso de u
     - [¿que significac la afirmacion "Estos límites incluyen tanto el texto de entrada (prompt) como la respuesta generada por el modelo"?](../AI_Queries/code_explanation/ai_query-langc_v01-meaning_inputpromptandanswer.md)
       - [¿A qué hace referecia "retrieval"?](../AI_Queries/code_explanation/ai_query-langc_v01-retrieval_meaning.md)
   - El script maneja 1500 caracteres pero cuanto sería el máximo chunk en función de los tokens para modelos de ChatGPT [¿Cuántos tokens acepta cada modelo de ChatGPT?](../AI_Queries/code_explanation/ai_query-langc_v01-max_tokens_Chatgptmodels.md)
+
+- ![Embeddings e ingesta a base de datos vectorial](../assets/images/langc_v01-seccion_Embeddings_ingesta_a_base_de_datos_vectorial.png)
+  - [¿Qué hacen estas líneas?](../AI_Queries/code_explanation/ai_query-langc_v01-Embeddings_and_Vector_Store_Ingestion.md)
+  - ![nuevas lineas de código](../assets/images/langc_v01-seccion_Embeddings_ingesta_a_base_de_datos_vectorial-MOD.png)
+  - [ChromaDB como base de datos persistente](../AI_Queries/code_explanation/ai_query-langc_v01-persistent_chromadb.md)
