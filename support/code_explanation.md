@@ -45,3 +45,10 @@ Este archivo contiene una respuesta generada por IA, relacionada con el uso de u
   - [¿Qué es `.extend()`?](../AI_Queries/code_explanation/ai_query-langc_v01-.extend_usage.md)
   - [¿Qué es loader?](../AI_Queries/code_explanation/ai_query-langc_v01-PyPDFLoader(filename).loader.load()_usage.md)
   - [¿Para qué es el  wd en `with open("archivo.pdf", "wb") as f:`](../AI_Queries/code_explanation/ai_query-langc_v01-wb_usage.md)
+
+
+- ![alt text](../assets/images/langc_v01-seccion_split_de_documents.png)
+  - [`chunk_size` y `chunk_overlap` de `from langchain.text_splitter import RecursiveCharacterTextSplitter`](../AI_Queries/code_explanation/ai_query-langc_v01-chunk_usage.md)
+    - [¿que significac la afirmacion "Estos límites incluyen tanto el texto de entrada (prompt) como la respuesta generada por el modelo"?](../AI_Queries/code_explanation/ai_query-langc_v01-meaning_inputpromptandanswer.md)
+      - [¿A qué hace referecia "retrieval"?](../AI_Queries/code_explanation/ai_query-langc_v01-retrieval_meaning.md)
+  - El script maneja 1500 caracteres pero cuanto sería el máximo chunk en función de los tokens para modelos de ChatGPT [¿Cuántos tokens acepta cada modelo de ChatGPT?](../AI_Queries/code_explanation/ai_query-langc_v01-max_tokens_Chatgptmodels.md)
