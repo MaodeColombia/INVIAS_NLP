@@ -57,3 +57,14 @@ Este archivo contiene una respuesta generada por IA, relacionada con el uso de u
   - [¿Qué hacen estas líneas?](../AI_Queries/code_explanation/ai_query-langc_v01-Embeddings_and_Vector_Store_Ingestion.md)
   - ![nuevas lineas de código](../assets/images/langc_v01-seccion_Embeddings_ingesta_a_base_de_datos_vectorial-MOD.png)
   - [ChromaDB como base de datos persistente](../AI_Queries/code_explanation/ai_query-langc_v01-persistent_chromadb.md)
+
+- ## Modelos de chat y cadenas para consulta de información
+  ![alt text](../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas.png)
+
+  - [¿Qué hacen estas líneas?](../AI_Queries/code_explanation/ai_query-langc_v01-Chat_Models_and_Retrieval_Chains_for_Information_Querying.md)
+
+- ![alt text](../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query1).png)
+- ![alt text](../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query2).png)
+- ![alt text](../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query3).png)
+- ![alt text](../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query4).png)
+  - [Uso de `qa_chain`](../AI_Queries/code_explanation/ai_query-langc_v01-qa_chain.run()_usage.md)

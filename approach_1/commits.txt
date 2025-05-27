@@ -1,3 +1,5 @@
+Commit: 7f7975a - Date: 20250527-115927
+Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo, sección "Embeddings e ingesta a base de datos vectorial" - Author: maodecolombia
 Commit: 20403eb - Date: 20250527-110345
 Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo, sección "Split de documents" - Author: maodecolombia
 Commit: 6d24488 - Date: 20250526-222023
