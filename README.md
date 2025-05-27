@@ -146,10 +146,15 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 ## Referencias
 
+Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo videos, cursos, lecturas y documentación técnica— se asigna una *referencia abreviada* que permite identificar su origen de forma concisa.
+
 ### Cursos de Platzi
 
-- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/) <sub>[langc]</sub>
-
+- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/). Referencia `langc`
+  
+  - Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. https://platzi.com/cursos/langchain-chatbots/. Consultado el 23 de mayo de 2025.
+  - [Recursos del curso](/Platzi_codes/langc/)
+  
 - [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>
 
   - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
