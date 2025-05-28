@@ -177,55 +177,55 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
 
-- [Nociones básica de un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-Requirements.md)
+- [Nociones básica de un archivo `requirements.txt`](./AI_Queries/knowledge/prompt_AI_GPT-Requirements.md)
 
-- [Uso del argumento `-r` en un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-r_uses.md)
+- [Uso del argumento `-r` en un archivo `requirements.txt`](./AI_Queries/knowledge/prompt_AI_GPT-r_uses.md)
 
-- [¿Qué es `sys_platform`?](./AI_Queries/prompt_AI_GPT-sys_plataform_uses.md)
+- [¿Qué es `sys_platform`?](./AI_Queries/knowledge/prompt_AI_GPT-sys_plataform_uses.md)
 
-- [Process to Create an Environment Variable in Windows](./AI_Queries/prompt_AI_GPT-Environment_variable_creation.md)
+- [Process to Create an Environment Variable in Windows](./AI_Queries/knowledge/prompt_AI_GPT-Environment_variable_creation.md)
 
-- [Acerca de PyMuPDF4LLM](./AI_Queries/prompt_AI_GPT-about_PyMuPDF4LLM.md)
+- [Acerca de PyMuPDF4LLM](./AI_Queries/knowledge/prompt_AI_GPT-about_PyMuPDF4LLM.md)
 
-- [Evitar que se corra `!pip install openai` cada vez que se corre el código](./AI_Queries/prompt_AI_GPT-openai_install_upgrade.md)
+- [Evitar que se corra `!pip install openai` cada vez que se corre el código](./AI_Queries/knowledge/prompt_AI_GPT-openai_install_upgrade.md)
 
-- [Roles de *Chat_Completions_API*](./AI_Queries/prompt_AI_GPT-Chat_Completions_API.md)
+- [Roles de *Chat_Completions_API*](./AI_Queries/knowledge/prompt_AI_GPT-Chat_Completions_API.md)
 
-- [Parámetros adicionales de *Chat_Completions_API* que permiten personalizar la interacción con los modelos de chat](./AI_Queries/prompt_AI_GPT-Chat_completions_API_parameter.md)
+- [Parámetros adicionales de *Chat_Completions_API* que permiten personalizar la interacción con los modelos de chat](./AI_Queries/knowledge/prompt_AI_GPT-Chat_completions_API_parameter.md)
 
-- [Tipos de varibles en python](./AI_Queries/prompt_AI_GPT-variables_types.md)
+- [Tipos de varibles en python](./AI_Queries/knowledge/prompt_AI_GPT-variables_types.md)
 
-- [Uso del try y exception para el manejo de errores](./AI_Queries/prompt_AI_GPT-try-exception_uses.md)
+- [Uso del try y exception para el manejo de errores](./AI_Queries/knowledge/prompt_AI_GPT-try-exception_uses.md)
 
-- [Definición de Aumento de la Capacidad de Recuperación en el contexto de RGA](./AI_Queries/prompt_AI_GPT-Enhancement_of_Retrieval_Capabilities(RAG).md)
+- [Definición de Aumento de la Capacidad de Recuperación en el contexto de RGA](./AI_Queries/knowledge/prompt_AI_GPT-Enhancement_of_Retrieval_Capabilities(RAG).md)
 
-- [Usos del `for`](./AI_Queries/prompt_AI_GPT-for_usage.md)
+- [Usos del `for`](./AI_Queries/knowledge/prompt_AI_GPT-for_usage.md)
 
 - [Contraste **fine-tuning** (ajuste fino) y **RAG** (**Retrieval-Augmented Generation**)](https://platform.openai.com/docs/guides/fine-tuning)
 
-- [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
+- [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/knowledge/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
 
-- [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/prompt_AI-GPT-SOLID_foundations-def.md)
+- [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-def.md)
 
-- [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/prompt_AI_GPT-code_bloks-jupyternotebook.md)
+- [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/knowledge/prompt_AI_GPT-code_bloks-jupyternotebook.md)
 
-- [Los tipos de salida (return type) que devuelve una función](./AI_Queries/prompt_AI-GPT-SOLID_foundations-return_types.md)
+- [Los tipos de salida (return type) que devuelve una función](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-return_types.md)
 
-- [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/prompt_ALGPT-with_open.md)
+- [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/knowledge/prompt_ALGPT-with_open.md)
 
-- [Create chat completion de OpenAI.](./AI_Queries/prompr_AI_GTP-CodeExplanation01-chat_completions_API.md)
+- [Create chat completion de OpenAI.](./AI_Queries/knowledge/prompr_AI_GTP-CodeExplanation01-chat_completions_API.md)
 
-- [Obtener el historial de cambios de un archivo específico en Git y mostrarlo en la terminal](./AI_Queries/prompt_AI-GPT-selected_log_file.md)
+- [Obtener el historial de cambios de un archivo específico en Git y mostrarlo en la terminal](./AI_Queries/knowledge/prompt_AI-GPT-selected_log_file.md)
 
-- [Máximo número de tokens que se puede enviar a la API de OpenAI](./AI_Queries/prompt_AI_GPT-max_output_tokens_to_API.md)
+- [Máximo número de tokens que se puede enviar a la API de OpenAI](./AI_Queries/knowledge/prompt_AI_GPT-max_output_tokens_to_API.md)
 
-- [Package Usage - tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/prompt_AI_GPT-tiktoken_package-n_vocab.md)
+- [Package Usage - tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-n_vocab.md)
 
-- [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
+- [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
 
-- [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/prompt_AI_GPT-Transformer-how_works.md)
+- [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/knowledge/prompt_AI_GPT-Transformer-how_works.md)
 
-- [Cómo crear un entorno virtual](./AI_Queries/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
+- [Cómo crear un entorno virtual](./AI_Queries/knowledge/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
 
 #### Code explanation
 
