@@ -175,6 +175,8 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 ### Consultas a las Inteligenicias Artificiales
 
+- [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
+
 - [Nociones básica de un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-Requirements.md)
 
 - [Uso del argumento `-r` en un archivo `requirements.txt`](./AI_Queries/prompt_AI_GPT-r_uses.md)
