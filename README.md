@@ -317,7 +317,9 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
       pip install --force-reinstall 'pinecone-client==5.0.1' 'pinecone-plugin-inference>=1.0.3,<2.0.0'
       ```
   
-- ```bash
+- Estando `~/INVIAS_NLP (main)` ejecutar:
+  
+  ```bash
   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
   ```
 

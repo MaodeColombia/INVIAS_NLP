@@ -1,3 +1,17 @@
+Commit: 5d0c868 - Date: 20250528-174853
+Message: - Minor Edits: Eliminación de archivo duplicado `langc_v01-plantilla.ipynb`, copia de archivo `langc_v01.ipynb` para adecuacion a INVIAS - Author: MaodeColombia
+Commit: c6115e1 - Date: 20250528-171641
+Message: - Minor Edits: Reubicación de archivoc y la respectiva modificación de ruta de archivos en README.md - Author: MaodeColombia
+Commit: 6844086 - Date: 20250528-162450
+Message: - Minor Edits: Uso del `stash` para trabajar con el pull del repositorio que trabajé en la oficina - Author: MaodeColombia
+Commit: fc141d8 - Date: 20250528-154957
+Message: - Minor Edits: Merge de los archivos en laptop y desktop-INVIAS de los archivos PDF_loader.ipynb y temp.ipynb - Author: MaodeColombia
+Commit: b0af833 - Date: 20250527-161708
+Message: - Minor Edits: modificación de rutas de imagenes de langc_v01.md - Author: maodecolombia
+Commit: 651c615 - Date: 20250527-154755
+Message: - Minor Edits: Se reorganizan los documentos de desarrollo de videos de los cursos - Author: maodecolombia
+Commit: 54fc469 - Date: 20250527-144547
+Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo, sección "Modelos de chat y cadenas para consulta de información" - Author: maodecolombia
 Commit: 7f7975a - Date: 20250527-115927
 Message: Code_Example-langc_v01: Desarrollo de codigo de ejemplo, sección "Embeddings e ingesta a base de datos vectorial" - Author: maodecolombia
 Commit: 20403eb - Date: 20250527-110345
