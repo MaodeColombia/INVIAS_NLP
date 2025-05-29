@@ -28,6 +28,8 @@
 
   - [¿Qué hacen estas líneas?](../AI_Queries/code_explanation/ai_query-langc_v01-Chat_Models_and_Retrieval_Chains_for_Information_Querying.md)
 
+  - [**Explicación detallada** de RetrievalQA.from_chain_type](ai_query-langc_v01-RetrievalQA.from_chain_type_usage.md)
+
 - ![alt text](../../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query1).png)
 - ![alt text](../../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query2).png)
 - ![alt text](../../assets/images/langc_v01-seccion_modelos-de-chat-y-cadenas-para-consultas(query3).png)
