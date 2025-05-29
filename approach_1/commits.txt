@@ -1,3 +1,17 @@
+Commit: f010d1d - Date: 20250529-172229
+Message: - Minor Edits: Se agrega descripción al notebook - Author: MaodeColombia
+Commit: b71a3c7 - Date: 20250529-164940
+Message: - Minor Edits: Adecuación visual para el uso de langc_v01-plantilla.ipynb + otros archivos utiles para el análisis - Author: MaodeColombia
+Commit: 130cc2d - Date: 20250529-144558
+Message: Code_INVIAS: Se incluye copia de lineas de código del aprtado "Embeddings e ingesta a base de datos vectorial" para no volver a generar los embeddings de los pdf; solo para hacer uso de la Base de Datos - Author: MaodeColombia
+Commit: 7700d17 - Date: 20250529-143202
+Message: - Minor Edits: Explicación detallada de langc_v01.md - Author: MaodeColombia
+Commit: 6626eff - Date: 20250529-141708
+Message: - Minor Edits: se agrega el tema "Deshacer un commit que ya se ha subido al repositorio remoto" al README.md + se modifica un error en langc_v01.ipynb - Author: MaodeColombia
+Commit: 2975614 - Date: 20250528-224305
+Message: - Minor Edits: Actualizacion de README.md + commits.txt - Author: MaodeColombia
+Commit: d5b20ca - Date: 20250528-224145
+Message: Code_INVIAS: Adaptación de código de langc_v01 para el proyecto - Author: MaodeColombia
 Commit: 5d0c868 - Date: 20250528-174853
 Message: - Minor Edits: Eliminación de archivo duplicado `langc_v01-plantilla.ipynb`, copia de archivo `langc_v01.ipynb` para adecuacion a INVIAS - Author: MaodeColombia
 Commit: c6115e1 - Date: 20250528-171641
