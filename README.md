@@ -294,92 +294,119 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 ### Gitbash
 
-- ```bash
-  pip freeze > ./approach_1/requirements.txt
-  ```  
+1. ```bash
+   pip freeze > ./approach_1/requirements.txt
+   ```  
 
-- ```bash
-  pipdeptree > ./approach_1/tree.txt
-  ```
+2. ```bash
+   pipdeptree > ./approach_1/tree.txt
+   ```
 
-  - pipdeptree reporta los conflictos de la siguiente manera
+     - pipdeptree reporta los conflictos de la siguiente manera
 
-      ```markdown
-      Warning!!! Possibly conflicting dependencies found:
-      \* pinecone-client==5.0.1
-        \- pinecone-plugin-inference [required: >=1.0.3,<2.0.0, installed: 3.1.0]
-      ------------------------------------------------------------------------
-      ```
+       ```markdown
+       Warning!!! Possibly conflicting dependencies found:
+       \* pinecone-client==5.0.1
+         \- pinecone-plugin-inference [required: >=1.0.3,<2.0.0, installed: 3.1.0]
+       ------------------------------------------------------------------------
+       ```
 
-    Se soluciona con el siguiente script
+       Se soluciona con el siguiente script
 
-      ```bash
-      pip install --force-reinstall 'pinecone-client==5.0.1' 'pinecone-plugin-inference>=1.0.3,<2.0.0'
-      ```
-  
-- Estando `~/INVIAS_NLP (main)` ejecutar:
-  
-  ```bash
-  git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
-  ```
+       ```bash
+       pip install --force-reinstall 'pinecone-client==5.0.1' 'pinecone-plugin-inference>=1.0.3,<2.0.0'
+       ```
 
-  - Solo text del commit
+3. Estando `~/INVIAS_NLP (main)` ejecutar:
 
-    ```bash
-    git log --pretty=format:"Message: %s" > ./approach_1/commits.txt
+   ```bash
+   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
+   ```
+
+   - Solo text del commit
+
+     ```bash
+     git log --pretty=format:"Message: %s" > ./approach_1/commits.txt
+     ```
+
+4. Reinstala PyTorch ignorando archivos en caché para evitar errores.
+
+   ```bash
+   pip install torch --no-cache-dir
+   ```
+
+   o purga la cache
+
+   ```bash
+   pip cache purge
+   ```
+
+   - Si se necesita instalar una versión específica, *(Reemplazar `2.0.1` por la versión que se necesite).*  
+
+     ```bash
+     pip install torch==2.0.1 --no-cache-dir
+     ```
+
+5. Archivos modificados en un commit específico en Git  
+
+   - Ver solo los nombres de los archivos modificados en un commit
+
+     ```bash
+     git show --name-only <commit_hash>
+     ```
+
+     Esto te muestra el mensaje del commit y los nombres de los archivos modificados.
+
+     ```plaintext
+     commit 1ee305a080c701ad193cbb3ee15919493096729c (HEAD -> main, origin/main, origin/HEAD)
+     Author: maodecolombia <maodecolombia@gmail.com>
+     Date:   Tue May 20 14:52:38 2025 -0500
+     - Minor Edits: Presentación del archivo README.md
+     README.md
+     approach_1/Prompt_AI_Gemini_V01A.md
+     (NLP_Congreso) 
+     ```
+
+   - Alternativa rápida para ver el listado limpio (sin mensaje ni diff)**
+
+     ```bash
+     git diff-tree --no-commit-id --name-only -r <commit_hash>
+     ```
+
+     Este comando lista solo los nombres de los archivos.
+
+     ```bash
+     $ git diff-tree --no-commit-id --name-only -r  1ee305a
+     README.md
+     approach_1/Prompt_AI_Gemini_V01A.md
+     (NLP_Congreso)
+     ```
+
+6. **Deshacer un commit que ya se ha subido al repositorio remoto**, hay dos enfoques
+
+   🔄 OPCIÓN 1: **Deshacer commit remoto y sobrescribirlo (fuerza total)**
+
+   Si quieres eliminar el commit remoto como si **nunca hubiera existido**, y **puedes forzar el push** (por ejemplo, trabajas solo o el equipo lo permite):
+
+    🔧 Pasos:
+
+   ```bash
+   # 1. Vuelve al estado anterior al último commit
+   git reset --hard HEAD~1
+
+   # 2. Fuerza el push para sobrescribir en el remoto
+   git push origin HEAD --force
     ```
 
-- Reinstala PyTorch ignorando archivos en caché para evitar errores.
-  
-  ```bash
-  pip install torch --no-cache-dir
-  ```
-  
-  o purga la cache
+   Esto **borra** el commit local y remoto.
 
-  ```bash
-  pip cache purge
-  ```
-  
-  - Si se necesita instalar una versión específica, *(Reemplazar `2.0.1` por la versión que se necesite).*  
-  
-    ```bash
-    pip install torch==2.0.1 --no-cache-dir
-    ```
+   🔁 OPCIÓN 2: **Revertir el commit (crea un nuevo commit que deshace el anterior)**
 
-- Archivos modificados en un commit específico en Git
-  
-  - Ver solo los nombres de los archivos modificados en un commit
+   Si **no puedes sobrescribir el historial remoto** (por políticas de equipo), lo correcto es **revertir**:
 
-    ```bash
-    git show --name-only <commit_hash>
-    ```
+   ```bash
+   git revert <commit_hash>
+   git push origin main
+   ```
 
-    Esto te muestra el mensaje del commit y los nombres de los archivos modificados.
-
-    ```bash
-    commit 1ee305a080c701ad193cbb3ee15919493096729c (HEAD -> main, origin/main, origin/HEAD)
-    Author: maodecolombia <maodecolombia@gmail.com>
-    Date:   Tue May 20 14:52:38 2025 -0500
-
-    - Minor Edits: Presentación del archivo README.md
-
-    README.md
-    approach_1/Prompt_AI_Gemini_V01A.md
-    (NLP_Congreso) 
-    ```
-
-  - Alternativa rápida para ver el listado limpio (sin mensaje ni diff)**
-
-    ```bash
-    git diff-tree --no-commit-id --name-only -r <commit_hash>
-    ```
-
-    Este comando lista solo los nombres de los archivos.
-
-    ```bash
-    $ git diff-tree --no-commit-id --name-only -r  1ee305a
-    README.md
-    approach_1/Prompt_AI_Gemini_V01A.md
-    (NLP_Congreso)
-    ```
+   Esto **no borra historial**, sino que agrega un commit que revierte los cambios del anterior. Es más seguro y colaborativo.
