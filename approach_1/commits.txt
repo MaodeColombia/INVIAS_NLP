@@ -1,3 +1,9 @@
+Commit: fc4f0eb - Date: 20250530-091207
+Message: Merge branch 'main' of github.com:MaodeColombia/INVIAS_NLP - Author: MaodeColombia
+Commit: 9b585b6 - Date: 20250530-082749
+Message: Merge branch 'main' of https://github.com/MaodeColombia/INVIAS_NLP - Author: maodecolombia
+Commit: 66fed6f - Date: 20250529-175705
+Message: Code_INVIAS: Se agrega descrición de la limitaciones del codigo encontradas - Author: MaodeColombia
 Commit: f010d1d - Date: 20250529-172229
 Message: - Minor Edits: Se agrega descripción al notebook - Author: MaodeColombia
 Commit: b71a3c7 - Date: 20250529-164940
@@ -20,6 +26,8 @@ Commit: 6844086 - Date: 20250528-162450
 Message: - Minor Edits: Uso del `stash` para trabajar con el pull del repositorio que trabajé en la oficina - Author: MaodeColombia
 Commit: fc141d8 - Date: 20250528-154957
 Message: - Minor Edits: Merge de los archivos en laptop y desktop-INVIAS de los archivos PDF_loader.ipynb y temp.ipynb - Author: MaodeColombia
+Commit: 17c4333 - Date: 20250527-162951
+Message: - Minor Edits: Guardado de archivo para contrastar desktop office con laptop - Author: maodecolombia
 Commit: b0af833 - Date: 20250527-161708
 Message: - Minor Edits: modificación de rutas de imagenes de langc_v01.md - Author: maodecolombia
 Commit: 651c615 - Date: 20250527-154755

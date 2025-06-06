@@ -152,7 +152,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/). Referencia `langc`
   
-  - Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. https://platzi.com/cursos/langchain-chatbots/. Consultado el 23 de mayo de 2025.
+  - Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. <https://platzi.com/cursos/langchain-chatbots/>. Consultado el 23 de mayo de 2025.
   - [Recursos del curso](/Platzi_codes/langc/)
   
 - [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>
@@ -274,7 +274,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 8. **Trabajo de grado de Implementación de técnicas de RAG sobre LLM.**
 
-   Collado Alonso, M. Á. (2024). Implementación de técnicas de RAG (Retrieval Augmented Generation) sobre LLM (Large Language Models) para la extracción y generación de documentos en las entidades públicas [Trabajo de fin de máster, Universidad de Valladolid]. UVaDOC. https://uvadoc.uva.es/handle/10324/71509
+   Collado Alonso, M. Á. (2024). Implementación de técnicas de RAG (Retrieval Augmented Generation) sobre LLM (Large Language Models) para la extracción y generación de documentos en las entidades públicas [Trabajo de fin de máster, Universidad de Valladolid]. UVaDOC. <https://uvadoc.uva.es/handle/10324/71509>
 
 9. **Fine-Tuning Guide**  
    OpenAI. (2025). *Fine-Tuning Guide*. Recuperado de [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)  
@@ -282,13 +282,13 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
    Guía oficial sobre cómo realizar el ajuste fino de modelos de lenguaje, incluyendo los pasos necesarios, configuraciones avanzadas y ejemplos prácticos para personalizar modelos en tareas específicas.
 
 10. **Counting Tokens with Tiktoken**  
-    OpenAI. (2025). How to Count Tokens with Tiktoken. Recuperado de https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken
+    OpenAI. (2025). How to Count Tokens with Tiktoken. Recuperado de <https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken>
 
     Ejemplo práctico sobre cómo contar tokens utilizando la biblioteca tiktoken, con explicaciones detalladas sobre la tokenización y su impacto en el uso de la API de OpenAI.
 
 ### Modelos Hugging Face
 
-- Hugging Face. (n.d.). google/pegasus-xsum. Hugging Face. Retrieved January 3, 2025, from https://huggingface.co/google/pegasus-xsum
+- Hugging Face. (n.d.). google/pegasus-xsum. Hugging Face. Retrieved January 3, 2025, from <https://huggingface.co/google/pegasus-xsum>
 
 ## Useful commands
 
@@ -409,4 +409,4 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
    git push origin main
    ```
 
-   Esto **no borra historial**, sino que agrega un commit que revierte los cambios del anterior. Es más seguro y colaborativo.
+   Esto **no borra historial**, sino que agrega un commit que revierte los cambios del anterior. Es más seguro y colaborativo.  
