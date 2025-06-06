@@ -1,6 +1,6 @@
 # Curso de Desarrollo de Chatbots con OpenAI (oaib)
 
-## [Desarrollo del archivo oaib_v01_tweets_classifier_original.ipynb](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
+## Desarrollo del video 1. Archivo [oaib_v01_tweets_classifier_original.ipynb](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
 
 ### Sección "Clasificador de Tweets con Completion API (Legacy)"
 
@@ -17,19 +17,32 @@
 
   - [Tabla con los principales parámetros de generación de texto en la API de OpenAI y sus rangos de valores permitidos (vigentes a junio de 2025)](v01-script01_rangos-temperature,top_p,frequency_penalty,presence_penalty.md)
 
-#### Recursos del video
-
-- https://platform.openai.com/examples/default-tweet-classifier
-
----
+### Sección "Imprimir respuesta"
 
 ![alt text](../../../assets/images/oaib_v01-seccion_Imprimir_respuesta.png)
 
 [Muestra de la estructura interna completa de la respuesta que devuelve el endpoint de `Chat Completions`](v01-script01_estructura_interna_endpoint_de_Chat_Completions.md)
 
-#### Recursos del video
+#### Recursos
 
-- 
+- https://platform.openai.com/examples/default-tweet-classifier
+
+---
+
+## Desarrollo del video 2
+
+#### Recursos
+
+- [Key concepts. Key concepts to understand when working with the OpenAI API.](https://platform.openai.com/docs/concepts)  
+  
+  - [Models](https://platform.openai.com/docs/models)  
+
+La documentación de OpenAI se divide en  
+
+- [Docs](https://platform.openai.com/docs/overview) .
+  
+- [API Reference](https://platform.openai.com/docs/api-reference/introduction)  
+
 ---
 
 ## [Desarrollo del archivo ""](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
