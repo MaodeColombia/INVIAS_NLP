@@ -45,6 +45,15 @@ La documentación de OpenAI se divide en
 
 ---
 
+## Desarrollo del video 3
+
+#### Recursos
+
+- [Text generation and prompting](https://platform.openai.com/docs/guides/text?api-mode=responses)
+- [Chat Completions](https://platform.openai.com/docs/api-reference/chat)
+
+---
+
 ## [Desarrollo del archivo ""](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
 
 ### Sección ""
