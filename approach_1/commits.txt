@@ -1,3 +1,9 @@
+Commit: cd8c378 - Date: 20250606-151128
+Message: Code_Example-oaib_v1: Desarrollo de codigo de ejemplo, seccion "Imprimir respuesta" - Author: maodecolombia
+Commit: f446b33 - Date: 20250606-150018
+Message: Code_Example-oaib_v1: Profundizacion en la teoria de las secciones "Clasificador de Tweets con Completion API (Legacy)" y "Imprimir respuesta" - Author: maodecolombia
+Commit: bc1ae96 - Date: 20250606-000747
+Message: - Minor Edits: Cambios de nombre de archivos + otros cambios - Author: MaodeColombia
 Commit: e6c2199 - Date: 20250605-234401
 Message: Code_Example-oaib_v1: Desarrollo de codigo de ejemplo, seccion "Clasificador de Tweets con Completion API (Legacy)" - Author: MaodeColombia
 Commit: d68f15a - Date: 20250605-230507

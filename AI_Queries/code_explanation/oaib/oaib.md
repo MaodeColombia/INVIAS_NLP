@@ -17,8 +17,20 @@
 
   - [Tabla con los principales parámetros de generación de texto en la API de OpenAI y sus rangos de valores permitidos (vigentes a junio de 2025)](v01-script01_rangos-temperature,top_p,frequency_penalty,presence_penalty.md)
 
+#### Recursos del video
+
+- https://platform.openai.com/examples/default-tweet-classifier
+
+---
+
+![alt text](../../../assets/images/oaib_v01-seccion_Imprimir_respuesta.png)
+
 [Muestra de la estructura interna completa de la respuesta que devuelve el endpoint de `Chat Completions`](v01-script01_estructura_interna_endpoint_de_Chat_Completions.md)
 
+#### Recursos del video
+
+- 
+---
 
 ## [Desarrollo del archivo ""](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
 
