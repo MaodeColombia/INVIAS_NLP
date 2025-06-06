@@ -60,3 +60,17 @@ Cada modelo responde a necesidades particulares, desde generación creativa de t
 [4]: https://platform.openai.com/docs/models?utm_source=chatgpt.com "OpenAI Platform Models"
 [5]: https://openai.com/index/introducing-codex/?utm_source=chatgpt.com "Introducing Codex - OpenAI"
 [6]: https://cookbook.openai.com/examples/partners/model_selection_guide/model_selection_guide?utm_source=chatgpt.com "Practical Guide for Model Selection for Real‑World Use Cases"
+
+---
+
+El modelo **gpt-3.5-turbo-instruct** fue una variante de la familia GPT-3.5 diseñada específicamente para seguir instrucciones de forma más estricta (por ejemplo, “resume este texto”, “clasifica sentiment”), diferenciándose de la llamada “gpt-3.5-turbo” que se centra en diálogos de chat. Sin embargo, a partir del **31 de mayo de 2025**, OpenAI lo marcó como retirado (“retired”) y dejó de estar disponible en la API. ([learn.microsoft.com][1], [community.openai.com][2])
+
+En la práctica, esto significa:
+
+* **Hasta mayo de 2025** era posible invocar `gpt-3.5-turbo-instruct` directamente en el endpoint de Completions para tareas basadas en instrucciones.
+* **Después del 31 de mayo de 2025**, ya no se puede usar; en su lugar, se recomiendan las versiones de chat (por ejemplo, `gpt-3.5-turbo` o las familias GPT-4o/GPT-4.1) para casos de uso similares, pues fueron optimizadas para responder instrucciones dentro de un contexto conversacional. ([learn.microsoft.com][1])
+
+En resumen, **gpt-3.5-turbo-instruct estuvo vigente hasta finales de mayo de 2025**, pero OpenAI lo jubiló a favor de los modelos de chat más recientes, que ofrecen mejor rendimiento y manejo de contexto para instrucciones.
+
+[1]: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/model-retirements?utm_source=chatgpt.com "Azure OpenAI in Azure AI Foundry Models model retirements"
+[2]: https://community.openai.com/t/how-can-i-access-old-apis-in-2025/1248865?utm_source=chatgpt.com "How can I access old APIs in 2025 - OpenAI Developer Community"
