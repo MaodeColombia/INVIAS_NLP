@@ -1,3 +1,11 @@
+Commit: e6c2199 - Date: 20250605-234401
+Message: Code_Example-oaib_v1: Desarrollo de codigo de ejemplo, seccion "Clasificador de Tweets con Completion API (Legacy)" - Author: MaodeColombia
+Commit: d68f15a - Date: 20250605-230507
+Message: - Minor Edits: Reubicación de archivos - Author: MaodeColombia
+Commit: 220225a - Date: 20250605-221310
+Message: Code_Example-oaib_v01: se retoma el curso de "Desarrollo de Chatbots con OpenAI" - Author: MaodeColombia
+Commit: 0d6e9de - Date: 20250605-215617
+Message: - Minor Edits:  cambios al archivo README.md sugeridos por markdownlint - Author: MaodeColombia
 Commit: fc4f0eb - Date: 20250530-091207
 Message: Merge branch 'main' of github.com:MaodeColombia/INVIAS_NLP - Author: MaodeColombia
 Commit: 9b585b6 - Date: 20250530-082749

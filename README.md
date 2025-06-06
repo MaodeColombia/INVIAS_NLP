@@ -159,7 +159,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
   - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
 
-- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/) <sub>[oaib]</sub> 
+- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/). Referencia `oaib` 
   
   - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
   
