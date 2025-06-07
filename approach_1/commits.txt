@@ -1,3 +1,5 @@
+Commit: bce30a5 - Date: 20250607-121430
+Message: Code_Example-oaib_v03: Desarrollo de codigo de ejemplo, renovando el codigo obsoleto + actualización archivo prompt_AI_GPT-try-exception_uses.md - Author: MaodeColombia
 Commit: 6ad690c - Date: 20250606-182440
 Message: Code_Example-oaib_v3: Inicio del Desarrollo de codigo de ejemplo - Author: MaodeColombia
 Commit: 0abb392 - Date: 20250606-162639
