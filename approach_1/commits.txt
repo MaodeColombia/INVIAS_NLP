@@ -1,3 +1,9 @@
+Commit: 6ad690c - Date: 20250606-182440
+Message: Code_Example-oaib_v3: Inicio del Desarrollo de codigo de ejemplo - Author: MaodeColombia
+Commit: 0abb392 - Date: 20250606-162639
+Message: Code_Example-oaib_v02: Desarrollo del video, resumen incluido en oaib.md - Author: maodecolombia
+Commit: 8580d0d - Date: 20250606-154225
+Message: - Minor Edits: Cambios de nombre (oaib_v01.md a oaib.md) y su contenido + README.md + commits.txt - Author: maodecolombia
 Commit: cd8c378 - Date: 20250606-151128
 Message: Code_Example-oaib_v1: Desarrollo de codigo de ejemplo, seccion "Imprimir respuesta" - Author: maodecolombia
 Commit: f446b33 - Date: 20250606-150018

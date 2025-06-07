@@ -34,14 +34,11 @@
 #### Recursos
 
 - [Key concepts. Key concepts to understand when working with the OpenAI API.](https://platform.openai.com/docs/concepts)  
-  
   - [Models](https://platform.openai.com/docs/models)  
 
-La documentación de OpenAI se divide en  
-
-- [Docs](https://platform.openai.com/docs/overview) .
-  
-- [API Reference](https://platform.openai.com/docs/api-reference/introduction)  
+- La documentación de OpenAI se divide en  
+  - [Docs](https://platform.openai.com/docs/overview).  
+  - [API Reference](https://platform.openai.com/docs/api-reference/introduction)  
 
 ---
 
