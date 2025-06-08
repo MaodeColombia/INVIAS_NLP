@@ -6,7 +6,7 @@ A continuación se presenta una tabla de resumen con las principales familias de
 |                             | GPT-4o                    | \$0.0025 / \$0.0025 por 1 000 tokens (input)\*                | `chat.completions`     | ([barrons.com][2])          |
 |                             | GPT-3.5 Turbo             | \$0.0005 / \$0.0015 por 1 000 tokens                          | `chat.completions`     | ([blog.risingstack.com][3]) |
 | **Completions**             | text-davinci-003          | \$0.020 / \$0.060 por 1 000 tokens                            | `completions`          | ([community.openai.com][4]) |
-| **Embeddings**              | text-embedding-ada-002    | \$0.0001 por 1 000 tokens                                     | `embeddings`           | ([gptforwork.com][5])       |
+| **Embeddings**              | text-embedding-ada-002  # ⚠️ cambiar a "text-embedding-3-small"    | \$0.0001 por 1 000 tokens                                     | `embeddings`           | ([gptforwork.com][5])       |
 | **Imágenes**                | DALL·E 3 (1024×1024)      | \$0.04 por imagen (1024×1024 estándar)                        | `images.generate`      | ([apidog.com][6])           |
 | **Audio (transcripción)**   | Whisper                   | \$0.006 por minuto de audio transcrito                        | `audio.transcriptions` | ([zapier.com][7])           |
 | **Modelos de Código**       | codex-mini-latest         | \$0.0015 / \$0.006 por 1 000 tokens (input/output)            | `completions` (Codex)  | ([techrepublic.com][8])     |

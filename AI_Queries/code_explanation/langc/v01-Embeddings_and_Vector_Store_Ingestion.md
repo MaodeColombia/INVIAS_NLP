@@ -11,18 +11,18 @@ from langchain.vectorstores import Chroma
 
 ### 🔹 ¿Qué hacen estas líneas?
 
-* **`OpenAIEmbeddings`**: clase que permite convertir texto en vectores numéricos utilizando el modelo `text-embedding-ada-002` de OpenAI.
+* **`OpenAIEmbeddings`**: clase que permite convertir texto en vectores numéricos utilizando el modelo `text-embedding-ada-002`  (# ⚠️ cambiar a "text-embedding-3-small") de OpenAI.
 * **`Chroma`**: es una base de datos vectorial en memoria (o persistente) que permite almacenar y buscar vectores de texto.
 
 ---
 
 ```python
-embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
+embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")  # ⚠️ cambiar a "text-embedding-3-small"
 ```
 
 ### 🔹 ¿Qué hace esta línea?
 
-* Crea un **objeto de embeddings** que usará el modelo `text-embedding-ada-002`.
+* Crea un **objeto de embeddings** que usará el modelo `text-embedding-ada-002`.  # ⚠️ cambiar a "text-embedding-3-small"
 * Este modelo de OpenAI transforma fragmentos de texto en **vectores de 1536 dimensiones**, útiles para búsquedas semánticas.
 
 > 📌 Este paso es obligatorio antes de indexar cualquier documento en una base vectorial.

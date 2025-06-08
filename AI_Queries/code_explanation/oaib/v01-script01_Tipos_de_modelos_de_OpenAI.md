@@ -45,7 +45,7 @@ Estos modelos no están diseñados específicamente para chat, sino para generar
 
 * **Chat**: GPT-4.1 (1 M tokens, mejora en codificación), GPT-4o (multimodal), GPT-3.5 Turbo (costo/eficiencia).
 * **Completions**: text-davinci-003, text-curie-001, text-babbage-001, text-ada-001.
-* **Embeddings**: text-embedding-ada-002.
+* **Embeddings**: text-embedding-ada-002.  # ⚠️ cambiar a "text-embedding-3-small"
 * **Imágenes**: DALL·E 3.
 * **Audio**: Whisper (whisper-1).
 * **Código**: Codex.
