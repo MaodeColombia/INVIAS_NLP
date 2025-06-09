@@ -1,3 +1,11 @@
+Commit: 047056d - Date: 20250609-120102
+Message: Code_Example-emlhf_v03: Desarrollo de codigo de ejemplo, sección "Instalamos Gradio" - Author: maodecolombia
+Commit: 19e2bbf - Date: 20250609-115154
+Message: - Minor Edits: Se incluye el archivo Installed_packages.md - Author: maodecolombia
+Commit: 9f1c9d9 - Date: 20250609-114621
+Message: - Minor Edits: Se reubican los archivos commits.txt, requirements.txt y tree.txt - Author: maodecolombia
+Commit: 1e5481b - Date: 20250609-003005
+Message: Code_Example-oaib_v04: Desarrollo de código de ejemplo y renovando código obsoleto - Author: MaodeColombia
 Commit: b3afaeb - Date: 20250608-223608
 Message: AI_Queries: Uso de f-string (formatted string literal) - Author: MaodeColombia
 Commit: 50a31c2 - Date: 20250607-212841

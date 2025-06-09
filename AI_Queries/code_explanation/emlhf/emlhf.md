@@ -16,8 +16,30 @@
 
 3. Tus primeros demos con Gradio  
   
+   - Sección "Demo básico"
+  
+     ![alt text](../../../assets/images/emlhf_v03_seccion_demo_basico.png)
+  
+     Respuesta del script:
+  
+     ![alt text](../../../assets/images/emlhf_v03_seccion_demo_basico_RESPUESTA.png)
+
+     Cada uso de la interfaz de gradio se registra en un archivo CSV, creado automáticamente al lanzar el script
+     > Platzi_codes\emlhf\v03\.gradio\flagged\dataset1.csv
+
+     ![alt text](../../../assets/images/emlhf_v03_seccion_demo_basico_logging.png)
+  
+   - Sección "Demo básico con Gradio con caja de texto personalizada"
+  
+     ![alt text](../../../assets/images/emlhf_v03_seccion_demo_basico_input.png)
+  
+     Respuesta del script:
+  
+     ![alt text](../../../assets/images/emlhf_v03_seccion_demo_basico_input_RESPUESTA.png)
+  
    Recursos:
    - [Quickstart - gradio](https://www.gradio.app/guides/quickstart)
+     - [Este es el mismo ejemplo del video 3 - Building Your First Demo](https://www.gradio.app/guides/quickstart#building-your-first-demo)
    - [https://www.gradio.app/docs](https://www.gradio.app/docs)
    - [Platzi Community - huggingface](https://huggingface.co/platzi)
 
