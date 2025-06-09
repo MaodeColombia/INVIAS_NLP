@@ -150,20 +150,22 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 ### Cursos de Platzi
 
-- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/). Referencia `langc`
-  
-  - Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. <https://platzi.com/cursos/langchain-chatbots/>. Consultado el 23 de mayo de 2025.
-  - [Recursos del curso](/Platzi_codes/langc/)
-  
-- [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>
+- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/). Etiqueta bibliográfica personalizada `langc`  
 
+  - Referencia bibliográfica APA v7:  
+    Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. <https://platzi.com/cursos/langchain-chatbots/>. Consultado el 23 de mayo de 2025.  
+  
+  - [La documentación generada en el desarrollo del curso se encuentra en Platzi_codes\langc](./Platzi_codes/langc/)
+
+- [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>  
+  
   - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
 
-- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/). Referencia `oaib` 
+- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/). Referencia `oaib`  
   
   - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
   
-    - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)
+    - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)  
 
 - [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/) <sub>[lanmr]</sub>
   
@@ -172,6 +174,13 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 - [Curso de Embeddings y Bases de Datos Vectoriales para NLP](https://platzi.com/cursos/embeddings-nlp/) <sub>[emydb]</sub>
 
   - Clase 13. Creación de un Motor de Búsqueda Semántico con Python - código: [`emydb_v13-Search_Embeddings.ipynb`](./Platzi_codes/emydb_v13-Search_Embeddings.ipynb)
+
+- [Curso de Experimentación en Machine Learning con Hugging Face](https://platzi.com/cursos/demos-machine-learning/). Etiqueta bibliográfica personalizada `emlhf`
+
+  - Referencia bibliográfica APA v7:  
+  
+    Platzi. (s.f.). Curso de Experimentación en Machine Learning con Hugging Face. Platzi. <https://platzi.com/cursos/demos-machine-learning/>. Consultado el 9 de junio de 2025.  
+  - Ubicaciones dentro del repositorio relacionados con el video [Platzi_codes](./Platzi_codes/emlhf/), [code_explanation](AI_Queries/code_explanation/emlhf/emlhf.md), [knowledge](AI_Queries/knowledge)
 
 ### Consultas a las Inteligenicias Artificiales
 
@@ -295,11 +304,11 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 ### Gitbash
 
 1. ```bash
-   pip freeze > ./approach_1/requirements.txt
+   pip freeze > ./support/requirements.txt
    ```  
 
 2. ```bash
-   pipdeptree > ./approach_1/tree.txt
+   pipdeptree > ./support/tree.txt
    ```
 
      - pipdeptree reporta los conflictos de la siguiente manera
@@ -320,13 +329,13 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 3. Estando `~/INVIAS_NLP (main)` ejecutar:
 
    ```bash
-   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./approach_1/commits.txt
+   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./support/commits.txt
    ```
 
    - Solo text del commit
 
      ```bash
-     git log --pretty=format:"Message: %s" > ./approach_1/commits.txt
+     git log --pretty=format:"Message: %s" > ./support/commits.txt
      ```
 
 4. Reinstala PyTorch ignorando archivos en caché para evitar errores.
