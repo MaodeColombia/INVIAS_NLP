@@ -1,6 +1,6 @@
-# Curso de Desarrollo de Chatbots con OpenAI (oaib)
+# [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/) (Referencia `oaib`)
 
-## Desarrollo del video 1. Archivo [oaib_v01_tweets_classifier_original.ipynb](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
+## Desarrollo del video 1: *Uso de Modelos GPT para Análisis de Texto en Python*. Archivo [oaib_v01_tweets_classifier_original.ipynb](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
 
 ### Sección "Clasificador de Tweets con Completion API (Legacy)"
 
@@ -29,7 +29,7 @@
 
 ---
 
-## Desarrollo del video 2
+## Desarrollo del video 2: *Uso de la Documentación de OpenAI para Fine Tuning y Text Completion*  
 
 #### Recursos
 
@@ -42,7 +42,7 @@
 
 ---
 
-## Desarrollo del video 3
+## Desarrollo del video 3: *Configuración y Uso de Chat Completions en OpenAI GPT*. Archivo [oaib_v03_chat_completion.ipynb](../../../Platzi_codes/oaib/v03/oaib_v03_chat_completion.ipynb)
 
 #### Recursos
 
@@ -51,6 +51,21 @@
 
 ---
 
+## Desarrollo del video 4: *Ajuste de Parámetros en Modelos de OpenAI para Mejorar Resultados*. Archivo [oaib_v04_cargar_modelo_openai.ipynb](../../../Platzi_codes/oaib/v04/oaib_v04_cargar_modelo_openai.ipynb)
+
+
+
+#### Recursos
+
+- [Create completion by OpenAI](https://platform.openai.com/docs/api-reference/completions/create)
+
+- [Repositorio Github del curso](https://github.com/platzi/curso-openai-api/tree/main/Clase%204%20Par%C3%A1metros%20de%20Completion)
+
+
+
+
+
+---
 ## [Desarrollo del archivo ""](../../../Platzi_codes/oaib/v01/oaib_v01_tweets_classifier_original.ipynb)
 
 ### Sección ""

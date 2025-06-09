@@ -1,3 +1,9 @@
+Commit: b3afaeb - Date: 20250608-223608
+Message: AI_Queries: Uso de f-string (formatted string literal) - Author: MaodeColombia
+Commit: 50a31c2 - Date: 20250607-212841
+Message: - Minor Edits:  Reemplazo del modelo de embedding de todos los archivos, se pasa de "text-embedding-ada-002" a "text-embedding-3-small" - Author: MaodeColombia
+Commit: 4ed0af6 - Date: 20250607-122802
+Message: Code_Example-oaib_v04: Inicio de desarrollo de codigo de ejemplo - Author: MaodeColombia
 Commit: bce30a5 - Date: 20250607-121430
 Message: Code_Example-oaib_v03: Desarrollo de codigo de ejemplo, renovando el codigo obsoleto + actualización archivo prompt_AI_GPT-try-exception_uses.md - Author: MaodeColombia
 Commit: 6ad690c - Date: 20250606-182440
