@@ -12,9 +12,9 @@
 
 ## Módulo 2: Gradio
 
-2. Introducción a Gradio
+2. Video *Introducción a Gradio*  
 
-3. Tus primeros demos con Gradio  
+3. Video *Tus primeros demos con Gradio*  
   
    - Sección "Demo básico"
   
@@ -43,41 +43,46 @@
    - [https://www.gradio.app/docs](https://www.gradio.app/docs)
    - [Platzi Community - huggingface](https://huggingface.co/platzi)
 
-4. Demos para clasificación de imágenes con Gradio
+4. Video *Demos para clasificación de imágenes con Gradio*  
+  
+   ![alt text](../../../assets/images/emlhf_v04_seccion_modelo_MobileNetV2_de_TensorFlow.png)
+  
+   [¿Qué hacen estas lineas?](v04_modelo_MobileNetV2_de_TensorFlow.md)
 
-5. Compartir demos en Spaces de Hugging Face
 
-6. Demo de transcripción de audio a texto con Gradio
+5. Video *Compartir demos en Spaces de Hugging Face*
 
-7. El futuro de los demos: Blocks
+6. Video *Demo de transcripción de audio a texto con Gradio*
 
-8. Blocks con Tabs y TabItem
+7. Video *El futuro de los demos: Blocks*
 
-9.  Gradio (cierre)
+8. Video *Blocks con Tabs y TabItem*
+
+9.  Video *Gradio (cierre)*
 
 ---
 
 ## Módulo 3: Streamlit
 
-10. Introducción a Streamlit
+10. Video *Introducción a Streamlit*
 
-11. Primeros pasos con Streamlit
+11. Video *Primeros pasos con Streamlit*
 
-12. Demo de generación de imágenes con Streamli
+12. Video *Demo de generación de imágenes con Streamli*
 
-13. Creando interfaz de demo de GAN
+13. Video *Creando interfaz de demo de GAN*
 
-14. Probando demo de generación de imágenes
+14. Video *Probando demo de generación de imágenes*
 
-15. Configurar un demo clonado desde Hugging Face
+15. Video *Configurar un demo clonado desde Hugging Face*
 
-16. Streamlit (cierre)
+16. Video *Streamlit (cierre)*
 
 
 ---
 
 ## Módulo 4: Tu historia en Machine Learning
 
-17. Sube tus propios demos
+17. Video *Sube tus propios demos
 
-18. Comparte tu proyecto de un demo de ML y certifícate
+18. Video *Comparte tu proyecto de un demo de ML y certifícate
