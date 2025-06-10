@@ -45,7 +45,13 @@
 
 4. Video *Demos para clasificación de imágenes con Gradio*  
   
+   Las lineas de código del archivo del video están obsoleas y no corren por lo que fue necesario renovarlo, despues de este código se presenta la renovación
+  
    ![alt text](../../../assets/images/emlhf_v04_seccion_modelo_MobileNetV2_de_TensorFlow.png)
+  
+   RENOVADO
+
+   ![alt text](../../../assets/images/emlhf_v04_seccion_modelo_MobileNetV2_de_TensorFlowRENOVADO.png)
   
    [¿Qué hacen estas lineas?](v04_modelo_MobileNetV2_de_TensorFlow.md)
 
