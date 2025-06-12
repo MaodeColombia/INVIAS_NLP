@@ -95,7 +95,7 @@ Desarrollar un sistema avanzado que permita al asistente del director de INVIAS 
 
 ---
 
-### Estrategia de Desarrollo - Prompts para la exploración de los temas propuestos
+## Estrategia de Desarrollo - Prompts para la exploración de los temas propuestos
 
 Propuesta de procesamiento de lenguaje de documentos internos de INVIAS para identificar documentos relacionados con temas puntuales de consulta
 
@@ -104,26 +104,35 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 - [approach_1](./approach_1/): Esta es el primer enfoque formal para iniciar el desarrollo, el cual se está desarrollano con *Gemini Advance 1.5 Pro with Deep Research*
 
   - [Prompt AI Gemini V01.md](./approach_1/Prompt_AI_Gemini_V01.md): Prompt para Gemini
-
     - [Prompt AI Gemini V01A.md](./approach_1/Prompt_AI_Gemini_V01A.md/): Respuesta
-
     - [Prompt AI Gemini V02A.md](./approach_1/Prompt_AI_Gemini_V02A.md/): Respuesta
-
     - [Prompt_AI_Gemini_V03A.md](./approach_1/Prompt_AI_Gemini_V03A.md): Respuesta
-
     - [Prompt_AI_Gemini_V04A.md](./approach_1/Prompt_AI_Gemini_V04A.md): Respuesta.
-
       - [Prompt_AI_Gemini_V04A_01.md](./approach_1/Prompt_AI_Gemini_V04A_01.md): Compleción vs. Embeddings en el Procesamiento del Lenguaje Natural
 
     - [Prompt_AI_Gemini_V05A.md](./approach_1/Prompt_AI_Gemini_V05A.md): Respuesta
-
     - [Prompt_AI_Gemini_V06A.md](./approach_1/Prompt_AI_Gemini_V06A.md): Respuesta
-
       - [Extracción de Información de PDF (texto)](./approach_1/Prompt_AI_Gemini_V06A_01.md): Respuesta
-
         - [Extracción de Información de PDF (metadata)](./approach_1/Prompt_AI_Gemini_V06A_01.01.md): Respuesta
 
-#### 📁 Árbol de directorios
+  - Directorio [MMO_codes](./MMO_codes/)
+    - [langc_v01.ipynb](MMO_codes/langc/v01/langc_v01.ipynb)
+
+      Feat: **Implementa pipeline de ingesta de PDFs para RAG**
+
+      Se desarrolla un script robusto para procesar una colección de documentos PDF y crear una base de datos vectorial para consultas semánticas usando LangChain.
+
+      El proceso incluye:
+      - Carga de PDFs desde un directorio especificado.
+      - Limpieza y normalización del texto extraído para asegurar la calidad de los datos.
+      - División de documentos en chunks manejables con superposición para mantener el contexto.
+      - Creación de embeddings usando el modelo text-embedding-3-small de OpenAI.
+      - Implementación de un sistema de procesamiento por lotes (batching) para manejar un gran volumen de documentos y evitar errores de límite de la API.
+      - Almacenamiento persistente de los embeddings y metadatos en una base de datos vectorial ChromaDB.
+
+      Este pipeline transforma los documentos estáticos en una base de conocimientos activa y consultable, que sirve como el núcleo para el sistema de Retrieval-Augmented Generation (RAG).
+
+### 📁 Árbol de directorios
 
 - 📁 AI_Queries/
   - 📁 [code_explanation/](./support/code_explanation.md)
@@ -136,7 +145,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 - 📁 assets/
   - 📁 images/
 
-#### 📦 Paquetes instalados
+### 📦 Paquetes instalados
 
 ## Identificación de temas futuros
 
@@ -146,45 +155,55 @@ Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la 
 
 ## Referencias
 
-Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo videos, cursos, lecturas y documentación técnica— se asigna una *referencia abreviada* que permite identificar su origen de forma concisa.
+Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo videos, cursos, lecturas y documentación técnica— se asigna una *Etiqueta bibliográfica personalizada* que permite identificar su origen de forma concisa.
 
 ### Cursos de Platzi
 
-- [Curso de LangChain](https://platzi.com/cursos/langchain-chatbots/). Etiqueta bibliográfica personalizada `langc`  
+- [Curso de LangChain](<https://platzi.com/cursos/langchain-chatbots/>). Etiqueta bibliográfica personalizada `langc`.
+
+  - Repositorio del curso en [Platzi_codes/langc](./Platzi_codes/langc/).
+  - Explicaciones del código en [AI_Queries/code_explanation/langc](./AI_Queries/code_explanation/langc)
+  - Adaptaciones del código del curso para el proyecto en [MMO_codes/langc](MMO_codes/langc).
 
   - Referencia bibliográfica APA v7:  
     Platzi. (s.f.). Curso de LangChain: Crea chatbots con LLMs y Python. Platzi. <https://platzi.com/cursos/langchain-chatbots/>. Consultado el 23 de mayo de 2025.  
-  
-  - [La documentación generada en el desarrollo del curso se encuentra en Platzi_codes\langc](./Platzi_codes/langc/)
 
-- [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/) <sub>[funpnl]</sub>  
-  
-  - [Clase 4. Configurar ambiente de trabajo](./Platzi_codes/C04_workspace.ipynb)
+- [Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK](https://platzi.com/cursos/python-lenguaje-natural/). Etiqueta bibliográfica personalizada `funpnl`.
 
-- [Curso de Desarrollo de Chatbots con OpenAI](https://platzi.com/cursos/openai-api-23/). Referencia `oaib`  
-  
-  - [Clase 5. Aplicación de ejemplo utilizando modelos de OpenAI - código: `oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/oaib_v05-adivinaranimal.ipynb)
-  
-    - [Version adaptada de `oaib_v05-adivinaranimal.ipynb`](./MMO_codes/GPT_adivinaranimal.ipynb)  
+  - Directorio del curso en el repositorio [Platzi_codes/funpnl](Platzi_codes/funpnl)
+  - Explicaciones del código en [~~pendiente desarrollo~~](AI_Queries/code_explanation)
+  - Adaptaciones del código del curso para el proyecto en [~~pendiente desarrollo~~](./MMO_codes/)
 
-- [Curso de LangChain para Manejo y Recuperación de Documentos](https://platzi.com/cursos/langchain-documents/) <sub>[lanmr]</sub>
-  
-  - Clase 2. Obtención de datos de la web con LangChain: Context aware data extraction - repositorio: [`curso-langchain-qa-documents`](https://github.com/platzi/curso-langchain-qa-documents.git) - código: [`oaib_v05-adivinaranimal.ipynb`](./Platzi_codes/lanmr_v02_text_extraction.ipynb)
+- [Curso de Desarrollo de Chatbots con OpenAI](<https://platzi.com/cursos/openai-api-23/>). Etiqueta bibliográfica personalizada `oaib`
 
-- [Curso de Embeddings y Bases de Datos Vectoriales para NLP](https://platzi.com/cursos/embeddings-nlp/) <sub>[emydb]</sub>
+  - Repositorio del curso en  [Platzi_codes/oaib](Platzi_codes/oaib)
+  - Explicaciones del código en [AI_Queries/code_explanation/oaib](./AI_Queries/code_explanation/oaib)
+  - Adaptaciones del código del curso para el proyecto en [~~pendiente desarrollo~~](./MMO_codes/)
 
-  - Clase 13. Creación de un Motor de Búsqueda Semántico con Python - código: [`emydb_v13-Search_Embeddings.ipynb`](./Platzi_codes/emydb_v13-Search_Embeddings.ipynb)
+- [Curso de LangChain para Manejo y Recuperación de Documentos](<https://platzi.com/cursos/langchain-documents/>) Etiqueta bibliográfica personalizada `lanmr`.
+
+  - Repositorio del curso en [Platzi_codes/lanmr](Platzi_codes/lanmr)
+  - Explicaciones del código en [~~pendiente desarrollo~~](AI_Queries/code_explanation)
+  - Adaptaciones del código del curso para el proyecto en [~~pendiente desarrollo~~](./MMO_codes/)
+
+- [Curso de Embeddings y Bases de Datos Vectoriales para NLP](https://platzi.com/cursos/embeddings-nlp/). Etiqueta bibliográfica personalizada `emydb`.
+
+  - Repositorio del curso en [Platzi_codes/emydb/](Platzi_codes/emydb/)
+  - Explicaciones del código en [~~AI_Queries/code_explanation/emydb~~](./AI_Queries/code_explanation/emydb)
+  - Adaptaciones del código del curso para el proyecto en [~~pendiente desarrollo~~](./MMO_codes/)
 
 - [Curso de Experimentación en Machine Learning con Hugging Face](https://platzi.com/cursos/demos-machine-learning/). Etiqueta bibliográfica personalizada `emlhf`
 
+  - Repositorio del curso en [Platzi_codes/emlhf](Platzi_codes/emlhf)
+  - Explicaciones del código en [AI_Queries/code_explanation/emlhf](./AI_Queries/code_explanation/emlhf)
+  - Adaptaciones del código del curso para el proyecto en [~~pendiente desarrollo~~](./MMO_codes/)
+
   - Referencia bibliográfica APA v7:  
-  
-    Platzi. (s.f.). Curso de Experimentación en Machine Learning con Hugging Face. Platzi. <https://platzi.com/cursos/demos-machine-learning/>. Consultado el 9 de junio de 2025.  
-  - Ubicaciones dentro del repositorio relacionados con el video [Platzi_codes](./Platzi_codes/emlhf/), [code_explanation](AI_Queries/code_explanation/emlhf/emlhf.md), [knowledge](AI_Queries/knowledge)
+    Platzi. (s.f.). Curso de Experimentación en Machine Learning con Hugging Face. Platzi. <https://platzi.com/cursos/demos-machine-learning/>. Consultado el 9 de junio de 2025.
 
 ### Consultas a las Inteligenicias Artificiales
 
-- [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
+
 
 - [Nociones básica de un archivo `requirements.txt`](./AI_Queries/knowledge/prompt_AI_GPT-Requirements.md)
 
@@ -214,11 +233,9 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/knowledge/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
 
-- [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-def.md)
 
 - [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/knowledge/prompt_AI_GPT-code_bloks-jupyternotebook.md)
 
-- [Los tipos de salida (return type) que devuelve una función](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-return_types.md)
 
 - [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/knowledge/prompt_ALGPT-with_open.md)
 
@@ -233,18 +250,39 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 - [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
 
 - [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/knowledge/prompt_AI_GPT-Transformer-how_works.md)
-
+- [¿Qué es git stash?](AI_Queries/knowledge/stash_usage.md)
+- [Extracción de texto de PDFs](AI_Queries/knowledge/prompt_AI_GPT-PDF_text_Extract.md)
+- [Lista por Comprensión (list comprehension) en Python](AI_Queries/knowledge/prompt_AI_GPT-list_comprehension_usage.md)
+- [JSON (JavaScript Object Notation): Explicación Completa](AI_Queries/knowledge/prompt_AI_GPT-JSON_usage.md)
+- [f-strings en Python](AI_Queries/knowledge/f-strings-formatted-string-literal.md)
+- [Registro de salida y errores en Bash: stdout, stderr y redirecciones](AI_Queries/knowledge/stdout_stderr_logging.md)
 - [Cómo crear un entorno virtual](./AI_Queries/knowledge/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
+- [Buscar archivos en Visual Studio Code (VSCode)](AI_Queries/knowledge/buscar_archivos_VSCode.md)
+- [Buenas Prácticas de Código - Clean Code](AI_Queries/knowledge/claen_code[buenas_practicas_de_codigo].md)
+  - [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-def.md)
+  - [Los tipos de salida (return type) que devuelve una función](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-return_types.md)
+
+- [¿Qué es pipeline?](AI_Queries/knowledge/pipeline.md)
+
+- Packages
+  - `chromadb`
+    - [`.run`](AI_Queries/knowledge/prompt_AI_GPT-chromadb_run_usage.md)
+    - [`.upsert`](AI_Queries/knowledge/prompt_AI_GPT-upsert_add_usage.md) ~~confirmar si este tema esta bien ubicado~~
+- DataFrame
+  - [`.dict`](AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md)
+- Git y GitHub
+  - [`git mv` en lugar de `mv`](./AI_Queries/knowledge/git_mv_usage.md/)
+  - [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
 
 #### Code explanation
 
-- [Curso de Langchain](/AI_Queries/code_explanation/)
+- [Curso de Langchain](./AI_Queries/code_explanation/langc/)
 
 ### Youtube
 
 - [Domina el API de OpenAI - De Principiante a Experto](https://youtube.com/playlist?list=PLgQnGGtCss_gYY4lsuO-hees3dBOqlyv4&si=7Xya0eqKDM1wqVMa)
 
-  - [Github](https://github.com/alarcon7a/openai-api-tutorial)
+  - [Repositorio GitHub - Tutorial API de OpenAI 2025](https://github.com/alarcon7a/openai-api-tutorial)
 
 ### Referencias Bibliográficas
 
@@ -419,60 +457,3 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
    ```
 
    Esto **no borra historial**, sino que agrega un commit que revierte los cambios del anterior. Es más seguro y colaborativo.  
-
-7. Al mover archivos en un repositorio Git usando Bash, el archivo **parece nuevo** para Git y aparece como **untracked**, mientras que el original aparece como **deleted**, **a menos que Git detecte automáticamente que fue un "rename" o "move"**. Para que Git registre correctamente ese movimiento como un cambio de ubicación (y no como eliminación + creación), sigue estos pasos:
-
-   - ✅ 1. Usa `git mv` en lugar de `mv`
-
-     Git tiene su propio comando para mover archivos y carpetas:
-
-     ```bash
-     git mv carpeta_origen/archivo.ext carpeta_destino/
-     ```
-
-     O para mover todo el contenido:
-
-     ```bash
-     mkdir -p carpeta_destino
-     git mv carpeta_origen/* carpeta_destino/
-     ```
-
-     > Esto le **informa a Git explícitamente** del movimiento y lo registra  como tal en el historial.
-
-   - ✅ 2. Si ya usaste `mv` por accidente
-
-     Si ya hiciste `mv` normal, puedes hacer que Git lo reconozca como un movimiento con:
-
-     ```bash
-     git add -A
-     ```
-
-     Git intentará detectar automáticamente los renames/moves basándose en el contenido de los archivos. Git es *heurístico* en esto (por defecto considera que un archivo movido debe tener al menos un 50% de contenido similar para que lo reconozca como "renombrado").
-
-   - ✅ 3. Verificar que lo detectó como rename
-
-     Después de agregar, puedes verificarlo con:
-
-     ```bash
-     git status
-     ```
-
-     Y mejor aún:
-
-     ```bash
-     git diff --cached --name-status
-     ```
-
-     Si ves algo como:
-
-     ```
-     R100    carpeta_origen/archivo.ext    carpeta_destino/archivo.ext
-     ```
-
-     Significa que Git detectó correctamente el "rename" (`R100` = rename con 100% de contenido idéntico).
-
-   📝 En resumen:
-
-   - Usa `git mv` para que Git registre correctamente el movimiento.
-   - Si ya usaste `mv`, puedes usar `git add -A` y Git intentará inferir el   movimiento.
-   - Verifica con `git diff --cached --name-status`.  
