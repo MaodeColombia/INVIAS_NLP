@@ -1,3 +1,23 @@
+Commit: 54609a4 - Date: 20250612-163249
+Message: Code_INVIAS: Nueva prueba de escritorio para MMO_codes\langc\v01\langc_v01.ipynb - Author: maodecolombia
+Commit: 86e47ec - Date: 20250612-090206
+Message: - Minor Edits: Organización del repositorio - Author: MaodeColombia
+Commit: debb5b9 - Date: 20250611-114648
+Message: Code_INVIAS: Se refactorizó el pipeline de Ingesta de PDFs para Consultas Semánticas con LangChain "langc_v01.ipynb" con Claude.ai y GEMINI, además se incluyó la prueba de escritorio - Author: MaodeColombia
+Commit: 9997c76 - Date: 20250611-103445
+Message: AI_Queries: "Buenas Prácticas de Código - Clean Code" `claen_code[buenas_practicas_de_codigo].md` - Author: MaodeColombia
+Commit: 608f174 - Date: 20250610-090057
+Message: Code_INVIAS: Archivo "langc_v01.ipynb", se agrega interfaz grafica de `gradio` - Author: MaodeColombia
+Commit: 6aa61d0 - Date: 20250610-085458
+Message: Code_Example-emlhf_v04: Del commit anterior faltaron dos imagnes - Author: MaodeColombia
+Commit: 7787020 - Date: 20250609-212141
+Message: ode_Example-emlhf_v04: Desarrollo de codigo de ejemplo, sección "Demos para clasificación de imágenes con Gradio", se realizó upgrade de Gradio, se renovó la seccion - Author: MaodeColombia
+Commit: c4f9325 - Date: 20250609-163607
+Message: Code_Example-emlhf_v04: Desarrollo de codigo de ejemplo, sección "Carga del modelo preentrenado MobileNetV2 con TensorFlow" - Author: maodecolombia
+Commit: 4ea617e - Date: 20250609-161552
+Message: Code_Example-emlhf_v04: Desarrollo de codigo de ejemplo, sección "Demos para clasificación de imágenes"; se instala package tensorflow, esto se registra "requirements.txt", "Installed_packages.md", "tensorflow_success.txt" + AI_query "stdout_stderr_logging.md" - Author: maodecolombia
+Commit: 95e86ad - Date: 20250609-151000
+Message: Code_Example-emlhf_v03: Desarrollo de codigo de ejemplo, sección "Demo básico", "Demo básico con Gradio con caja de texto personalizada" - Author: maodecolombia
 Commit: 047056d - Date: 20250609-120102
 Message: Code_Example-emlhf_v03: Desarrollo de codigo de ejemplo, sección "Instalamos Gradio" - Author: maodecolombia
 Commit: 19e2bbf - Date: 20250609-115154

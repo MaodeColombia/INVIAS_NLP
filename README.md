@@ -273,6 +273,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 - Git y GitHub
   - [`git mv` en lugar de `mv`](./AI_Queries/knowledge/git_mv_usage.md/)
   - [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
+  - [Sintaxis de escritura y formato básicos de Markdown](<AI_Queries/knowledge/sintaxis_de_escritura_y_formato basicos_de_github.md>)
 
 #### Code explanation
 
@@ -368,6 +369,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
    ```bash
    git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./support/commits.txt
+   
    ```
 
    - Solo text del commit
