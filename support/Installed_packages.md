@@ -51,3 +51,14 @@ Comandos ejecutados
 
 - [./AI_Queries/knowledge/stdout_stderr_logging](../AI_Queries/knowledge/stdout_stderr_logging.md)
   
+
+## `pipdeptree`
+
+Se instaló para generar y visualizar el árbol de dependencias de los paquetes Python instalados. **pipdeptree** es una herramienta esencial para entender cómo se relacionan las librerías en tu entorno, facilitar la detección de conflictos y optimizar la gestión de dependencias en proyectos de Machine Learning y desarrollo en Python.
+
+- [installed_packeges_log/pipdeptree_success.txt](installed_packeges_log/pipdeptree_success.txt)  
+- [requirements.txt](requirements.txt)  
+
+**Comandos ejecutados**
+
+- ""

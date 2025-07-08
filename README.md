@@ -203,8 +203,6 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 ### Consultas a las Inteligenicias Artificiales
 
-
-
 - [Nociones básica de un archivo `requirements.txt`](./AI_Queries/knowledge/prompt_AI_GPT-Requirements.md)
 
 - [Uso del argumento `-r` en un archivo `requirements.txt`](./AI_Queries/knowledge/prompt_AI_GPT-r_uses.md)
@@ -233,9 +231,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [Dirección de las operaciones realizadas sobre un **DataFrame** o **Series**, `axis=0` (vertical, para filas) y `axis=1`(horizontal, para columnas)](./AI_Queries/knowledge/prompt_AL_GPT-diferencias_axis0h_axis1v.md)
 
-
 - [Bloques de código compatibles con Jupyter Notebook en VSCode](./AI_Queries/knowledge/prompt_AI_GPT-code_bloks-jupyternotebook.md)
-
 
 - [El uso de `with`, la función `open()` y el manejo del archivo](./AI_Queries/knowledge/prompt_ALGPT-with_open.md)
 
@@ -274,6 +270,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
   - [`git mv` en lugar de `mv`](./AI_Queries/knowledge/git_mv_usage.md/)
   - [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
   - [Sintaxis de escritura y formato básicos de Markdown](<AI_Queries/knowledge/sintaxis_de_escritura_y_formato basicos_de_github.md>)
+  - [`git restore .`:Restaurar archivos en tu directorio de trabajo desde el índice o desde un commit ](AI_Queries/knowledge/git_restore_usage.md)
 
 #### Code explanation
 
@@ -342,6 +339,8 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 ### Gitbash
 
+#### pip
+
 1. ```bash
    pip freeze > ./support/requirements.txt
    ```  
@@ -350,35 +349,9 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
    pipdeptree > ./support/tree.txt
    ```
 
-     - pipdeptree reporta los conflictos de la siguiente manera
+   > pipdeptree reporta los conflictos de la siguiente manera
 
-       ```markdown
-       Warning!!! Possibly conflicting dependencies found:
-       \* pinecone-client==5.0.1
-         \- pinecone-plugin-inference [required: >=1.0.3,<2.0.0, installed: 3.1.0]
-       ------------------------------------------------------------------------
-       ```
-
-       Se soluciona con el siguiente script
-
-       ```bash
-       pip install --force-reinstall 'pinecone-client==5.0.1' 'pinecone-plugin-inference>=1.0.3,<2.0.0'
-       ```
-
-3. Estando `~/INVIAS_NLP (main)` ejecutar:
-
-   ```bash
-   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./support/commits.txt
-   
-   ```
-
-   - Solo text del commit
-
-     ```bash
-     git log --pretty=format:"Message: %s" > ./support/commits.txt
-     ```
-
-4. Reinstala PyTorch ignorando archivos en caché para evitar errores.
+3. Reinstala PyTorch ignorando archivos en caché para evitar errores.
 
    ```bash
    pip install torch --no-cache-dir
@@ -396,7 +369,22 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
      pip install torch==2.0.1 --no-cache-dir
      ```
 
-5. Archivos modificados en un commit específico en Git  
+#### git
+
+1. Estando `~/INVIAS_NLP (main)` ejecutar:
+
+   ```bash
+   git log --pretty=format:"Commit: %h - Date: %ad%nMessage: %s - Author: %an" --date=format:%Y%m%d-%H%M%S> ./support/commits.txt
+   
+   ```
+
+   - Solo text del commit
+
+     ```bash
+     git log --pretty=format:"Message: %s" > ./support/commits.txt
+     ```
+
+2. Ver los archivos modificados en un commit específico  
 
    - Ver solo los nombres de los archivos modificados en un commit
 
@@ -431,7 +419,7 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
      (NLP_Congreso)
      ```
 
-6. **Deshacer un commit que ya se ha subido al repositorio remoto**, hay dos enfoques
+3. **Deshacer un commit que ya se ha subido al repositorio remoto**, hay dos enfoques
 
    🔄 OPCIÓN 1: **Deshacer commit remoto y sobrescribirlo (fuerza total)**
 

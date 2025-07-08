@@ -1,0 +1,17 @@
+(NLP_Congreso) 
+mmartinezo@E-130200 MINGW64 ~/INVIAS_NLP (main)
+$ pip install --upgrade pipdeptree          
+Requirement already satisfied: pipdeptree in c:\users\mmartinezo\.virtualenvs\nlp_congreso\lib\site-packages (2.24.0)
+Collecting pipdeptree
+  Using cached pipdeptree-2.26.1-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: packaging>=24.1 in c:\users\mmartinezo\.virtualenvs\nlp_congreso\lib\site-packages (from pipdeptree) (24.2)
+Requirement already satisfied: pip>=24.2 in c:\users\mmartinezo\.virtualenvs\nlp_congreso\lib\site-packages (from pipdeptree) (25.1.1)
+Using cached pipdeptree-2.26.1-py3-none-any.whl (32 kB)
+Installing collected packages: pipdeptree
+  Attempting uninstall: pipdeptree
+    Found existing installation: pipdeptree 2.24.0
+    Uninstalling pipdeptree-2.24.0:
+      Successfully uninstalled pipdeptree-2.24.0
+Successfully installed pipdeptree-2.26.1
+(NLP_Congreso)
+mmartinezo@E-130200 MINGW64 ~/INVIAS_NLP (main)

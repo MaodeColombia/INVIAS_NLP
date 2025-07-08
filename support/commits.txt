@@ -1,3 +1,5 @@
+Commit: 63ba7e8 - Date: 20250616-153511
+Message: AI_Queries: "Sintaxis de escritura y formato básicos de Markdown.md" y "convencion_creación_etiquetas_bibliográficas(citation_keys).md" - Author: maodecolombia
 Commit: 54609a4 - Date: 20250612-163249
 Message: Code_INVIAS: Nueva prueba de escritorio para MMO_codes\langc\v01\langc_v01.ipynb - Author: maodecolombia
 Commit: 86e47ec - Date: 20250612-090206
