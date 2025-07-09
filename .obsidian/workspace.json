@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/ebook/LLM_Transformer_RAG_AI.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM_Transformer_RAG_AI"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/ebook/LLM_Transformer_RAG_AI.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LLM_Transformer_RAG_AI"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/ebook/LLM_Transformer_RAG_AI.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LLM_Transformer_RAG_AI"
+              "title": "Outline of README"
             }
           },
           {
@@ -184,10 +184,14 @@
   },
   "active": "98d022e24ee39178",
   "lastOpenFiles": [
+    "AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md",
+    "README.md",
+    "AI_Queries/knowledge/pipdeptree_usage.md",
+    "AI_Queries/knowledge/pipeline.md",
+    "AI_Queries/code_explanation/langc/langc_v01.md",
     "assets/ebook/LLM_Transformer_RAG_AI.md",
     "assets/ebook/_OceanofPDF.com_LLM_Transformer_RAG_AI_-_Et_Tu_Code.pdf",
     "assets/ebook/LLM_Transformer_RAG_AI.pdf",
-    "AI_Queries/knowledge/pipdeptree_usage.md",
     "assets/ebook/_OceanofPDF.com_LLM_Transformer_RAG_AI_-_Et_Tu_Code.pdf - Acceso directo.lnk",
     "assets/ebook",
     "assets/Untitled",

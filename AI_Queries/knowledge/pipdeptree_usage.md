@@ -1,20 +1,25 @@
 ---
-title: Uso de pipdeptree en Git Bash
+title: Uso de `pipdeptree` en Git Bash
+aliases:
+  - Pipdeptree
+  - Árbol_de_dependencias
 tags:
-  - gitbash
+  - pipdeptree
+  - python
+  - herramientas
 ---
 # Uso de `pipdeptree` en Git Bash
 
-A continuación tienes los comandos básicos para instalar, actualizar y usar **pipdeptree** en tu entorno de Git Bash.
+A continuación tienes los comandos básicos para instalar, actualizar y usar **pipdeptree** en tu entorno de Git Bash. Puedes pegar este fragmento directamente en tu repositorio de Obsidian.
+
+---
 
 ## 1. Instalar `pipdeptree`
 
 ```bash
 # Usando pip
 pip install pipdeptree
-```
 
-```bash
 # O, si usas pip3
 pip3 install pipdeptree
 ```
@@ -26,12 +31,16 @@ pip3 install pipdeptree
 pip install --upgrade pipdeptree
 ```
 
+---
+
 ## 3. Mostrar árbol de dependencias de todo el entorno
 
 ```bash
 # Muestra en formato texto el árbol completo
 pipdeptree
 ```
+
+---
 
 ## 4. Inspeccionar dependencias de un paquete específico
 
@@ -40,12 +49,16 @@ pipdeptree
 pipdeptree -p <nombre_paquete>
 ```
 
+---
+
 ## 5. Salida en formato JSON
 
 ```bash
 # Genera salida JSON para procesarla con otras herramientas
 pipdeptree --json
 ```
+
+---
 
 ## 6. Generar gráfico con Graphviz
 
@@ -59,6 +72,8 @@ pipdeptree --graph-output png > dependencies.png
 pipdeptree --graph-output dot > dependencies.dot
 ```
 
+---
+
 ## 7. Opciones útiles adicionales
 
 ```bash
@@ -68,11 +83,6 @@ pipdeptree --warn silence
 # Mostrar dependencias inversas (qué paquetes dependen de uno dado)
 pipdeptree --reverse --packages <nombre_paquete>
 ```
-
-> **Tip Obsidian**: Puedes incrustar el gráfico generado (`dependencies.png`) en tus notas usando:
-> ```markdown
-> ![[dependencies.png]]
-> ```
 
 ## Referencias
 

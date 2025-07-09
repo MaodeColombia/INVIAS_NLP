@@ -241,36 +241,58 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [Máximo número de tokens que se puede enviar a la API de OpenAI](./AI_Queries/knowledge/prompt_AI_GPT-max_output_tokens_to_API.md)
 
-- [Package Usage - tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-n_vocab.md)
-
-- [Package Usage - tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
 
 - [Cómo los modelos para embeddings como `sentence-transforme` y `ChatGpt` manejan inputs muy grandes](./AI_Queries/knowledge/prompt_AI_GPT-Transformer-how_works.md)
+
 - [¿Qué es git stash?](AI_Queries/knowledge/stash_usage.md)
+
 - [Extracción de texto de PDFs](AI_Queries/knowledge/prompt_AI_GPT-PDF_text_Extract.md)
+
 - [Lista por Comprensión (list comprehension) en Python](AI_Queries/knowledge/prompt_AI_GPT-list_comprehension_usage.md)
+
 - [JSON (JavaScript Object Notation): Explicación Completa](AI_Queries/knowledge/prompt_AI_GPT-JSON_usage.md)
+
 - [f-strings en Python](AI_Queries/knowledge/f-strings-formatted-string-literal.md)
+
 - [Registro de salida y errores en Bash: stdout, stderr y redirecciones](AI_Queries/knowledge/stdout_stderr_logging.md)
+
 - [Cómo crear un entorno virtual](./AI_Queries/knowledge/prompt_AI_GPT-Create_Virtual_environment+install_requirements.md)
+
 - [Buscar archivos en Visual Studio Code (VSCode)](AI_Queries/knowledge/buscar_archivos_VSCode.md)
+
 - [Buenas Prácticas de Código - Clean Code](AI_Queries/knowledge/claen_code[buenas_practicas_de_codigo].md)
   - [Principios SOLID, la estructura de una 'función en Python](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-def.md)
   - [Los tipos de salida (return type) que devuelve una función](./AI_Queries/knowledge/prompt_AI-GPT-SOLID_foundations-return_types.md)
 
 - [¿Qué es pipeline?](AI_Queries/knowledge/pipeline.md)
 
-- Packages
-  - `chromadb`
-    - [`.run`](AI_Queries/knowledge/prompt_AI_GPT-chromadb_run_usage.md)
-    - [`.upsert`](AI_Queries/knowledge/prompt_AI_GPT-upsert_add_usage.md) ~~confirmar si este tema esta bien ubicado~~
-- DataFrame
-  - [`.dict`](AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md)
-- Git y GitHub
-  - [`git mv` en lugar de `mv`](./AI_Queries/knowledge/git_mv_usage.md/)
-  - [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
-  - [Sintaxis de escritura y formato básicos de Markdown](<AI_Queries/knowledge/sintaxis_de_escritura_y_formato basicos_de_github.md>)
-  - [`git restore .`:Restaurar archivos en tu directorio de trabajo desde el índice o desde un commit ](AI_Queries/knowledge/git_restore_usage.md)
+#### Packages
+
+- `chromadb`
+
+  - [`.run`](AI_Queries/knowledge/prompt_AI_GPT-chromadb_run_usage.md)
+
+  - [`.upsert`](AI_Queries/knowledge/prompt_AI_GPT-upsert_add_usage.md) ~~confirmar si este tema esta bien ubicado~~
+
+- [tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-n_vocab.md)
+
+- [tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
+
+- [pipdeptree](AI_Queries/knowledge/pipdeptree_usage.md)
+
+#### DataFrame
+
+- [`.dict`](AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md)
+
+#### Git y GitHub
+
+- [`git mv` en lugar de `mv`](./AI_Queries/knowledge/git_mv_usage.md/)
+
+- [¿Qué es git stash?](./AI_Queries/knowledge/stash_usage.md)
+
+- [Sintaxis de escritura y formato básicos de Markdown](<AI_Queries/knowledge/sintaxis_de_escritura_y_formato basicos_de_github.md>)
+
+- [`git restore .`:Restaurar archivos en tu directorio de trabajo desde el índice o desde un commit](AI_Queries/knowledge/git_restore_usage.md)
 
 #### Code explanation
 
