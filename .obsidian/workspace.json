@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "support/commit_manual.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "commit_manual.md"
             }
           }
         ]
@@ -53,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "langc",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "support/commit_manual.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for commit_manual.md"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "support/commit_manual.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of commit_manual.md"
             }
           },
           {
@@ -184,8 +184,21 @@
   },
   "active": "98d022e24ee39178",
   "lastOpenFiles": [
-    "AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md",
     "README.md",
+    "support/commit_manual.md.md",
+    "support/Installed_packages.md",
+    "AI_Queries/knowledge/claen_code[buenas_practicas_de_codigo].md",
+    "support/code_explanation.md",
+    "MMO_codes/langc/v01/others/langc_v01[claude.ai].md",
+    "approach_1/Prompt_AI_Gemini_V01A.md",
+    "AI_Queries/knowledge/prompt_AI_GPT-about_PyMuPDF4LLM.md",
+    "AI_Queries/code_explanation/langc/v01-Chat_Models_and_Retrieval_Chains_for_Information_Querying.md",
+    "support/convencion_creación_etiquetas_bibliográficas(citation_keys).md",
+    "AI_Queries/knowledge/sintaxis_de_escritura_y_formato basicos_de_github.md",
+    "AI_Queries/code_explanation/oaib/oaib.md",
+    "AI_Queries/code_explanation/emlhf/emlhf.md",
+    "support/commits - copia.txt",
+    "AI_Queries/knowledge/prompt_AI_GPT-to_dict()_usage.md",
     "AI_Queries/knowledge/pipdeptree_usage.md",
     "AI_Queries/knowledge/pipeline.md",
     "AI_Queries/code_explanation/langc/langc_v01.md",
