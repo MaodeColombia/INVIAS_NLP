@@ -1,5 +1,8 @@
 # Sistema de Análisis de PDFs y Respuesta a Preguntas: INVIAS_NLP
 
+```toc
+```
+
 ## Objetivo
 
 Desarrollar un sistema avanzado que permita al asistente del director de INVIAS interactuar con documentos PDF mediante una interfaz de chatbot. El sistema deberá ser capaz de comprender preguntas en lenguaje natural, extraer información relevante de los PDFs y proporcionar respuestas precisas y concisas.
@@ -132,20 +135,46 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
       Este pipeline transforma los documentos estáticos en una base de conocimientos activa y consultable, que sirve como el núcleo para el sistema de Retrieval-Augmented Generation (RAG).
 
-### 📁 Árbol de directorios
+### Árbol de directorios
 
-- 📁 AI_Queries/
+- 📁 [.obsidian/](.obsidian)
+- 📁 [AI_Queries/](AI_Queries)
   - 📁 [code_explanation/](./support/code_explanation.md)
-- 📁 MMO_codes/
-- 📁 Platzi_codes/
+    - 📁 [emlhf/](AI_Queries/code_explanation/emlhf) → Etiqueta bibliográfica personalizada de [Curso de Experimentación en Machine Learning con Hugging Face](#cursos-de-platzi)
+    - 📁 [langc/](AI_Queries/code_explanation/langc) → Etiqueta bibliográfica personalizada de [Curso de LangChain](#cursos-de-platzi)
+    - 📁 [oaib/](AI_Queries/code_explanation/oaib) → Etiqueta bibliográfica personalizada de [Curso de Desarrollo de Chatbots con OpenAI](#cursos-de-platzi)
+  - 📁 [knowledge/](AI_Queries/knowledge)
 - 📁 approach_1/
   - 📁 outputs/
-  - 📁 deepping/
-  - 📁 upgrade_250107/
+    - 📁 deepping/
+    - 📁 upgrade_250107/
 - 📁 assets/
+  - 📁 DG_docs
+  - 📁 ebook
   - 📁 images/
+- 📁 MMO_codes/
+  - 📁 langc
+  - 📁 temp_office
+- 📁 Platzi_codes/
+  - 📁 emlhf
+  - 📁 emydb
+  - 📁 funpnl
+  - 📁 langc
+  - 📁 lanmr
+  - 📁 oaib
+- 📁 support
+- 📁 directory_structure_overview
+  - 📁 installed_packeges_log
 
-### 📦 Paquetes instalados
+#### 📦 Paquetes instalados
+
+[Registro de paquetes instalados](support/Installed_packages.md)
+
+[text](support/installed_packeges_log)
+
+## Manuales
+
+1. [Manual de Conventions para Mensajes de Commit](support/manual_commit.md)
 
 ## Identificación de temas futuros
 
