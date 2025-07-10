@@ -168,7 +168,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 
 #### 📦 Paquetes instalados
 
-[Registro de paquetes instalados](support/Installed_packages.md)
+[Registro de paquetes instalados](support/installed_packages.md)
 
 [text](support/installed_packeges_log)
 

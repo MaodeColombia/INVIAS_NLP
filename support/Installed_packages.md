@@ -62,3 +62,13 @@ Se instaló para generar y visualizar el árbol de dependencias de los paquetes 
 **Comandos ejecutados**
 
 - ""
+
+Disculpa la confusión, ¡tienes toda la razón! Mi error fue no ser lo suficientemente preciso.
+
+Lo que se instala es la librería **`python-dotenv`**. La función `load_dotenv()` es una parte específica (y la más utilizada) de esa librería. Es como decir que instalaste Microsoft Office, y luego usas Word. No instalaste "Word" de forma independiente, instalaste el paquete Office que lo incluye.
+
+## `load_dotenv` de `python-dotenv`
+
+Se instaló la librería **`python-dotenv`** para facilitar la gestión segura de **variables de entorno** en el proyecto. Esta herramienta permite cargar configuraciones sensibles, como claves de API y contraseñas, desde un archivo dedicado llamado `.env`. Al no incluir este archivo en el control de versiones (como Git), se mantiene la seguridad de las credenciales, evitando que queden expuestas en el código fuente o en repositorios públicos.
+
+La función principal de esta librería, **`load_dotenv()`**, es la que se encarga de leer el contenido del archivo `.env` y de inyectar esas variables en el entorno de ejecución del script de Python. Esto es crucial para el desarrollo colaborativo, ya que cada desarrollador puede tener su propia configuración local sin modificar el código base. Además, garantiza que el despliegue en entornos de producción sea más seguro y manejable, ya que las variables pueden ser gestionadas externamente al código.

@@ -1,0 +1,6 @@
+Collecting load_dotenv
+  Downloading load_dotenv-0.1.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: python-dotenv in c:\users\devel\.virtualenvs\unad-dbjylowd\lib\site-packages (from load_dotenv) (1.0.1)
+Downloading load_dotenv-0.1.0-py3-none-any.whl (7.2 kB)
+Installing collected packages: load_dotenv
+Successfully installed load_dotenv-0.1.0

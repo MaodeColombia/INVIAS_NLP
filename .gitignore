@@ -1,1 +1,5 @@
+# Configuraciones específicas de bóveda de Obsidian:
 .obsidian/
+
+# Archivo con las variables de entorno
+.env
