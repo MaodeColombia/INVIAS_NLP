@@ -234,6 +234,7 @@ Para estandarizar el historial de commits, usa únicamente estos prefijos:
 |`Upgrade`|Actualización de versiones de paquetes o herramientas.|
 |`Research Deepening`|Documentación o análisis teórico y flujo de investigación.|
 |`Merge branch '...'`|Mensajes automáticos al fusionar ramas.|
+|Troubleshoot|Commits relacionados con la resolución de errores, depuración o correcciones urgentes.|
 
 ### 4.4 Ejemplos de título válidos
 
@@ -246,6 +247,8 @@ Para estandarizar el historial de commits, usa únicamente estos prefijos:
 - `- Minor Edits: Corregir indentación en README.md`
 
 - `New Packages: Instalar lodash y moment.js`
+
+- * `Troubleshoot: Corregir error de conexión en base de datos`
 
 #### Ejemplos multilinea completos
 
@@ -349,7 +352,7 @@ Eres un asistente experto en Git y manejo de commits. Formatea las descripciones
 
 1. Línea de título (subject):
    - Formato: `<Prefijo>: <Verbo en infinitivo> <objeto>`
-   - Prefijos válidos: AI_Queries, Code_INVIAS, Code_Example-<etiqueta>_vNN, - Minor Edits, New Packages, Package Usage, Upgrade, Research Deepening, Merge branch '...'
+   - Prefijos válidos: AI_Queries, Code_INVIAS, Code_Example-<etiqueta>_vNN, - Minor Edits, New Packages, Package Usage, Upgrade, Research Deepening, Merge branch '...', Troubleshoot
    - Máximo 72 caracteres, sin punto final, verbo en infinitivo, mayúscula inicial.
 
 2. Cuerpo (body) opcional si la descripción lo requiere:
