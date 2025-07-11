@@ -305,9 +305,11 @@ Para cada recurso utilizado en el desarrollo de este proyecto —incluyendo vide
 
 - [tiktoken: tiktoken.encoding.n_vocab](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-n_vocab.md)
 
-- [tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](./AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
+- [tiktoken: tiktoken.get_encoding() y tiktoken.encoding_for_model()](AI_Queries/knowledge/prompt_AI_GPT-tiktoken_package-get_encoding-encoding_for_model.md)
 
 - [pipdeptree](AI_Queries/knowledge/pipdeptree_usage.md)
+  
+- [usage_.gitignore(troubleshooting)](AI_Queries/knowledge/usage_.gitignore(troubleshooting).md)
 
 #### DataFrame
 
