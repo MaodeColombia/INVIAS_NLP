@@ -223,18 +223,18 @@ La línea de título (subject) es la parte más visible del mensaje de commit. D
 
 Para estandarizar el historial de commits, usa únicamente estos prefijos:
 
-|Prefijo|Descripción breve|
-|---|---|
-|`AI_Queries`|Commits relacionados con ejemplos y consultas de IA.|
-|`Code_INVIAS`|Cambios en código fuente del proyecto INVIAS.|
-|`Code_Example-<etiqueta>_vNN`|Ejemplos de código asociados a video NN con etiqueta.|
-|`- Minor Edits`|Correcciones menores o ajustes de estilo.|
-|`New Packages`|Instalación de nuevas dependencias.|
-|`Package Usage`|Ejemplos de uso de librerías o APIs instaladas.|
-|`Upgrade`|Actualización de versiones de paquetes o herramientas.|
-|`Research Deepening`|Documentación o análisis teórico y flujo de investigación.|
-|`Merge branch '...'`|Mensajes automáticos al fusionar ramas.|
-|Troubleshoot|Commits relacionados con la resolución de errores, depuración o correcciones urgentes.|
+| Prefijo                       | Descripción breve                                                                                                                                                                                              |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `AI_Queries`                  | Commits relacionados con ejemplos, consultas de IA, uso de librerías, documentación de herramientas de IA o investigaciones prácticas sobre temas/modelos de Inteligencia Artificial.                          |
+| `Code_INVIAS`                 | Cambios en código fuente del proyecto INVIAS.                                                                                                                                                                  |
+| `Code_Example-<etiqueta>_vNN` | Ejemplos de código asociados a video NN con etiqueta.                                                                                                                                                          |
+| `- Minor Edits`               | Correcciones menores o ajustes de estilo.                                                                                                                                                                      |
+| `New Packages`                | Instalación de nuevas dependencias.                                                                                                                                                                            |
+| `Package Usage`               | Ejemplos de uso de librerías o APIs instaladas.                                                                                                                                                                |
+| `Upgrade`                     | Actualización de versiones de paquetes o herramientas.                                                                                                                                                         |
+| `Research Deepening`          | Documentación, profundización teórica o conceptual del dominio del proyecto, análisis teórico, estudios de viabilidad o análisis de estado del arte o flujo de investigación; no con el desarrollo particular. |
+| `Merge branch '...'`          | Mensajes automáticos al fusionar ramas.                                                                                                                                                                        |
+| Troubleshoot                  | Commits relacionados con la resolución de errores, depuración o correcciones urgentes.                                                                                                                         |
 
 ### 4.4 Ejemplos de título válidos
 

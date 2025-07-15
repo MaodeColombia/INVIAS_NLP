@@ -1,3 +1,29 @@
+Commit: 7ce3deb - Date: 20250711-093815
+Message: Troubleshoot: Detener rastreo de archivos .obsidian - Author: MaodeColombia
+Commit: 6a0559d - Date: 20250711-093122
+Message: Code_INVIAS: Actualizar manual de convenciones de commit - Author: MaodeColombia
+Commit: 0681408 - Date: 20250711-084311
+Message: Stop tracking .obsidian files - Author: MaodeColombia
+Commit: 6ff4fb3 - Date: 20250710-145926
+Message: AI_Queries: Pandoc para exportación de Notebooks a PDF - Author: MaodeColombia
+Commit: 32e4816 - Date: 20250710-145605
+Message: AI_Queries: Uso del método .item() en Python para extracción de valores method_.item()_usage.md - Author: MaodeColombia
+Commit: 72f79f0 - Date: 20250710-144456
+Message: New Packages: Instalar y configurar load_dotenv() - Author: MaodeColombia
+Commit: 41e37f0 - Date: 20250710-142309
+Message: - Minor Edits: Modificar `stash_usage.md` + crear `.gitignore` - Author: MaodeColombia
+Commit: c16696d - Date: 20250710-133354
+Message: - Minor Edits: Modificar README.md + manual_commit.md + code_explanation.md - Author: maodecolombia
+Commit: 1e97eba - Date: 20250709-113906
+Message: - Minor Edits: prueba de commit - Author: maodecolombia
+Commit: 4183c90 - Date: 20250709-094028
+Message: - Minor Edits: Se agrega informacion y se hacen cambio para uso compartido con obsidian - Author: maodecolombia
+Commit: eb410c2 - Date: 20250708-162735
+Message: Research Deepening: lectura de LLM_Transformer_RAG_AI.pdf, resumen (notebooklm) LLM_Transformer_RAG_AI.md (obsidian) - Author: maodecolombia
+Commit: 7dd4707 - Date: 20250708-143113
+Message: New Packages: Instalacion Obsidian, manejo de la carpeta del repositirio INVIAS_NPL como vault de Obsidian - Author: maodecolombia
+Commit: d2dc72b - Date: 20250708-114951
+Message: New Packages, Upgrade:  install pipdeptree, queda registrado en requirements.txt, Installed_packages.md, tambien upgrade pip - Author: maodecolombia
 Commit: 63ba7e8 - Date: 20250616-153511
 Message: AI_Queries: "Sintaxis de escritura y formato básicos de Markdown.md" y "convencion_creación_etiquetas_bibliográficas(citation_keys).md" - Author: maodecolombia
 Commit: 54609a4 - Date: 20250612-163249
