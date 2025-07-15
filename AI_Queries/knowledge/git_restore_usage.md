@@ -1,9 +1,7 @@
 ---
-
 title: "Uso de `git restore .`"
-tags: \[git, comandos, obsidian]
---------------------------------
-
+tags: git, comandos, obsidian
+---
 # Uso de `git restore .`
 
 `git restore .` es un comando introducido en Git 2.23 para restaurar archivos en tu directorio de trabajo desde el índice o desde un commit (por defecto, `HEAD`). En particular, `git restore .` deshace todos los cambios no confirmados (staged o unstaged) y recupera eliminaciones de archivos.
@@ -53,6 +51,29 @@ git restore .
    git restore --staged .      # Quita archivos del área de stage
    git restore .               # Luego descarta cambios en el directorio de trabajo
    ```
+
+   Esa línea se refiere a un caso en el que quieres deshacer únicamente los cambios que ya has “staged” (los que añadiste al índice con `git add`), sin tocar aún las modificaciones que están en tu directorio de trabajo.
+
+   1. **Restablecer al índice**:
+
+      ```bash
+      git restore --staged .
+      ```
+      Este comando quita del área de *staging* todos los cambios que habías preparado para el próximo commit, devolviendo esos archivos al estado que tenían en el índice (es decir, antes de hacer `git add`). Tras ejecutarlo, los archivos modificados siguen en tu carpeta, pero ya no están listos para commitear.
+
+   2. **(Opcional) Luego descartar los cambios en el directorio**:
+
+      ```bash
+      git restore .
+      ```
+
+      Con esto, ahora sí tiras tus modificaciones locales, restaurando cada archivo al contenido exacto de `HEAD`.
+
+   En resumen:
+
+   * **`--staged`** apunta al índice (lo que se incluirá en el commit),
+   * mientras que sin opciones (`git restore .`) se actúa sobre el directorio de trabajo y, por defecto, recupera desde el último commit (`HEAD`).
+
 
 ## Opciones útiles
 
