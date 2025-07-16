@@ -201,7 +201,7 @@ La línea de título (subject) es la parte más visible del mensaje de commit. D
 <Prefijo>: <Verbo en infinitivo> <objeto>
 ```
 
-- **Prefijo** (obligatorio): Nombre del componente o área, p.ej., `AI_Queries`, `Code_INVIAS`, `Code_Example-<etiqueta>_vNN`, `- Minor Edits`, `New Packages`, `Research Deepening`, `Merge branch '...'`, `Package Usage`, `Upgrade`.
+- **Prefijo** (obligatorio): Define la naturaleza o el área del cambio.Puede ser un **tipo de commit** estandarizado (como `feat`, `fix`, `docs`, `refactor`) o un **prefijo de contexto** específico del proyecto (p.ej., `AI_Queries`, `Code_INVIAS`, `Code_Example-<etiqueta>_vNN`, `- Minor Edits`, `New Packages`, `Research Deepening`, `Merge branch '...'`, `Package Usage`, `Upgrade`). Este prefijo es clave para la categorización automática y la legibilidad.
 
 - **Dos puntos y espacio** (`:` ) separando prefijo y descripción.
 
@@ -235,6 +235,24 @@ Para estandarizar el historial de commits, usa únicamente estos prefijos:
 | `Research Deepening`          | Documentación, profundización teórica o conceptual del dominio del proyecto, análisis teórico, estudios de viabilidad o análisis de estado del arte o flujo de investigación; no con el desarrollo particular. |
 | `Merge branch '...'`          | Mensajes automáticos al fusionar ramas.                                                                                                                                                                        |
 | Troubleshoot                  | Commits relacionados con la resolución de errores, depuración o correcciones urgentes.                                                                                                                         |
+
+#### 4.3.1 Tipos de Commit Estándar
+
+Además de los prefijos específicos de área del proyecto, el `<Prefijo>` también puede ser un *tipo de commit* global, alineado con las convenciones de commit para indicar la **intención principal del cambio**.
+
+| Tipo Estándar | Descripción                                                                    |
+| :------------ | :----------------------------------------------------------------------------- |
+| `feat`        | Introduce una **nueva característica** al código.                              |
+| `fix`         | Corrige un **error (bug)** en el código.                                      |
+| `docs`        | Cambios **únicamente en la documentación**.                                    |
+| `style`       | Ajustes de **formato, espacios en blanco, o estilo** que no cambian la lógica. |
+| `refactor`    | Reestructuración de código que **no agrega funcionalidad ni corrige errores**. |
+| `test`        | Adición o corrección de **pruebas**.                                           |
+| `build`       | Cambios que afectan el **sistema de compilación o dependencias externas**.     |
+| `ci`          | Cambios en la **configuración de Integración Continua (CI)**.                 |
+| `perf`        | Mejora del **rendimiento** del código.                                         |
+| `chore`       | Tareas de mantenimiento que **no modifican el código fuente o pruebas** (ej. actualizaciones de librerías menores). |
+
 
 ### 4.4 Ejemplos de título válidos
 
@@ -352,7 +370,7 @@ Eres un asistente experto en Git y manejo de commits. Formatea las descripciones
 
 1. Línea de título (subject):
    - Formato: `<Prefijo>: <Verbo en infinitivo> <objeto>`
-   - Prefijos válidos: AI_Queries, Code_INVIAS, Code_Example-<etiqueta>_vNN, - Minor Edits, New Packages, Package Usage, Upgrade, Research Deepening, Merge branch '...', Troubleshoot
+   - Prefijos válidos: feat, fix, docs, style, refactor, test, build, ci, perf, chore, AI_Queries, Code_INVIAS, Code_Example-<etiqueta>_vNN, - Minor Edits, New Packages, Package Usage, Upgrade, Research Deepening, Merge branch '...', Troubleshoot
    - Máximo 72 caracteres, sin punto final, verbo en infinitivo, mayúscula inicial.
 
 2. Cuerpo (body) opcional si la descripción lo requiere:
