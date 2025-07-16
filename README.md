@@ -166,7 +166,7 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 - 📁 directory_structure_overview
   - 📁 installed_packeges_log
 
-#### 📦 Paquetes instalados
+#### Paquetes instalados
 
 [Registro de paquetes instalados](support/installed_packages.md)
 
@@ -181,6 +181,10 @@ El desarrollo del Sistema podrá cambiar en el transcurso del desarrollo por lo 
 Para el desarrollo futuro del sistema, es fundamental estandarizar el almacenamiento de la información de manera eficiente y estructurada. Este proceso se basará en los lineamientos y recomendaciones técnicas presentadas por *Rosenthol (2013) en Developing with PDF: Dive Into the Portable Document Format*, y *Whitington (2011) en PDF Explained*. Estos autores enfatizan la importancia de adoptar estándares robustos y universales, como el formato PDF, para garantizar la interoperabilidad, la preservación a largo plazo y la accesibilidad de los documentos, aspectos esenciales en la implementación de soluciones tecnológicas como la propuesta presentada.
 
 Para fortalecer la toma de decisiones basada en datos en INVIAS, es esencial la implementación de un enfoque data-driven que optimice la gestión y el análisis de la información contenida en los documentos institucionales. Este proceso se apoyará en marcos y metodologías reconocidas, como las estrategias de gestión de datos presentadas por Provost y Fawcett (2013) en Data Science for Business y Davenport y Harris (2007) en Competing on Analytics: The New Science of Winning. Estos autores destacan la importancia de la integración de técnicas de minería de datos, aprendizaje automático y procesamiento del lenguaje natural para transformar datos no estructurados en conocimiento accionable. En este contexto, la adopción de herramientas de análisis semántico y recuperación de información avanzadas garantizará una mayor eficiencia en la identificación de patrones, tendencias y correlaciones dentro del ecosistema documental de INVIAS, facilitando la toma de decisiones estratégicas basadas en evidencia.
+
+### Gestión Formal de Citas en Obsidian para Investigación Avanzada
+
+Cuando el proyecto avance hacia una fase de investigación más formal o académica, Obsidian ofrece la capacidad de integrar un sistema de gestión de citas robusto. Esto se logra mediante el uso de **plugins especializados** (como el plugin "Citations") que permiten la conexión directa con **gestores de referencias externos como Zotero**. La integración se realiza comúnmente a través de archivos en formato **BibTeX (.bib)**, que contienen la información bibliográfica detallada de tus fuentes. Al adoptar este enfoque, podrás insertar citas de manera estructurada en tus notas, generar bibliografías automáticas y mantener un control preciso de todas las referencias utilizadas en tu documentación o en la fase de investigación profunda del proyecto.
 
 ## Referencias
 
