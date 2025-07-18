@@ -266,6 +266,19 @@ print(results)
   - `chromadb.PersistentClient(path="/ruta/a/mi/chroma_db_data")`: Cliente persistente (los datos se guardan en disco).
   - `chromadb.HttpClient(host='localhost', port=8000)`: Cliente para conectar a un servidor ChromaDB remoto.
 
+- **Consultar todas las Colecciones:**
+  - `client.list_collections()`: Devuelve una lista de todos los objetos de colección existentes en la base de datos.
+    
+    ```python
+    # Suponiendo que 'client' ya ha sido inicializado
+    
+    collections = client.list_collections()
+    
+    print("Colecciones existentes:")
+    for collection in collections:
+        print(f"- {collection.name}")
+    ```
+
 - **Gestionar Colecciones:**
   - `client.create_collection(name="nombre_coleccion")`: Crea una nueva colección.
   - `client.get_collection(name="nombre_coleccion")`: Obtiene una colección existente.
