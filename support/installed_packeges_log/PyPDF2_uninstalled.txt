@@ -1,0 +1,6 @@
+Found existing installation: PyPDF2 3.0.1
+Uninstalling PyPDF2-3.0.1:
+  Would remove:
+    c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages\pypdf2-3.0.1.dist-info\*
+    c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages\pypdf2\*
+Proceed (Y/n)?   Successfully uninstalled PyPDF2-3.0.1
