@@ -1,0 +1,65 @@
+Collecting nbconvert
+  Using cached nbconvert-7.16.6-py3-none-any.whl.metadata (8.5 kB)
+Collecting beautifulsoup4 (from nbconvert)
+  Using cached beautifulsoup4-4.13.4-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from bleach[css]!=5.0.0->nbconvert)
+  Using cached bleach-6.2.0-py3-none-any.whl.metadata (30 kB)
+Collecting defusedxml (from nbconvert)
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jinja2>=3.0 (from nbconvert)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Requirement already satisfied: jupyter-core>=4.7 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbconvert) (5.8.1)
+Collecting jupyterlab-pygments (from nbconvert)
+  Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting markupsafe>=2.0 (from nbconvert)
+  Using cached MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl.metadata (4.1 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert)
+  Using cached mistune-3.1.3-py3-none-any.whl.metadata (1.8 kB)
+Collecting nbclient>=0.5.0 (from nbconvert)
+  Using cached nbclient-0.10.2-py3-none-any.whl.metadata (8.3 kB)
+Collecting nbformat>=5.7 (from nbconvert)
+  Using cached nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: packaging in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbconvert) (25.0)
+Collecting pandocfilters>=1.4.1 (from nbconvert)
+  Using cached pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: pygments>=2.4.1 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbconvert) (2.19.2)
+Requirement already satisfied: traitlets>=5.1 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbconvert) (5.14.3)
+Collecting webencodings (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert)
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting tinycss2<1.5,>=1.1.0 (from bleach[css]!=5.0.0->nbconvert)
+  Using cached tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jupyter-core>=4.7->nbconvert) (4.3.8)
+Requirement already satisfied: pywin32>=300 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jupyter-core>=4.7->nbconvert) (311)
+Requirement already satisfied: jupyter-client>=6.1.12 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbclient>=0.5.0->nbconvert) (8.6.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (2.9.0.post0)
+Requirement already satisfied: pyzmq>=23.0 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (27.0.0)
+Requirement already satisfied: tornado>=6.2 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (6.5.1)
+Collecting fastjsonschema>=2.15 (from nbformat>=5.7->nbconvert)
+  Using cached fastjsonschema-2.21.1-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: jsonschema>=2.6 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from nbformat>=5.7->nbconvert) (4.24.1)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jsonschema>=2.6->nbformat>=5.7->nbconvert) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jsonschema>=2.6->nbformat>=5.7->nbconvert) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jsonschema>=2.6->nbformat>=5.7->nbconvert) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from jsonschema>=2.6->nbformat>=5.7->nbconvert) (0.26.0)
+Requirement already satisfied: six>=1.5 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (1.17.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in c:\users\devel\.virtualenvs\entorno_invias\lib\site-packages (from referencing>=0.28.4->jsonschema>=2.6->nbformat>=5.7->nbconvert) (4.14.1)
+Collecting soupsieve>1.2 (from beautifulsoup4->nbconvert)
+  Using cached soupsieve-2.7-py3-none-any.whl.metadata (4.6 kB)
+Using cached nbconvert-7.16.6-py3-none-any.whl (258 kB)
+Using cached mistune-3.1.3-py3-none-any.whl (53 kB)
+Using cached bleach-6.2.0-py3-none-any.whl (163 kB)
+Using cached tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl (15 kB)
+Using cached nbclient-0.10.2-py3-none-any.whl (25 kB)
+Using cached nbformat-5.10.4-py3-none-any.whl (78 kB)
+Using cached fastjsonschema-2.21.1-py3-none-any.whl (23 kB)
+Using cached pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Using cached beautifulsoup4-4.13.4-py3-none-any.whl (187 kB)
+Using cached soupsieve-2.7-py3-none-any.whl (36 kB)
+Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Installing collected packages: webencodings, fastjsonschema, tinycss2, soupsieve, pandocfilters, mistune, markupsafe, jupyterlab-pygments, defusedxml, bleach, jinja2, beautifulsoup4, nbformat, nbclient, nbconvert
+   -- -------------------------------------  1/15 [fastjsonschema]   -- -------------------------------------  1/15 [fastjsonschema]   ----- ----------------------------------  2/15 [tinycss2]   -------- -------------------------------  3/15 [soupsieve]   -------- -------------------------------  3/15 [soupsieve]   ------------- --------------------------  5/15 [mistune]   ------------- --------------------------  5/15 [mistune]   ------------- --------------------------  5/15 [mistune]   ------------- --------------------------  5/15 [mistune]   ------------- --------------------------  5/15 [mistune]   ---------------- -----------------------  6/15 [markupsafe]   --------------------- ------------------  8/15 [defusedxml]   --------------------- ------------------  8/15 [defusedxml]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   ------------------------ ---------------  9/15 [bleach]   -------------------------- ------------- 10/15 [jinja2]   -------------------------- ------------- 10/15 [jinja2]   -------------------------- ------------- 10/15 [jinja2]   -------------------------- ------------- 10/15 [jinja2]   ----------------------------- ---------- 11/15 [beautifulsoup4]   ----------------------------- ---------- 11/15 [beautifulsoup4]   ----------------------------- ---------- 11/15 [beautifulsoup4]   ----------------------------- ---------- 11/15 [beautifulsoup4]   ----------------------------- ---------- 11/15 [beautifulsoup4]   ----------------------------- ---------- 11/15 [beautifulsoup4]   -------------------------------- ------- 12/15 [nbformat]   -------------------------------- ------- 12/15 [nbformat]   -------------------------------- ------- 12/15 [nbformat]   -------------------------------- ------- 12/15 [nbformat]   -------------------------------- ------- 12/15 [nbformat]   -------------------------------- ------- 12/15 [nbformat]   ---------------------------------- ----- 13/15 [nbclient]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ------------------------------------- -- 14/15 [nbconvert]   ---------------------------------------- 15/15 [nbconvert]
+Successfully installed beautifulsoup4-4.13.4 bleach-6.2.0 defusedxml-0.7.1 fastjsonschema-2.21.1 jinja2-3.1.6 jupyterlab-pygments-0.3.0 markupsafe-3.0.2 mistune-3.1.3 nbclient-0.10.2 nbconvert-7.16.6 nbformat-5.10.4 pandocfilters-1.5.1 soupsieve-2.7 tinycss2-1.4.0 webencodings-0.5.1

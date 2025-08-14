@@ -1,3 +1,17 @@
+Commit: 75d2ebb - Date: 20250718-162007
+Message: AI_Queries: Actualizar consulta de colecciones en `usage_chromadb.md` - Author: MaodeColombia
+Commit: b971f41 - Date: 20250718-161646
+Message: New Packages: Instalar librerías `openai` y `pypdf` - Author: MaodeColombia
+Commit: 4cd3620 - Date: 20250716-110140
+Message: docs: Actualizar manual de convenciones de commits - Author: MaodeColombia
+Commit: b9d1243 - Date: 20250716-110008
+Message: feat: Configuracion inicial de entorno de desarrollo Python en VS Code - Author: MaodeColombia
+Commit: e26d371 - Date: 20250715-103253
+Message: AI_Queries: Mejorar doc git restore y corregir Frontmatter - Author: MaodeColombia
+Commit: 4074d7e - Date: 20250715-102157
+Message: AI_Queries: Consolidar docs ChromaDB y refinar convenciones commit - Author: MaodeColombia
+Commit: a73e596 - Date: 20250711-110446
+Message: - Minor Edits: Renombrar y actualizar documentación de Git MV - Author: MaodeColombia
 Commit: 7ce3deb - Date: 20250711-093815
 Message: Troubleshoot: Detener rastreo de archivos .obsidian - Author: MaodeColombia
 Commit: 6a0559d - Date: 20250711-093122

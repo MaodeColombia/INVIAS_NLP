@@ -100,3 +100,23 @@ Se instaló para generar y visualizar el árbol de dependencias de los paquetes 
 Se instaló la librería **`python-dotenv`** para facilitar la gestión segura de **variables de entorno** en el proyecto. Esta herramienta permite cargar configuraciones sensibles, como claves de API y contraseñas, desde un archivo dedicado llamado `.env`. Al no incluir este archivo en el control de versiones (como Git), se mantiene la seguridad de las credenciales, evitando que queden expuestas en el código fuente o en repositorios públicos.
 
 La función principal de esta librería, **`load_dotenv()`**, es la que se encarga de leer el contenido del archivo `.env` y de inyectar esas variables en el entorno de ejecución del script de Python. Esto es crucial para el desarrollo colaborativo, ya que cada desarrollador puede tener su propia configuración local sin modificar el código base. Además, garantiza que el despliegue en entornos de producción sea más seguro y manejable, ya que las variables pueden ser gestionadas externamente al código.
+
+## `matplotlib`
+
+Se instaló para crear gráficos 2D y figuras estáticas (líneas, barras, histogramas, scatter, etc.) en notebooks y scripts de análisis. Matplotlib actúa como la base para visualizaciones científicas y es frecuentemente usada junto a librerías de más alto nivel para producir gráficos reproducibles en informes y presentaciones del proyecto.
+
+## `nbconvert`
+
+Se instaló para convertir Jupyter Notebooks a formatos como HTML, PDF o Markdown, y para automatizar la exportación de notebooks como parte de la generación de documentación o reportes. Nbconvert facilita la publicación y la revisión de resultados reproducibles producidos en los notebooks del repositorio.
+
+## `pandas`
+
+Se instaló para la manipulación y análisis de datos en estructuras tabulares (`DataFrame`). Pandas proporciona las utilidades necesarias para limpieza, transformación, agregación y preparación de datos, y es la biblioteca principal para cualquier pipeline de preprocesamiento dentro del proyecto.
+
+## `playwright`
+
+Se instaló para automatización y pruebas de navegadores (Chrome, Firefox, WebKit). Playwright permite crear pruebas end-to-end (E2E), generar capturas automáticas y automatizar interacciones en demos web, lo que es útil tanto para testing como para la validación de interfaces y flujos en las demos de Gradio.
+
+## `seaborn`
+
+Se instaló como complemento de Matplotlib para facilitar la creación de gráficos estadísticos y mejorar la estética por defecto de las visualizaciones. Seaborn simplifica operaciones comunes de análisis exploratorio y genera visualizaciones informativas con menos líneas de código.
